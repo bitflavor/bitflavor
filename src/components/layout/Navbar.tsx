@@ -1,14 +1,16 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import { Show, UserButton } from "@clerk/nextjs";
 import { Link, usePathname } from "@/i18n/navigation";
 import LanguageSwitcher from "./LanguageSwitcher";
 import WalletConnectButton from "../web3/WalletConnectButton";
 
-// 全站导航栏：移动端优先，含语言切换与钱包连接占位
+// 全站导航栏：移动端优先，含语言切换、登录/账户入口与钱包连接占位
 export default function Navbar() {
   const t = useTranslations("nav");
+  const locale = useLocale();
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -72,6 +74,31 @@ export default function Navbar() {
             ❤️
           </Link>
           <LanguageSwitcher />
+          {/* 未登录：登录按钮；已登录：账户入口 + 用户头像菜单（Clerk Core 3 Show API） */}
+          <Show when="signed-out">
+            <Link
+              href="/login"
+              className="rounded-full bg-brand-500 px-4 py-1.5 text-sm font-medium text-white transition hover:bg-brand-600"
+            >
+              {t("login")}
+            </Link>
+          </Show>
+          <Show when="signed-in">
+            <Link
+              href="/account"
+              className={`rounded-full px-3 py-1.5 text-sm transition ${
+                pathname.startsWith("/account")
+                  ? "bg-brand-50 font-medium text-brand-700"
+                  : "text-ink-600 hover:text-brand-600"
+              }`}
+            >
+              {t("account")}
+            </Link>
+            <UserButton
+              userProfileMode="navigation"
+              userProfileUrl={`/${locale}/account/profile`}
+            />
+          </Show>
           <WalletConnectButton />
         </div>
 
@@ -106,6 +133,24 @@ export default function Navbar() {
             <Link href="/favorites" onClick={() => setMenuOpen(false)} className="rounded-lg px-3 py-2">
               ❤️ {t("favorites")}
             </Link>
+            <Show when="signed-out">
+              <Link
+                href="/login"
+                onClick={() => setMenuOpen(false)}
+                className="rounded-full bg-brand-500 px-4 py-2 text-sm font-medium text-white"
+              >
+                {t("login")}
+              </Link>
+            </Show>
+            <Show when="signed-in">
+              <Link href="/account" onClick={() => setMenuOpen(false)} className="rounded-lg px-3 py-2">
+                👤 {t("account")}
+              </Link>
+              <UserButton
+                userProfileMode="navigation"
+                userProfileUrl={`/${locale}/account/profile`}
+              />
+            </Show>
             <LanguageSwitcher />
             <WalletConnectButton />
           </div>

@@ -1,6 +1,6 @@
 # Active Context — 当前工作状态
 
-> 更新时间：2026-09-27（法律三页完成，127 静态页）
+> 更新时间：2026-09-27（阶段 B·Clerk 认证集成完成，137 页，冒烟 13/13）
 > 权威源：`projectbrief.md`。功能编号（F1–F7）与其「核心功能」一一对应。
 
 ## 协作约定（用户设定，2026-09-27）
@@ -26,6 +26,8 @@
 4. **第一阶段·菜谱扩充完成**（2026-09-27）：新增 18 道双语菜谱（中+7 宫保鸡丁/四川火锅👑/糖醋里脊/酸辣汤/蛋炒饭/月饼👑/春卷；韩+5 石锅拌饭👑/泡菜煎饼/韩式炸鸡👑/大酱汤/辣炒年糕；日+3 天妇罗/味噌汤/铜锣烧；泰+3 绿咖喱鸡👑/芒果糯米饭/泰式奶茶），新增韩国国家（taxonomy + zh/en messages + 占位图脚本映射），总数 16→34（付费 10/34），featured 保持原 6 道不变
 5. **展示版部署配置完成**（2026-09-27，用户定路线"先 A 展示版 后 B 商业版"）：新建 `src/lib/site.ts`（`SITE_URL` = `NEXT_PUBLIC_SITE_URL` 环境变量 ?? 占位域名），sitemap/robots 硬编码域名已改为引用；`[locale]/layout.tsx` 补 `metadataBase`（构建警告消除）；新建 `.env.example`（含阶段②支付变量预留）；`.clineignore` 排除扫描噪音；README 增加部署小节；`git init` + 首次提交完成。构建 121 页 0 警告。**待用户**：买域名 → 推 GitHub → Vercel 导入 + 配 `NEXT_PUBLIC_SITE_URL`
 6. **法律三页完成**（2026-09-27）：新增 `/privacy`（7 节）、`/terms`（7 节）、`/refund`（6 节）双语静态页（通用模板文案，商用前需法律审核替换）；Footer 新增「法律」列（grid 4→5 列）；sitemap 收录三页；messages 双端 +56 key（221→277，镜像同步）。构建 127 页 0 警告，冒烟 11/11 通过（页面内容/Footer 链接/sitemap/基线回归）
+7. **SEO 优化完成**（2026-09-27，详见 git 46ab111）
+8. **阶段 B·用户认证（Clerk）集成完成**（2026-09-27）：① 安装 `@clerk/nextjs`（Core 3）+ `@clerk/localizations`；② middleware 合并 clerkMiddleware + next-intl，`createRouteMatcher(["/:locale/account(.*)"])` 保护账户路由（未登录：浏览器 307→登录页 / API 404）；③ layout 包 `<ClerkProvider localization={zhCN/enUS}>`；④ 新页面：`/login`、`/signup`（Clerk 托管 UI，SSG），`/account`（欢迎页+三入口卡片）、`/account/profile`（`<UserProfile/>`）、`/account/orders`（占位 + `TODO(payment)`）；⑤ Navbar 用 Core 3 新 API `<Show when="signed-in/out">`（SignedIn/SignedOut 已被 Core 3 移除会构建报错）+ `<UserButton userProfileUrl={/{locale}/account/profile}>`；⑥ `.env.local` 占位 key（格式合法可构建，真机登录需用户换真 key，README 有步骤）；⑦ messages 双端 +18 key（nav.login/account + auth 7 + account 11 镜像）。**Clerk Core 3 踩坑记录**：`SignedIn/SignedOut/Protect` 已删除（用 `<Show>`）；`auth.protect()` 对非 document 请求返回 404 而非重定向（文档行为）；传 `unauthenticatedUrl` 参数会导致 API 请求 500（勿传）；dev key 下浏览器首次访问任意页面会 307 handshake 到 `*.clerk.accounts.dev`（正常流程）；`export const dynamic = "force-dynamic"` 与 [locale] generateStaticParams 共存会导致运行时 404（勿用，靠 auth() 自然动态化）。构建 137 页 0 警告，冒烟 13/13（保护拦截 4+3 / 登录注册页 4 / 基线 2）
 
 ## 新增 messages key（双语已同步）
 - home: brandStory, brandStoryCta ｜ about: storyTitle, story1-4

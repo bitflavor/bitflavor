@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
+import { ClerkProvider } from "@clerk/nextjs";
+import { zhCN, enUS } from "@clerk/localizations";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { isValidLocale, routing } from "@/i18n/routing";
 import { SITE_URL } from "@/lib/site";
@@ -74,11 +76,14 @@ export default async function LocaleLayout({
   return (
     <html lang={locale === "zh" ? "zh-CN" : "en"}>
       <body className="flex min-h-screen flex-col bg-white font-sans text-ink-800 antialiased">
-        <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </NextIntlClientProvider>
+        {/* Clerk 认证 Provider：UI 语言跟随站点语言（中/英） */}
+        <ClerkProvider localization={locale === "zh" ? zhCN : enUS}>
+          <NextIntlClientProvider messages={messages}>
+            <Navbar />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </NextIntlClientProvider>
+        </ClerkProvider>
       </body>
     </html>
   );

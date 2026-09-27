@@ -33,6 +33,17 @@ npm start          # 启动生产服务器
 node scripts/generate-placeholders.mjs
 ```
 
+### 用户认证（Clerk，已集成）
+
+登录 / 注册 / 账户中心由 [Clerk](https://clerk.com) 托管（免费额度 1 万 MAU）：
+
+1. 打开 <https://dashboard.clerk.com> 免费创建应用（勾选 Email，可加 Google / GitHub 社交登录）
+2. API Keys 页复制 `pk_test_...` / `sk_test_...`，替换 `.env.local` 中的占位 key（格式见 `.env.example`）
+3. 无需改代码，重启即生效：`/{locale}/login`、`/{locale}/signup` 开放访问，`/{locale}/account/*` 未登录自动重定向到登录页
+4. 上线时：Clerk 后台创建 Production 实例得到 `pk_live_...`，配置到 Vercel 环境变量
+
+> 仓库不带真实密钥；`.env.local`（已 gitignore）中的占位 key 仅保证构建通过，真机登录需替换真实 key。
+
 ### 部署（Vercel）
 
 1. `git init` 并推送到 GitHub/GitLab 仓库
@@ -47,7 +58,7 @@ node scripts/generate-placeholders.mjs
 ├── public/images/             # 大洲 / 国家 / 菜谱占位图
 ├── scripts/generate-placeholders.mjs
 └── src/
-    ├── middleware.ts          # next-intl 中间件（locale 前缀 + 浏览器语言重定向）
+    ├── middleware.ts          # Clerk 认证（/account 保护）+ next-intl 语言中间件
     ├── i18n/                  # routing / navigation / request 配置
     ├── types/recipe.ts        # Recipe、RecipeSearchItem、RecipeCardData 类型
     ├── lib/

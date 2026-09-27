@@ -18,7 +18,31 @@
     "favorites": "My Favorites",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "switchLanguage": "切换到中文"
+    "switchLanguage": "切换到中文",
+    "login": "Log in",
+    "account": "My Account"
+  },
+  "auth": {
+    "loginTitle": "Log In",
+    "loginDesc": "Log in to your WorldFlavors account to unlock member content and manage orders.",
+    "signupTitle": "Sign Up",
+    "signupDesc": "Create a WorldFlavors account to save favorites and unlock premium content.",
+    "accountTitle": "My Account",
+    "profileMetaTitle": "Profile",
+    "ordersMetaTitle": "My Orders"
+  },
+  "account": {
+    "welcome": "Welcome back",
+    "welcomeDesc": "Manage your profile, orders and membership.",
+    "profileTitle": "Profile",
+    "profileDesc": "Avatar, name, email and security settings",
+    "ordersTitle": "My Orders",
+    "ordersDesc": "View recipe purchases and membership subscriptions",
+    "membershipTitle": "Membership",
+    "membershipDesc": "View or upgrade your membership plan",
+    "ordersEmpty": "No orders yet",
+    "ordersEmptyDesc": "Once you purchase a recipe or membership, your orders will appear here.",
+    "browseRecipes": "Browse Recipes"
   },
   "home": {
     "heroBadge": "Global Food Culture Platform",
