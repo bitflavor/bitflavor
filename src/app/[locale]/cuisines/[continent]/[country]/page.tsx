@@ -33,6 +33,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: tCountries(country),
     description: tDescs(country),
+    keywords: [
+      tCountries(country),
+      locale === "zh" ? "美食" : "food",
+      locale === "zh" ? "菜谱" : "recipes",
+      locale === "zh" ? "经典菜" : "classic dishes",
+    ],
     alternates: {
       languages: {
         zh: `/zh/cuisines/${continent}/${country}`,

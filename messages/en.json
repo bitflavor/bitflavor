@@ -3,7 +3,9 @@
     "siteName": "WorldFlavors",
     "defaultTitle": "WorldFlavors · Explore Global Food Culture",
     "defaultDescription": "WorldFlavors is a global food culture platform featuring classic recipes, cooking techniques and cultural stories from Asia, Southeast Asia, Europe, the Americas, Africa and Oceania.",
-    "titleTemplate": "%s | WorldFlavors"
+    "titleTemplate": "%s | WorldFlavors",
+    "keywords": "world food,global recipes,food culture,asian cuisine,chinese recipes,japanese recipes,korean food,thai food,european cuisine,recipe collection,cooking techniques,WorldFlavors",
+    "ogImageAlt": "WorldFlavors · Explore Global Food Culture"
   },
   "nav": {
     "home": "Home",
@@ -142,6 +144,7 @@
   },
   "membership": {
     "title": "Membership Plans",
+    "keywords": "food membership,recipe subscription,premium recipes,members-only recipes,WorldFlavors membership",
     "subtitle": "One subscription for the full world of food culture",
     "monthly": "Monthly",
     "yearly": "Yearly",
@@ -194,6 +197,7 @@
   },
   "about": {
     "title": "About Us",
+    "keywords": "about us,WorldFlavors,food culture platform",
     "storyTitle": "Our Story: It Started with Two Pizzas",
     "story1": "On May 22, 2010, programmer Laszlo Hanyecz bought two pizzas for 10,000 BTC — the day later known as \"Bitcoin Pizza Day\".",
     "story2": "It was the first time in history that a virtual currency was used to buy a real-world good, giving crypto its first anchor of value.",
@@ -212,6 +216,7 @@
   },
   "contact": {
     "title": "Contact Us",
+    "keywords": "contact us,WorldFlavors,recipe submissions,business partnerships",
     "subtitle": "Recipe submissions, business partnerships or product feedback — we would love to hear from you.",
     "emailLabel": "Business",
     "emailValue": "biz@worldflavors.example.com",
@@ -227,6 +232,8 @@
   },
   "search": {
     "title": "Search Recipes",
+    "description": "Search 34 classic recipes from around the world by dish, country or ingredient.",
+    "keywords": "search recipes,recipe finder,recipe collection,ingredient search",
     "placeholder": "Search by dish, country or ingredient…",
     "results": "Found {count} recipes",
     "noResults": "No recipes found. Try another keyword?",

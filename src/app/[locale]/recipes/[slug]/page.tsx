@@ -9,6 +9,7 @@ import {
   getRelatedRecipes,
 } from "@/lib/recipes";
 import { isValidLocale, routing } from "@/i18n/routing";
+import { SITE_URL } from "@/lib/site";
 import RecipeCard from "@/components/recipes/RecipeCard";
 import FavoriteButton from "@/components/recipes/FavoriteButton";
 import PremiumLock from "@/components/recipes/PremiumLock";
@@ -33,14 +34,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const recipe = getRecipeBySlug(slug);
   if (!recipe) return {};
   const loc = locale as "zh" | "en";
+  const tCountries = await getTranslations({ locale, namespace: "countries" });
+  const tCategories = await getTranslations({ locale, namespace: "categories" });
 
   return {
     title: recipe.title[loc],
     description: recipe.summary[loc],
+    keywords: [
+      recipe.title.zh,
+      recipe.title.en,
+      tCountries(recipe.country),
+      tCategories(recipe.category),
+      locale === "zh" ? "菜谱" : "recipe",
+      locale === "zh" ? "做法" : "how to cook",
+    ],
     openGraph: {
       title: recipe.title[loc],
       description: recipe.summary[loc],
-      images: [recipe.coverImage],
+      images: [{ url: recipe.coverImage, alt: recipe.title[loc] }],
       type: "article",
     },
     alternates: {
@@ -70,6 +81,29 @@ export default async function RecipeDetailPage({ params }: Props) {
   const tPremium = await getTranslations({ locale, namespace: "premium" });
 
   const related = getRelatedRecipes(recipe, 3);
+
+  // JSON-LD 结构化数据（Schema.org Recipe）：提升搜索富摘要展示（评分/耗时/配料等）
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    name: recipe.title[loc],
+    description: recipe.summary[loc],
+    image: [`${SITE_URL}${recipe.coverImage}`],
+    author: { "@type": "Organization", name: "WorldFlavors" },
+    recipeCuisine: tCountries(recipe.country),
+    recipeCategory: tCategories(recipe.category),
+    keywords: [recipe.title.zh, recipe.title.en].join(", "),
+    recipeYield: `${recipe.servings} ${locale === "zh" ? "人份" : "servings"}`,
+    totalTime: `PT${recipe.time}M`,
+    recipeIngredient: recipe.ingredients.map((ing) => ing[loc]),
+    recipeInstructions: recipe.steps.map((step, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      text: step[loc],
+    })),
+    inLanguage: locale === "zh" ? "zh-CN" : "en",
+    url: `${SITE_URL}/${locale}/recipes/${recipe.slug}`,
+  };
 
 
   // 付费菜谱锁定"完整内容"区域（做法/技巧/排查/文化故事）
@@ -141,6 +175,11 @@ export default async function RecipeDetailPage({ params }: Props) {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
+      {/* JSON-LD 结构化数据（Schema.org Recipe），供搜索引擎富摘要使用 */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* 面包屑 */}
       <nav className="text-sm text-ink-400">
         <Link href={`/cuisines/${recipe.continent}`} className="hover:text-brand-600">

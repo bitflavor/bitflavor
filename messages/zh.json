@@ -3,7 +3,9 @@
     "siteName": "世界美食图谱",
     "defaultTitle": "世界美食图谱 WorldFlavors · 探索全球美食文化",
     "defaultDescription": "世界美食图谱（WorldFlavors）是一个全球美食文化平台，收录亚洲、东南亚、欧洲、美洲、非洲、大洋洲的经典菜谱、制作技巧与美食文化故事。",
-    "titleTemplate": "%s | 世界美食图谱"
+    "titleTemplate": "%s | 世界美食图谱",
+    "keywords": "世界美食,全球菜谱,美食文化,亚洲美食,中国菜,日本料理,韩国料理,泰国菜,欧洲美食,菜谱大全,烹饪技巧,WorldFlavors",
+    "ogImageAlt": "WorldFlavors 世界美食图谱 · 探索全球美食文化"
   },
   "nav": {
     "home": "首页",
@@ -142,6 +144,7 @@
   },
   "membership": {
     "title": "会员方案",
+    "keywords": "美食会员,会员订阅,高级菜谱,会员专属菜谱,WorldFlavors 会员",
     "subtitle": "一次开通，畅享全球美食文化的完整内容",
     "monthly": "月度会员",
     "yearly": "年度会员",
@@ -194,6 +197,7 @@
   },
   "about": {
     "title": "关于我们",
+    "keywords": "关于我们,WorldFlavors,世界美食图谱,美食文化平台",
     "storyTitle": "品牌故事：从两个披萨开始",
     "story1": "2010 年 5 月 22 日，程序员 Laszlo Hanyecz 用 10,000 枚比特币（BTC）购买了两个披萨——这一天后来被称为「比特币披萨日」。",
     "story2": "这是人类历史上第一次用虚拟货币购买真实商品，虚拟货币从此有了价值的锚点。",
@@ -212,6 +216,7 @@
   },
   "contact": {
     "title": "联系我们",
+    "keywords": "联系我们,WorldFlavors,菜谱投稿,商务合作",
     "subtitle": "无论是菜谱投稿、商务合作还是产品建议，都欢迎与我们联系。",
     "emailLabel": "商务合作",
     "emailValue": "biz@worldflavors.example.com",
@@ -227,6 +232,8 @@
   },
   "search": {
     "title": "搜索菜谱",
+    "description": "搜索 34 道全球经典菜谱：按菜名、国家或食材快速查找。",
+    "keywords": "搜索菜谱,美食搜索,菜谱大全,食材搜索",
     "placeholder": "搜索菜名、国家或食材…",
     "results": "找到 {count} 道菜谱",
     "noResults": "没有找到相关菜谱，换个关键词试试？",

@@ -1,6 +1,6 @@
 # Active Context — 当前工作状态
 
-> 更新时间：2026-09-27（展示版部署配置完成，待用户买域名上线）
+> 更新时间：2026-09-27（法律三页完成，127 静态页）
 > 权威源：`projectbrief.md`。功能编号（F1–F7）与其「核心功能」一一对应。
 
 ## 协作约定（用户设定，2026-09-27）
@@ -25,6 +25,7 @@
 3. **progress.md 重写为五阶段规划**（2026-09-27）：当前进入 **第一阶段·内容完善**；搜索/收藏/筛选经核对已提前完成（见 progress.md 文末事实修正说明）
 4. **第一阶段·菜谱扩充完成**（2026-09-27）：新增 18 道双语菜谱（中+7 宫保鸡丁/四川火锅👑/糖醋里脊/酸辣汤/蛋炒饭/月饼👑/春卷；韩+5 石锅拌饭👑/泡菜煎饼/韩式炸鸡👑/大酱汤/辣炒年糕；日+3 天妇罗/味噌汤/铜锣烧；泰+3 绿咖喱鸡👑/芒果糯米饭/泰式奶茶），新增韩国国家（taxonomy + zh/en messages + 占位图脚本映射），总数 16→34（付费 10/34），featured 保持原 6 道不变
 5. **展示版部署配置完成**（2026-09-27，用户定路线"先 A 展示版 后 B 商业版"）：新建 `src/lib/site.ts`（`SITE_URL` = `NEXT_PUBLIC_SITE_URL` 环境变量 ?? 占位域名），sitemap/robots 硬编码域名已改为引用；`[locale]/layout.tsx` 补 `metadataBase`（构建警告消除）；新建 `.env.example`（含阶段②支付变量预留）；`.clineignore` 排除扫描噪音；README 增加部署小节；`git init` + 首次提交完成。构建 121 页 0 警告。**待用户**：买域名 → 推 GitHub → Vercel 导入 + 配 `NEXT_PUBLIC_SITE_URL`
+6. **法律三页完成**（2026-09-27）：新增 `/privacy`（7 节）、`/terms`（7 节）、`/refund`（6 节）双语静态页（通用模板文案，商用前需法律审核替换）；Footer 新增「法律」列（grid 4→5 列）；sitemap 收录三页；messages 双端 +56 key（221→277，镜像同步）。构建 127 页 0 警告，冒烟 11/11 通过（页面内容/Footer 链接/sitemap/基线回归）
 
 ## 新增 messages key（双语已同步）
 - home: brandStory, brandStoryCta ｜ about: storyTitle, story1-4

@@ -30,6 +30,22 @@ export async function generateMetadata({
       template: t("titleTemplate"), // 子页面标题格式：xxx | 世界美食图谱
     },
     description: t("defaultDescription"),
+    keywords: t("keywords"),
+    openGraph: {
+      type: "website",
+      siteName: t("siteName"),
+      // 不设 og:title/og:description：Next 会自动回退到各页面自身的 title/description
+      // TODO(deploy): OG 图为 SVG 占位图，部分社交平台不支持 SVG，上线前替换为 1200×630 PNG/JPG
+      locale: locale === "zh" ? "zh_CN" : "en_US",
+      alternateLocale: locale === "zh" ? ["en_US"] : ["zh_CN"],
+      images: [
+        { url: "/images/og-default.svg", width: 1200, height: 630, alt: t("ogImageAlt") },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: ["/images/og-default.svg"],
+    },
     // hreflang 互链，告诉搜索引擎本页存在中英两个版本
     alternates: {
       languages: { zh: "/zh", en: "/en" },
