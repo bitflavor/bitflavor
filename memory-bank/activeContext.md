@@ -1,6 +1,6 @@
 # Active Context — 当前工作状态
 
-> 更新时间：2026-09-27（新增协作约定）
+> 更新时间：2026-09-27（展示版部署配置完成，待用户买域名上线）
 > 权威源：`projectbrief.md`。功能编号（F1–F7）与其「核心功能」一一对应。
 
 ## 协作约定（用户设定，2026-09-27）
@@ -24,6 +24,7 @@
 2. **memory bank 初始化**：projectbrief 按用户官方信息填写（愿景/核心功能 7 条/技术栈/目标用户），其余 5 文件据此自动对齐
 3. **progress.md 重写为五阶段规划**（2026-09-27）：当前进入 **第一阶段·内容完善**；搜索/收藏/筛选经核对已提前完成（见 progress.md 文末事实修正说明）
 4. **第一阶段·菜谱扩充完成**（2026-09-27）：新增 18 道双语菜谱（中+7 宫保鸡丁/四川火锅👑/糖醋里脊/酸辣汤/蛋炒饭/月饼👑/春卷；韩+5 石锅拌饭👑/泡菜煎饼/韩式炸鸡👑/大酱汤/辣炒年糕；日+3 天妇罗/味噌汤/铜锣烧；泰+3 绿咖喱鸡👑/芒果糯米饭/泰式奶茶），新增韩国国家（taxonomy + zh/en messages + 占位图脚本映射），总数 16→34（付费 10/34），featured 保持原 6 道不变
+5. **展示版部署配置完成**（2026-09-27，用户定路线"先 A 展示版 后 B 商业版"）：新建 `src/lib/site.ts`（`SITE_URL` = `NEXT_PUBLIC_SITE_URL` 环境变量 ?? 占位域名），sitemap/robots 硬编码域名已改为引用；`[locale]/layout.tsx` 补 `metadataBase`（构建警告消除）；新建 `.env.example`（含阶段②支付变量预留）；`.clineignore` 排除扫描噪音；README 增加部署小节；`git init` + 首次提交完成。构建 121 页 0 警告。**待用户**：买域名 → 推 GitHub → Vercel 导入 + 配 `NEXT_PUBLIC_SITE_URL`
 
 ## 新增 messages key（双语已同步）
 - home: brandStory, brandStoryCta ｜ about: storyTitle, story1-4
@@ -31,6 +32,7 @@
 - membership: nftCardNote ｜ contributors: pointsChainNote ｜ web3: blockchainWip
 
 ## 当前进行中（对齐 progress.md 五阶段规划）
-- **阶段**：第一阶段·内容完善——菜谱填充 ✅ 已完成（2026-09-27，16 → 34 道 + 韩国）
-- **待用户**：提供真实封面图素材 → 同名替换 `public/images/` 下 SVG 即可（34 菜谱图 + 11 国家图，JSON 无需改）
-- 后续阶段（详见 progress.md）：② 支付系统（PayPal/Creem/Lemon Squeezy + /checkout + 订单页 + 服务端截断 `TODO(security)`）→ ③ 虚拟币支付（NOWPayments/CoinPayments + CoinGecko 汇率）→ ④ Vercel 部署 → ⑤ 区块链功能（长期）
+- **路线**：先 A 展示版上线 → 后 B 商业版（用户 2026-09-27 确认）
+- **阶段④·部署（展示版部分）**：代码侧 ✅ 完成（site.ts 环境变量化 / metadataBase / .env.example / git 仓库）；**待用户 3 步**：① 买域名 ② push 到 GitHub ③ Vercel 导入项目 + 配 `NEXT_PUBLIC_SITE_URL`（README「部署」节有步骤）
+- **阶段①·内容完善**：菜谱填充 ✅（16 → 34 道 + 韩国）；待用户提供真实封面图素材 → 同名替换 `public/images/` 下 SVG 即可（34 菜谱图 + 11 国家图，JSON 无需改）
+- **阶段②·支付系统（B 路线下一步）**：用户系统（认证+数据库，当前为零）→ 支付接入 → `TODO(security)` 服务端截断 → ③ 虚拟币支付 → ⑤ 区块链功能（长期）
