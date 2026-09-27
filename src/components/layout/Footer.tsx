@@ -9,7 +9,7 @@ export default function Footer() {
 
   return (
     <footer className="mt-16 border-t border-ink-100 bg-ink-950 text-ink-200">
-      <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12 sm:grid-cols-2 lg:grid-cols-5">
         {/* 品牌 */}
         <div>
           <div className="flex items-center gap-2 text-lg font-bold text-white">
@@ -37,6 +37,16 @@ export default function Footer() {
             <li><Link className="hover:text-brand-300" href="/contributors">{tNav("contributors")}</Link></li>
             <li><Link className="hover:text-brand-300" href="/membership">{tNav("membership")}</Link></li>
             <li><Link className="hover:text-brand-300" href="/contact">{tNav("contact")}</Link></li>
+          </ul>
+        </div>
+
+        {/* 法律 */}
+        <div>
+          <h3 className="font-semibold text-white">{t("legalTitle")}</h3>
+          <ul className="mt-3 space-y-2 text-sm">
+            <li><Link className="hover:text-brand-300" href="/privacy">{t("privacy")}</Link></li>
+            <li><Link className="hover:text-brand-300" href="/terms">{t("terms")}</Link></li>
+            <li><Link className="hover:text-brand-300" href="/refund">{t("refund")}</Link></li>
           </ul>
         </div>
 

@@ -14,6 +14,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/contributors",
     "/about",
     "/contact",
+    "/privacy",
+    "/terms",
+    "/refund",
   ];
   const continentPaths = CONTINENTS.map((c) => `/cuisines/${c.slug}`);
   const countryPaths = CONTINENTS.flatMap((c) =>
