@@ -1,0 +1,41 @@
+/* Tailwind CSS v4：CSS-first 配置，主题令牌统一在此声明 */
+@import "tailwindcss";
+
+@theme {
+  /* 全局字体栈：优先系统中文字体，避免构建期联网下载字体 */
+  --font-sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  /* 品牌色：暖橙色系，契合美食主题。用法：bg-brand-500 / text-brand-600 等 */
+  --color-brand-50: #fff8ed;
+  --color-brand-100: #ffefd4;
+  --color-brand-200: #ffdba8;
+  --color-brand-300: #ffc071;
+  --color-brand-400: #ff9b38;
+  --color-brand-500: #fd7d11;
+  --color-brand-600: #ee6207;
+  --color-brand-700: #c54a08;
+  --color-brand-800: #9c3a0f;
+  --color-brand-900: #7e3210;
+  --color-brand-950: #441806;
+
+  /* 墨色：用于正文与深色区块 */
+  --color-ink-50: #f7f6f4;
+  --color-ink-100: #ebe8e2;
+  --color-ink-200: #d8d2c7;
+  --color-ink-300: #bcb2a1;
+  --color-ink-400: #9e917d;
+  --color-ink-500: #857763;
+  --color-ink-600: #6b5f4e;
+  --color-ink-700: #564c3f;
+  --color-ink-800: #453d34;
+  --color-ink-900: #39322b;
+  --color-ink-950: #221d18;
+}
+
+/* 付费内容的锁定区域模糊效果 */
+.lock-blur {
+  filter: blur(6px);
+  user-select: none;
+  pointer-events: none;
+}

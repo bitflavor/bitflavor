@@ -1,0 +1,84 @@
+{
+  "slug": "tteokbokki",
+  "title": { "zh": "辣炒年糕", "en": "Tteokbokki" },
+  "country": "korea",
+  "continent": "asia",
+  "category": "snack",
+  "difficulty": "medium",
+  "time": 30,
+  "servings": 2,
+  "coverImage": "/images/recipes/tteokbokki.svg",
+  "summary": {
+    "zh": "红亮浓稠的甜辣酱汁裹着软糯年糕，韩国街头第一的国民小吃。",
+    "en": "Chewy rice cakes in a glossy sweet-spicy red sauce — Korea's number one street snack."
+  },
+  "ingredients": [
+    { "zh": "年糕条 300 克", "en": "300g cylinder rice cakes" },
+    { "zh": "鱼饼 2 张（切三角块）", "en": "2 sheets fish cake, cut into triangles" },
+    { "zh": "韩式辣酱 2 大勺", "en": "2 tbsp gochujang" },
+    { "zh": "生抽 1 大勺", "en": "1 tbsp soy sauce" },
+    { "zh": "白糖 1 大勺", "en": "1 tbsp sugar" },
+    { "zh": "水或高汤 400 毫升", "en": "400ml water or stock" },
+    { "zh": "煮鸡蛋 1 个（可选）", "en": "1 boiled egg (optional)" },
+    { "zh": "葱花、熟芝麻适量", "en": "Chopped scallion, toasted sesame seeds" }
+  ],
+  "steps": [
+    {
+      "zh": "年糕条用冷水泡 10 分钟，防裂也更易煮透。",
+      "en": "Soak the rice cakes in cold water for 10 minutes — prevents cracking and cooks them evenly."
+    },
+    {
+      "zh": "锅中放水、辣酱、生抽、白糖，搅开中火煮沸。",
+      "en": "Bring the water, gochujang, soy sauce and sugar to a boil, stirring to dissolve."
+    },
+    {
+      "zh": "下年糕条，中火煮 8 分钟至软糯。",
+      "en": "Add the rice cakes and simmer 8 minutes until soft and chewy."
+    },
+    {
+      "zh": "加鱼饼再煮 3 分钟，让它吸满酱汁。",
+      "en": "Add the fish cake and cook 3 more minutes so it drinks in the sauce."
+    },
+    {
+      "zh": "开盖收汁，不停翻动防糊底，至酱汁浓稠能挂在年糕上。",
+      "en": "Reduce uncovered, stirring constantly, until the sauce thickens and clings to each rice cake."
+    },
+    {
+      "zh": "放煮鸡蛋，撒葱花芝麻，趁热吃。",
+      "en": "Add the boiled egg, scatter scallion and sesame, and eat hot."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "年糕先泡水再煮，外软内也软；直接下锅容易外烂内硬。",
+      "en": "Soak before boiling for an even, tender chew — straight into the pot means mushy outside, hard core."
+    },
+    {
+      "zh": "收汁阶段淀粉糊化极易糊底，铲子不能停。",
+      "en": "Once reducing, the starch scorches fast — keep the spatula moving."
+    },
+    {
+      "zh": "喜欢拉丝口感，关火前盖一片芝士焖 30 秒。",
+      "en": "For the cheese-pull version, lay a slice of cheese on top and cover for 30 seconds before serving."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "年糕外软内硬：没泡水或煮的时间不够，泡透煮足。",
+      "en": "Hard centers? You skipped the soak or cut the simmer short — soak, then cook the full time."
+    },
+    {
+      "zh": "锅底糊了：收汁时没翻动，淀粉粘底烧焦。",
+      "en": "Scorched bottom? You stopped stirring while reducing — constant motion is mandatory."
+    },
+    {
+      "zh": "只有干辣没有香：加半勺糖和一撮蒜末，甜辣才立体。",
+      "en": "Flat heat? Add a little sugar and a pinch of garlic — sweet-spicy needs both sides."
+    }
+  ],
+  "culturalStory": {
+    "zh": "朝鲜王朝时期，炒年糕本是宫廷里的酱油色菜肴。1950 年代，首尔新堂洞一位摊贩偶然用辣酱炒制，红色国民小吃就此诞生——甜辣软糯又便宜，喂饱了几代放学后的学生。如今新堂洞「炒年糕一条街」仍是圣地，辣炒年糕是韩国人的灵魂安慰食物。",
+    "en": "In the Joseon court, tteokbokki was a soy-brown dish of rice cakes and beef. In the 1950s a Sindang-dong street vendor swapped in chili paste — and Korea's red national snack was born, cheap and chewy enough to feed generations of after-school kids. Sindang-dong's 'Tteokbokki Town' is still a pilgrimage site, and the dish remains Korea's ultimate comfort food."
+  },
+  "isPremium": false
+}

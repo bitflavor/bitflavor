@@ -1,0 +1,84 @@
+{
+  "slug": "macaron",
+  "title": { "zh": "法式马卡龙", "en": "French Macarons" },
+  "country": "france",
+  "continent": "europe",
+  "category": "dessert",
+  "difficulty": "hard",
+  "time": 120,
+  "servings": 6,
+  "coverImage": "/images/recipes/macaron.svg",
+  "summary": {
+    "zh": "少女的酥胸——外酥内软、裙边优雅的甜点界爱马仕。",
+    "en": "Crisp shell, chewy heart, dainty feet — the Hermès of the pastry world."
+  },
+  "ingredients": [
+    { "zh": "杏仁粉 100 克", "en": "100g almond flour" },
+    { "zh": "糖粉 100 克", "en": "100g powdered sugar" },
+    { "zh": "老化蛋白 75 克（分两份）", "en": "75g aged egg whites, split in two" },
+    { "zh": "细砂糖 100 克", "en": "100g granulated sugar" },
+    { "zh": "水 25 毫升", "en": "25ml water" },
+    { "zh": "食用色素少许", "en": "A little food coloring" },
+    { "zh": "甘纳许或黄油霜夹馅", "en": "Ganache or buttercream filling" }
+  ],
+  "steps": [
+    {
+      "zh": "蛋白提前 24 小时分离，盖保鲜膜冷藏「老化」，用前回温。",
+      "en": "Age the egg whites: separate 24 hours ahead, cover, refrigerate, and bring to room temperature before use."
+    },
+    {
+      "zh": "杏仁粉与糖粉混合过筛两遍，拌入第一份蛋白（不打发）和色素，搅成厚糊状。",
+      "en": "Sift almond flour and powdered sugar twice; mix with the first portion of whites (unwhipped) and coloring into a thick paste."
+    },
+    {
+      "zh": "糖加水煮到 118°C，缓缓冲入打发的第二份蛋白，高速打成光亮的意式蛋白霜。",
+      "en": "Boil sugar and water to 118°C; stream into the whipped second portion of whites, beating to a glossy Italian meringue."
+    },
+    {
+      "zh": "蛋白霜分三次拌入杏仁糊，翻拌至呈「缎带状」缓慢飘落。",
+      "en": "Fold meringue into the paste in three additions until it flows off the spatula in a slow ribbon."
+    },
+    {
+      "zh": "裱花袋挤 3 厘米圆糊于硅胶垫，轻震烤盘消泡，晾皮 30-60 分钟至表面结壳不粘手。",
+      "en": "Pipe 3cm rounds, tap the tray to release bubbles, and rest 30–60 minutes until a skin forms that doesn't stick to your finger."
+    },
+    {
+      "zh": "150°C 烤 14 分钟，出炉冷却后与甘纳许夹馅配对，冷藏回潮 24 小时口感最佳。",
+      "en": "Bake at 150°C for 14 minutes. Cool, sandwich with ganache, and mature 24 hours in the fridge for the perfect chewy bite."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "晾皮是出裙边的前提：表面结壳后内部膨胀只能向下走，形成裙边。",
+      "en": "The skin is what forces the rise downward into 'feet' — don't skip the rest."
+    },
+    {
+      "zh": "翻拌程度看「缎带」：面糊落下 10 秒内能自我摊平即为合适。",
+      "en": "The batter is ready when a fallen ribbon reabsorbs within 10 seconds."
+    },
+    {
+      "zh": "烤箱温度计必备，马卡龙对温度极其敏感。",
+      "en": "An oven thermometer is essential — macarons are extremely temperature-sensitive."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "没有裙边：晾皮不足或蛋白霜消泡过度，延长晾皮时间。",
+      "en": "No feet? Under-rested shells or overmixed batter — rest longer."
+    },
+    {
+      "zh": "表面开裂：晾皮时间不够或炉温过高。",
+      "en": "Cracked shells? Skin didn't set or the oven ran hot."
+    },
+    {
+      "zh": "空心：蛋白霜打发不足或翻拌过度，意式蛋白霜更稳定可优先尝试。",
+      "en": "Hollow shells? Under-whipped meringue or overmixed batter — the Italian method is more forgiving."
+    }
+  ],
+  "culturalStory": {
+    "zh": "马卡龙的祖先是 8 世纪威尼斯的杏仁饼干，1533 年随凯瑟琳·德·美第奇嫁入法国王室。直到 20 世纪初，巴黎 Ladurée 的 Pierre Desfontaines 才将两片饼干夹上甘纳许，发明了现代马卡龙。它的法文名与意大利「maccherone」同源。如今这枚小小圆饼已成为法式甜点的代名词，Pierre Hermé 更凭它让甜点师成为了「味觉时装设计师」。",
+    "en": "The macaron descends from 8th-century Venetian almond cookies, arriving in France with Catherine de' Medici in 1533. In the early 20th century, Pierre Desfontaines of Ladurée sandwiched two shells with ganache, inventing the modern macaron — its name sharing roots with 'maccherone'. Today the little round is the icon of French pâtisserie, and Pierre Hermé turned pastry chefs into 'fashion designers of taste'."
+  },
+  "isPremium": true,
+  "featured": false
+}

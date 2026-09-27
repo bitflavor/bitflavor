@@ -1,0 +1,28 @@
+# 依赖目录
+node_modules/
+
+# Next.js 构建产物
+.next/
+out/
+dist/
+build/
+
+# 版本控制
+.git/
+
+# 缓存与覆盖率
+.turbo/
+.vercel/
+coverage/
+*.tsbuildinfo
+
+# 日志
+*.log
+
+# 环境变量（保留示例文件供参考）
+.env
+.env.*
+!.env.example
+
+# 锁文件（体积大、内容对任务无帮助）
+package-lock.json

@@ -1,0 +1,85 @@
+{
+  "slug": "tacos-al-pastor",
+  "title": { "zh": "墨西哥塔可（牧羊人风味）", "en": "Tacos al Pastor" },
+  "country": "mexico",
+  "continent": "americas",
+  "category": "snack",
+  "difficulty": "medium",
+  "time": 60,
+  "servings": 4,
+  "coverImage": "/images/recipes/tacos-al-pastor.svg",
+  "summary": {
+    "zh": "腌猪肉与菠萝的旋转炙烤之舞，墨西哥城的深夜灵魂。",
+    "en": "Marinated pork and pineapple in a spinning dance — the midnight soul of Mexico City."
+  },
+  "ingredients": [
+    { "zh": "猪肩肉 500 克（切薄片）", "en": "500g pork shoulder, thinly sliced" },
+    { "zh": "玉米小饼 12 张", "en": "12 small corn tortillas" },
+    { "zh": "新鲜菠萝 1/4 个", "en": "1/4 fresh pineapple" },
+    { "zh": "墨西哥干辣椒 3 个（泡软）", "en": "3 dried guajillo chilies, soaked" },
+    { "zh": "阿奇奥特酱 2 大勺", "en": "2 tbsp achiote paste" },
+    { "zh": "橙汁 100 毫升、白醋 2 大勺", "en": "100ml orange juice, 2 tbsp white vinegar" },
+    { "zh": "洋葱碎、香菜、青柠（配料）", "en": "Diced onion, cilantro, lime to serve" },
+    { "zh": "蒜 3 瓣、孜然 1 小勺、牛至 1 小勺", "en": "3 cloves garlic, 1 tsp each cumin and oregano" }
+  ],
+  "steps": [
+    {
+      "zh": "泡软的辣椒与阿奇奥特酱、橙汁、醋、蒜、孜然、牛至打成腌料。",
+      "en": "Blend soaked chilies with achiote, orange juice, vinegar, garlic, cumin and oregano into a marinade."
+    },
+    {
+      "zh": "猪肉片与腌料拌匀，冷藏腌制至少 4 小时（隔夜最佳）。",
+      "en": "Coat pork slices and marinate at least 4 hours — overnight is best."
+    },
+    {
+      "zh": "菠萝切厚片，平底锅大火烙至两面焦糖化，切小丁。",
+      "en": "Sear pineapple slices on high heat until caramelized; dice."
+    },
+    {
+      "zh": "大火热油，分批煎腌好的肉片至边缘微焦，切碎。",
+      "en": "Fry the pork in batches over high heat until edges char; chop finely."
+    },
+    {
+      "zh": "玉米饼在干锅上每面烙 20 秒至柔软温热。",
+      "en": "Warm tortillas on a dry comal, 20 seconds per side, until soft."
+    },
+    {
+      "zh": "饼上放肉、菠萝丁、洋葱碎、香菜，挤青柠汁，配莎莎酱食用。",
+      "en": "Fill with pork, pineapple, onion and cilantro; squeeze lime and add salsa."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "肉要切薄，高温快煎出焦边，模仿旋转烤炉的效果。",
+      "en": "Slice thin and sear hot — charred edges mimic the trompo spit."
+    },
+    {
+      "zh": "菠萝不可省略，其蛋白酶能让肉质更嫩。",
+      "en": "Don't skip pineapple — its enzymes tenderize the pork."
+    },
+    {
+      "zh": "玉米饼用双层更不易破，是墨西哥街头的标准做法。",
+      "en": "Double up tortillas street-style so they don't break."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "肉发柴：切太厚或煎太久，薄片大火快煎。",
+      "en": "Tough pork? Slices too thick or overcooked — thin and fast is the rule."
+    },
+    {
+      "zh": "腌料发苦：辣椒没去籽或烤焦，泡软后去籽再打泥。",
+      "en": "Bitter marinade? Deseed the chilies after soaking."
+    },
+    {
+      "zh": "饼一折就断：玉米饼太干，烙饼时盖湿布保温保湿。",
+      "en": "Tortillas cracking? Keep them wrapped in a cloth to stay moist."
+    }
+  ],
+  "culturalStory": {
+    "zh": "Tacos al Pastor 是移民融合的美味证据：1920 年代黎巴嫩移民把中东旋转烤肉（Shawarma）带到墨西哥普埃布拉，当地人用猪肉取代羊肉、用玉米饼取代皮塔，并加入阿奇奥特与菠萝，「牧羊人塔可」就此诞生。2019 年它被《Taste Atlas》评为世界第一街头美食。深夜的墨西哥城，旋转烤炉前的塔可师傅刀光飞舞，那是这座城市最动人的烟火。",
+    "en": "Tacos al Pastor is delicious proof of immigrant fusion: in the 1920s, Lebanese migrants brought the shawarma spit to Puebla, Mexico. Locals swapped lamb for pork, pita for corn tortillas, added achiote and pineapple — and the 'shepherd taco' was born. Taste Atlas named it the world's best street food in 2019. Late-night Mexico City, knives flashing before the spinning trompo — the city's most beloved theater."
+  },
+  "isPremium": false,
+  "featured": true
+}

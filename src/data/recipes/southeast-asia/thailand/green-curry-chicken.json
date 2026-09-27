@@ -1,0 +1,84 @@
+{
+  "slug": "green-curry-chicken",
+  "title": { "zh": "绿咖喱鸡", "en": "Green Curry Chicken" },
+  "country": "thailand",
+  "continent": "southeast-asia",
+  "category": "main",
+  "difficulty": "medium",
+  "time": 40,
+  "servings": 3,
+  "coverImage": "/images/recipes/green-curry-chicken.svg",
+  "summary": {
+    "zh": "青辣椒的「甜绿」咖喱，椰浆丰腴裹着香茅南姜的清香，最温柔的泰式咖喱。",
+    "en": "Fresh green chilies in a 'sweet green' curry — rich coconut milk wrapped around lemongrass and galangal."
+  },
+  "ingredients": [
+    { "zh": "鸡腿肉 300 克（切块）", "en": "300g chicken thigh, cut into chunks" },
+    { "zh": "绿咖喱酱 2 大勺", "en": "2 tbsp green curry paste" },
+    { "zh": "椰浆 400 毫升", "en": "400ml coconut milk" },
+    { "zh": "泰国小圆茄或长茄 1 个", "en": "Thai pea eggplant or 1 long eggplant" },
+    { "zh": "泰国罗勒 1 把", "en": "A handful of Thai basil" },
+    { "zh": "鱼露 1 大勺", "en": "1 tbsp fish sauce" },
+    { "zh": "棕榈糖 1 小勺", "en": "1 tsp palm sugar" },
+    { "zh": "红尖椒、柠檬叶（可选，增香装饰）", "en": "Red chili and kaffir lime leaves (optional)" }
+  ],
+  "steps": [
+    {
+      "zh": "椰浆静置后舀出上层浓稠部分入锅，中火煮至油水分离、浮出椰油花。",
+      "en": "Scoop the thick cream from the top of the coconut milk into a pot; simmer until it splits and beads of coconut oil appear."
+    },
+    {
+      "zh": "下绿咖喱酱，在椰油中炒 2 分钟至香气完全释放。",
+      "en": "Fry the curry paste in that coconut oil for 2 minutes until deeply fragrant."
+    },
+    {
+      "zh": "下鸡块翻炒，让每块肉裹上咖喱酱。",
+      "en": "Add the chicken and toss until every piece wears the paste."
+    },
+    {
+      "zh": "倒入剩余椰浆和 100 毫升水，中火煮 10 分钟。",
+      "en": "Pour in the remaining coconut milk plus 100ml water; simmer 10 minutes over medium heat."
+    },
+    {
+      "zh": "加茄子块，以鱼露和棕榈糖调味——甜咸平衡是泰式咖喱的命门。",
+      "en": "Add the eggplant; season with fish sauce and palm sugar — that sweet-salty balance is the make-or-break."
+    },
+    {
+      "zh": "关火拌入罗勒叶和柠檬叶，配泰国香米饭上桌。",
+      "en": "Off the heat, fold in basil and lime leaves; serve over jasmine rice."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "先煮椰浆浓浆出「椰油花」再炒酱，香气与直接倒完全是两个世界。",
+      "en": "Cracking the coconut cream into oil before frying the paste is a different universe of aroma — don't just pour it all in."
+    },
+    {
+      "zh": "绿咖喱的「甜」是特点不是错误：鱼露的咸配棕榈糖的甜，边尝边调。",
+      "en": "Green curry is meant to be sweet-leaning — balance fish sauce against palm sugar, tasting as you go."
+    },
+    {
+      "zh": "罗勒关火后再放，用余温逼出香气，久煮香气全跑。",
+      "en": "Basil goes in off the heat — residual warmth releases its perfume; boiling kills it."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "油水分离难看：椰浆大火滚沸过度，中火慢煮即可（第一步出油花除外）。",
+      "en": "Ugly split sauce? You boiled the coconut milk too hard — medium heat, except when cracking the cream."
+    },
+    {
+      "zh": "只有辣没有香：咖喱酱没在椰油里先炒香。",
+      "en": "All heat, no fragrance? The paste wasn't fried in coconut oil first."
+    },
+    {
+      "zh": "太咸：鱼露要后放边尝，咖喱酱本身已含盐。",
+      "en": "Too salty? Add fish sauce last and taste — the paste already carries salt."
+    }
+  ],
+  "culturalStory": {
+    "zh": "绿咖喱（แกงเขียวหวาน，「甜绿咖喱」）诞生于 20 世纪初的曼谷，比红咖喱年轻得多——新鲜青辣椒赋予它明亮的绿色与柔和的「甜」。椰浆的丰腴包裹着香茅、南姜与青柠叶的清香，让它成为对中国胃最友好的泰式咖喱，也是曼谷街头饭盒里的常客。",
+    "en": "Green curry (gaeng khiao wan, 'sweet green curry') was born in early 20th-century Bangkok — much younger than red curry — with fresh green chilies lending its bright color and gentle sweetness. Rich coconut milk wrapped around lemongrass, galangal and kaffir lime makes it the friendliest Thai curry for newcomers, and a staple of Bangkok's street lunch boxes."
+  },
+  "isPremium": true
+}

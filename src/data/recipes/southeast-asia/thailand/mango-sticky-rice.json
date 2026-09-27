@@ -1,0 +1,83 @@
+{
+  "slug": "mango-sticky-rice",
+  "title": { "zh": "芒果糯米饭", "en": "Mango Sticky Rice" },
+  "country": "thailand",
+  "continent": "southeast-asia",
+  "category": "dessert",
+  "difficulty": "easy",
+  "time": 50,
+  "servings": 2,
+  "coverImage": "/images/recipes/mango-sticky-rice.svg",
+  "summary": {
+    "zh": "椰浆咸甜浸润的糯米饭，配上雨季最甜的芒果，是泰国夏天的信号。",
+    "en": "Coconut-soaked sticky rice beside the season's sweetest mango — Thailand's signal that summer has arrived."
+  },
+  "ingredients": [
+    { "zh": "泰国糯米 150 克", "en": "150g Thai glutinous rice" },
+    { "zh": "椰浆 200 毫升", "en": "200ml coconut milk" },
+    { "zh": "白砂糖 2 大勺", "en": "2 tbsp sugar" },
+    { "zh": "盐 1 小撮", "en": "A pinch of salt" },
+    { "zh": "香兰叶 2 片（可选）", "en": "2 pandan leaves (optional)" },
+    { "zh": "成熟芒果 1 个", "en": "1 ripe mango" },
+    { "zh": "炸绿豆仁或熟芝麻（装饰）", "en": "Crispy mung beans or toasted sesame (garnish)" }
+  ],
+  "steps": [
+    {
+      "zh": "糯米淘洗后加水浸泡 4 小时以上（或过夜）。",
+      "en": "Rinse the glutinous rice and soak at least 4 hours, or overnight."
+    },
+    {
+      "zh": "沥干后垫香兰叶上锅蒸 25 分钟，至米粒透明软糯。",
+      "en": "Drain, line the steamer with pandan leaves, and steam 25 minutes until translucent and tender."
+    },
+    {
+      "zh": "椰浆 150 毫升加糖和盐，小火煮化即关火，做成甜椰浆。",
+      "en": "Warm 150ml coconut milk with sugar and salt until dissolved — that's your sweet coconut sauce."
+    },
+    {
+      "zh": "蒸好的热米饭倒入大碗，淋入甜椰浆拌匀，盖盖焖 15 分钟让米饭吸饱。",
+      "en": "Pour the sauce over the hot rice, mix, cover and rest 15 minutes so it drinks it all in."
+    },
+    {
+      "zh": "芒果去皮切块或切片摆盘。",
+      "en": "Peel and slice the mango alongside."
+    },
+    {
+      "zh": "米饭装盘，淋剩余浓椰浆，撒炸绿豆仁，配芒果食用。",
+      "en": "Plate the rice, drizzle the remaining thick coconut milk, scatter mung beans and serve with mango."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "糯米要蒸不要煮——蒸的粒粒分明又软糯，煮的容易烂成粥。",
+      "en": "Steam, don't boil — steamed grains stay distinct yet tender; boiled turns to porridge."
+    },
+    {
+      "zh": "甜椰浆要趁热拌进米饭，冷饭吸不进去。",
+      "en": "The sauce must meet hot rice — cold rice can't absorb it."
+    },
+    {
+      "zh": "那一小撮盐是灵魂，它让椰浆的甜变得立体不腻。",
+      "en": "That pinch of salt is the soul — it makes the coconut sweetness three-dimensional."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "饭太烂太粘：煮过头或水太多，老老实实蒸最稳。",
+      "en": "Mushy rice? Overcooked or too much water — steaming is the safe path."
+    },
+    {
+      "zh": "椰浆浮在表面不吸收：饭凉了才拌，要趁热。",
+      "en": "Sauce pooling on top? The rice was cold — mix while steaming hot."
+    },
+    {
+      "zh": "芒果发酸：选熟透的芒果，捏着微微软、闻有浓香的才够格。",
+      "en": "Sour mango? Pick one fully ripe — slightly soft to the touch and fragrant."
+    }
+  ],
+  "culturalStory": {
+    "zh": "芒果糯米饭（ข้าวเหนียวมะม่วง）是泰国热季（4–6 月）的时令恩物——此时芒果最甜最香。糯米文化从中南半岛高地传入，椰浆来自海洋的馈赠，二者相遇成就了这道国民甜品。它既是街头小摊的日常，也是泰国人心中「夏天来了」的信号。",
+    "en": "Khao niao mamuang is the treasure of Thailand's hot season (April–June), when mangoes are at their sweetest. Sticky rice culture came down from the mainland highlands, coconut milk is the sea's gift — together they became the national dessert. It's both an everyday street-stall treat and, for Thais, the delicious signal that summer has arrived."
+  },
+  "isPremium": false
+}

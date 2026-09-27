@@ -1,0 +1,82 @@
+{
+  "slug": "egg-fried-rice",
+  "title": { "zh": "黄金蛋炒饭", "en": "Golden Egg Fried Rice" },
+  "country": "china",
+  "continent": "asia",
+  "category": "main",
+  "difficulty": "easy",
+  "time": 15,
+  "servings": 1,
+  "coverImage": "/images/recipes/egg-fried-rice.svg",
+  "summary": {
+    "zh": "每粒米裹上蛋黄的金包银，最简单的炒饭，最考验火候功夫。",
+    "en": "Every grain wrapped in golden yolk — the simplest fried rice, and the truest test of wok skill."
+  },
+  "ingredients": [
+    { "zh": "隔夜米饭 1 大碗", "en": "1 large bowl day-old rice" },
+    { "zh": "鸡蛋 2 个", "en": "2 eggs" },
+    { "zh": "葱花 2 根", "en": "2 scallions, chopped" },
+    { "zh": "盐、白胡椒粉适量", "en": "Salt and white pepper, to taste" },
+    { "zh": "食用油 2 大勺", "en": "2 tbsp cooking oil" },
+    { "zh": "火腿丁或豌豆、虾仁（可选）", "en": "Diced ham, peas or shrimp (optional)" }
+  ],
+  "steps": [
+    {
+      "zh": "隔夜饭用手捏散，粒粒分开无结块。",
+      "en": "Break up the cold rice with your fingers until every grain stands apart."
+    },
+    {
+      "zh": "蛋黄蛋清分离，蛋黄倒入米饭中拌匀，让米粒均匀裹上金黄色。",
+      "en": "Separate the eggs; mix the yolks through the rice until every grain wears gold."
+    },
+    {
+      "zh": "热锅热油，先倒入蛋白快速炒散，盛出备用。",
+      "en": "Heat the wok with oil; scramble the whites quickly and set aside."
+    },
+    {
+      "zh": "锅中补油，下裹好蛋黄的米饭，中火快速翻炒摊开。",
+      "en": "Add a little more oil, then the yolk-coated rice, tossing over medium heat."
+    },
+    {
+      "zh": "持续翻炒至米粒在锅中微微「跳舞」，粒粒分明、蛋香四溢。",
+      "en": "Keep tossing until the grains 'dance' in the wok — separate, fragrant, glossy."
+    },
+    {
+      "zh": "倒回蛋白，加盐、白胡椒和葱花，大火颠匀立即出锅。",
+      "en": "Return the whites, season with salt, pepper and scallion; one final high-heat toss and serve."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "隔夜饭水分少、质地硬，是粒粒分明的前提；现煮的饭要摊开晾凉再用。",
+      "en": "Day-old rice is dry and firm — the foundation of separated grains. Fresh rice must be spread out to cool first."
+    },
+    {
+      "zh": "「金包银」的秘诀是蛋黄先拌饭再下锅，而不是先炒蛋再下饭。",
+      "en": "The 'gold wraps silver' trick: coat the rice with yolk before it hits the wok, not after."
+    },
+    {
+      "zh": "锅要够热、手要够快，炒饭的功夫全在锅气里。",
+      "en": "A hot wok and quick hands — fried rice lives and dies by wok hei."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "米饭粘成一团：饭太湿或火太小，换隔夜饭并把火开大。",
+      "en": "Clumpy rice? Too wet or too cool — use day-old rice and more heat."
+    },
+    {
+      "zh": "蛋是蛋、饭是饭：蛋黄没有先拌入米饭，无法形成金包银。",
+      "en": "Egg and rice staying strangers? You didn't mix the yolk in first — no golden coat that way."
+    },
+    {
+      "zh": "有蛋腥味：锅不够热，蛋没有炒香，务必热锅热油。",
+      "en": "Eggy smell? The wok wasn't hot enough to toast the egg — heat it properly first."
+    }
+  ],
+  "culturalStory": {
+    "zh": "炒饭的历史可追溯到隋唐的「碎金饭」，扬州炒饭让它名扬天下。「金包银」是粤菜师傅的讲究：每粒米裹上蛋黄，金黄分明、干香不腻。中国人对炒饭的感情是家常的——隔夜的剩饭、两个鸡蛋、一把葱花，就是深夜里最抚慰人心的一碗。",
+    "en": "Fried rice traces back to Sui-Tang era 'crushed gold rice,' made famous by Yangzhou's version. The 'gold wraps silver' technique — every grain cloaked in yolk — is Cantonese finesse. But for most Chinese, fried rice is pure home comfort: leftover rice, two eggs, a handful of scallion, and midnight is saved."
+  },
+  "isPremium": false
+}

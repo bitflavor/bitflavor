@@ -1,0 +1,83 @@
+{
+  "slug": "kimchi-pancake",
+  "title": { "zh": "泡菜煎饼", "en": "Kimchi Pancake" },
+  "country": "korea",
+  "continent": "asia",
+  "category": "snack",
+  "difficulty": "easy",
+  "time": 20,
+  "servings": 2,
+  "coverImage": "/images/recipes/kimchi-pancake.svg",
+  "summary": {
+    "zh": "酸泡菜遇见面糊，边缘焦脆内里软糯，雨天配米酒的国民滋味。",
+    "en": "Sour kimchi meets crisp-edged batter — the rainy-day pancake Koreans crave with a bowl of makgeolli."
+  },
+  "ingredients": [
+    { "zh": "老泡菜 150 克（带泡菜汁）", "en": "150g well-fermented kimchi, with its juice" },
+    { "zh": "面粉 100 克", "en": "100g all-purpose flour" },
+    { "zh": "泡菜汁 3 大勺、水 50 毫升", "en": "3 tbsp kimchi juice, 50ml water" },
+    { "zh": "鸡蛋 1 个（可选）", "en": "1 egg (optional)" },
+    { "zh": "葱花、洋葱丝适量", "en": "Chopped scallion and sliced onion" },
+    { "zh": "煎油 3 大勺", "en": "3 tbsp frying oil" },
+    { "zh": "蘸汁：生抽、醋、芝麻油各 1 小勺", "en": "Dip: 1 tsp each soy sauce, vinegar, sesame oil" }
+  ],
+  "steps": [
+    {
+      "zh": "泡菜挤一下汁（汁留用），切成小碎块。",
+      "en": "Squeeze the kimchi lightly (save the juice) and chop it small."
+    },
+    {
+      "zh": "面粉加泡菜汁和水调成稀糊，打入鸡蛋搅匀。",
+      "en": "Whisk the flour with kimchi juice and water into a loose batter; beat in the egg."
+    },
+    {
+      "zh": "拌入泡菜碎、葱花和洋葱丝。",
+      "en": "Fold in the kimchi, scallion and onion."
+    },
+    {
+      "zh": "平底锅烧热放宽油，倒入面糊摊成薄圆饼。",
+      "en": "Heat a generous layer of oil in a pan and spread the batter into a thin round."
+    },
+    {
+      "zh": "中火煎 3 分钟，边缘焦脆微翘时翻面。",
+      "en": "Fry 3 minutes over medium heat until the edges crisp and lift, then flip."
+    },
+    {
+      "zh": "另一面再煎 2 分钟至金黄，出锅剪块，配蘸汁。",
+      "en": "Fry 2 more minutes until golden, cut into pieces and serve with the dipping sauce."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "用发酵充分的老泡菜，酸香才够味；新泡菜做出来寡淡。",
+      "en": "Use well-fermented sour kimchi — fresh kimchi fries up flat and bland."
+    },
+    {
+      "zh": "面糊要稀、饼要薄，脆边才多；厚饼软塌没灵魂。",
+      "en": "Keep the batter loose and the pancake thin — maximum crispy edge is the whole point."
+    },
+    {
+      "zh": "油要放宽，边煎边晃锅，煎而不是烙。",
+      "en": "Be generous with oil and swirl the pan — you're frying, not toasting."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "饼厚不脆：面糊太稠或摊太厚，加水调稀摊薄。",
+      "en": "Thick and doughy? The batter was too dense — thin it out and spread it flatter."
+    },
+    {
+      "zh": "翻面就碎：没煎定型就翻，等边缘焦脆微翘再动手。",
+      "en": "Falling apart on the flip? It hadn't set — wait for crisp, lifting edges."
+    },
+    {
+      "zh": "没味道：泡菜太新或没加泡菜汁，加一勺汁提味。",
+      "en": "Bland? The kimchi was too fresh — stir a spoonful of its juice into the batter."
+    }
+  ],
+  "culturalStory": {
+    "zh": "韩国人说「下雨天要吃煎饼喝米酒」——雨声就像面糊在锅里滋滋作响。泡菜煎饼是处理过酸泡菜的民间智慧：舍不得扔的老泡菜，加面糊一煎，酸香焦脆。如今它是酒馆里最受欢迎的안주（下酒菜），雨夜、米酒、煎饼，是韩国人的治愈三件套。",
+    "en": "Koreans say rainy days call for pancakes and makgeolli — the rain sounds like batter sizzling in the pan. Kimchi jeon began as thrifty wisdom for kimchi gone too sour to eat: fold it into batter and fry. Today it's the most beloved anju (drinking snack) in Korean pubs — rain, rice wine, and a crisp pancake make the perfect healing trio."
+  },
+  "isPremium": false
+}

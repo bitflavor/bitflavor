@@ -1,0 +1,83 @@
+{
+  "slug": "dorayaki",
+  "title": { "zh": "铜锣烧", "en": "Dorayaki" },
+  "country": "japan",
+  "continent": "asia",
+  "category": "dessert",
+  "difficulty": "easy",
+  "time": 30,
+  "servings": 4,
+  "coverImage": "/images/recipes/dorayaki.svg",
+  "summary": {
+    "zh": "蜂蜜色的松软饼皮夹着绵密红豆沙，哆啦A梦最爱的国民点心。",
+    "en": "Honey-gold fluffy pancakes sandwiching sweet red bean paste — the national snack beloved by Doraemon."
+  },
+  "ingredients": [
+    { "zh": "鸡蛋 2 个", "en": "2 eggs" },
+    { "zh": "低筋面粉 100 克", "en": "100g cake flour" },
+    { "zh": "细砂糖 60 克", "en": "60g fine sugar" },
+    { "zh": "蜂蜜 1 大勺", "en": "1 tbsp honey" },
+    { "zh": "泡打粉 1/2 小勺", "en": "1/2 tsp baking powder" },
+    { "zh": "水或牛奶 1–2 大勺（调稠度）", "en": "1–2 tbsp water or milk (to adjust)" },
+    { "zh": "红豆沙 200 克", "en": "200g sweet red bean paste" }
+  ],
+  "steps": [
+    {
+      "zh": "鸡蛋加细砂糖打发至颜色发白、体积略膨。",
+      "en": "Beat the eggs with sugar until pale and slightly voluminous."
+    },
+    {
+      "zh": "加蜂蜜拌匀，筛入面粉和泡打粉，翻拌成顺滑面糊，太稠加 1–2 大勺水。",
+      "en": "Mix in honey, sift in flour and baking powder, fold into a smooth batter — loosen with water if too thick."
+    },
+    {
+      "zh": "盖保鲜膜醒 15 分钟，让泡打粉起效、面糊更细腻。",
+      "en": "Rest the batter 15 minutes under wrap so the baking powder activates."
+    },
+    {
+      "zh": "平底锅最小火，舀一勺面糊从高处落下自然摊成 8 厘米圆饼。",
+      "en": "Over the lowest heat, drop a ladle of batter from a height — it spreads into an 8cm round on its own."
+    },
+    {
+      "zh": "表面冒出密集小泡、边缘微干时翻面，再煎 30 秒。",
+      "en": "When bubbles cover the surface and edges look dry, flip; 30 seconds more."
+    },
+    {
+      "zh": "两片饼中间夹 1 大勺红豆沙，轻压边缘合拢即成。",
+      "en": "Sandwich a spoonful of red bean paste between two pancakes and press the edges gently."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "全程最小火，才能煎出均匀漂亮的蜂蜜色，火大必花脸。",
+      "en": "Lowest heat throughout — that's the only way to an even honey-brown face; higher heat scorches it blotchy."
+    },
+    {
+      "zh": "面糊稠度以「滴落成圆」为准，太稠饼厚，太稀不成形。",
+      "en": "Batter consistency test: it should drop and settle into a round — thicker means dense cakes, thinner means shapeless."
+    },
+    {
+      "zh": "夹馅时边缘留 1 厘米，轻压后豆沙刚好铺满不外溢。",
+      "en": "Leave a 1cm border when filling — a gentle press spreads the paste exactly to the edge."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "上色不均或焦黑：火太大或锅太热，煎几片后让锅离火降温。",
+      "en": "Blotchy or burnt? The pan got too hot — lift it off the flame between batches."
+    },
+    {
+      "zh": "饼不松软：没加泡打粉或没醒面，15 分钟不能省。",
+      "en": "Dense pancakes? You skipped the baking powder or the rest — 15 minutes is non-negotiable."
+    },
+    {
+      "zh": "豆沙挤出来：馅放太多，1 大勺配 8 厘米饼刚好。",
+      "en": "Filling squirting out? Too much paste — one tablespoon per 8cm cake is just right."
+    }
+  ],
+  "culturalStory": {
+    "zh": "传说平安时代，武士源义经受伤时受僧人铜锣款待，临别以铜锣相赠，僧人用锣烙饼——铜锣烧由此得名（虽是附会但足够可爱）。现代两片夹豆沙的形态诞生于 1914 年东京上野「うさぎや」。当然，让它走向世界的，是那只最爱铜锣烧的蓝色机器猫哆啦A梦。",
+    "en": "Legend says the wounded warrior Minamoto no Yoshitsune was sheltered by a monk and gave him a gong (dora) in thanks — the monk baked cakes on it, naming the dorayaki. The modern two-pancake form was born in 1914 at Usagiya in Tokyo's Ueno. But it was a blue robot cat from the 22nd century — Doraemon — who made the dorayaki world-famous."
+  },
+  "isPremium": false
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "flat-white",
+  "title": { "zh": "澳白咖啡", "en": "Flat White" },
+  "country": "australia",
+  "continent": "oceania",
+  "category": "drink",
+  "difficulty": "easy",
+  "time": 10,
+  "servings": 1,
+  "coverImage": "/images/recipes/flat-white.svg",
+  "summary": {
+    "zh": "双份浓缩与丝绒微泡的黄金平衡，澳洲咖啡文化的名片。",
+    "en": "Double ristretto meets velvety microfoam — the calling card of Australian coffee culture."
+  },
+  "ingredients": [
+    { "zh": "新鲜中深烘咖啡豆 18 克", "en": "18g fresh medium-dark roast beans" },
+    { "zh": "全脂牛奶 130 毫升（冷藏）", "en": "130ml cold whole milk" },
+    { "zh": "150-160 毫升陶瓷杯 1 个", "en": "A 150–160ml ceramic cup" }
+  ],
+  "steps": [
+    {
+      "zh": "咖啡豆现磨至意式细度，布粉压粉后萃取双份 Ristretto（约 30 毫升，萃取 20-25 秒）。",
+      "en": "Grind fine for espresso; extract a double ristretto (about 30ml in 20–25 seconds)."
+    },
+    {
+      "zh": "冷牛奶倒入拉花缸至 1/3，蒸汽棒插入液面下 1 厘米。",
+      "en": "Fill the pitcher one-third with cold milk; submerge the steam wand 1cm below the surface."
+    },
+    {
+      "zh": "先「撕纸」进气 2-3 秒制造少量细腻泡沫，再埋深旋转打绵至 55-60°C。",
+      "en": "Stretch with a paper-tearing hiss for 2–3 seconds, then plunge and roll to 55–60°C."
+    },
+    {
+      "zh": "奶泡应如湿油漆般光亮流动，摇晃消掉粗泡。",
+      "en": "The milk should shine like wet paint; swirl to pop any bubbles."
+    },
+    {
+      "zh": "从高处细流注入浓缩中心，降低拉花缸贴近液面收尾，奶泡层仅 5 毫米。",
+      "en": "Pour from height into the center, then lower the pitcher to finish — the foam cap is just 5mm."
+    },
+    {
+      "zh": "表面呈细腻的丝绒质感（可拉一颗小圆心），立即享用。",
+      "en": "A velvet surface (a small dot heart optional). Serve immediately."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "Flat White 的灵魂是「微泡」：进气量只有卡布奇诺的 1/3。",
+      "en": "Microfoam is the soul — a third of the air a cappuccino takes."
+    },
+    {
+      "zh": "用小杯（150ml）才能保证咖啡与奶的浓度平衡。",
+      "en": "Use a small 150ml cup to keep the coffee-to-milk balance bold."
+    },
+    {
+      "zh": "牛奶超过 65°C 乳糖甜味会流失，手感烫手即停。",
+      "en": "Past 65°C milk loses sweetness — stop when the pitcher is too hot to hold."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "泡沫粗大像卡布：进气时间太长，撕纸声 2-3 秒即可。",
+      "en": "Frothy like a cappuccino? You stretched too long — 2–3 seconds of hissing is enough."
+    },
+    {
+      "zh": "咖啡味被奶盖过：杯太大或奶太多，换小杯并减少奶量。",
+      "en": "Coffee drowned out? Cup too big or milk too much — size down."
+    },
+    {
+      "zh": "奶泡分层：打完没立即融合，奶泡打好 10 秒内必须注入。",
+      "en": "Separated layers? Pour within 10 seconds of steaming."
+    }
+  ],
+  "culturalStory": {
+    "zh": "Flat White 诞生于 1980 年代的悉尼（新西兰惠灵顿也声称是其故乡，两国至今争论不休）。当时的澳洲人嫌卡布奇诺奶泡太厚、拿铁奶味太重，要求咖啡师做一杯「平的（flat）、白的（white）」咖啡。随着澳洲咖啡师席卷全球，2015 年星巴克将它引入美国，Flat White 正式成为继意式浓缩之后最具影响力的咖啡品类，也见证了澳洲「第三波咖啡」文化的全球输出。",
+    "en": "The Flat White was born in 1980s Sydney (Wellington, New Zealand disputes this to this day). Australians wanted something between a frothy cappuccino and a milky latte — a coffee 'flat' and 'white'. As Australian baristas conquered the world, Starbucks carried it to America in 2015, making it the most influential espresso drink since the Italian originals — and proof of Australia's third-wave coffee culture going global."
+  },
+  "isPremium": false,
+  "featured": false
+}

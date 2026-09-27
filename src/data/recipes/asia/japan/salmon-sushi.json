@@ -1,0 +1,85 @@
+{
+  "slug": "salmon-sushi",
+  "title": { "zh": "三文鱼握寿司", "en": "Salmon Nigiri Sushi" },
+  "country": "japan",
+  "continent": "asia",
+  "category": "main",
+  "difficulty": "hard",
+  "time": 60,
+  "servings": 2,
+  "coverImage": "/images/recipes/salmon-sushi.svg",
+  "summary": {
+    "zh": "醋饭与刺身的黄金比例，在家复刻江户前握寿司的手艺。",
+    "en": "The golden ratio of seasoned rice to sashimi — recreate Edomae nigiri craft at home."
+  },
+  "ingredients": [
+    { "zh": "寿司米 2 杯", "en": "2 cups sushi rice" },
+    { "zh": "刺身级三文鱼 200 克", "en": "200g sashimi-grade salmon" },
+    { "zh": "米醋 4 大勺", "en": "4 tbsp rice vinegar" },
+    { "zh": "白糖 2 大勺", "en": "2 tbsp sugar" },
+    { "zh": "盐 1 小勺", "en": "1 tsp salt" },
+    { "zh": "山葵（芥末）适量", "en": "Wasabi, to taste" },
+    { "zh": "寿司酱油适量", "en": "Sushi soy sauce" },
+    { "zh": "腌姜片（配菜）", "en": "Pickled ginger (gari)" }
+  ],
+  "steps": [
+    {
+      "zh": "寿司米淘洗至水清澈，浸泡 30 分钟后按 1:1.1 的水米比煮熟。",
+      "en": "Rinse rice until the water runs clear, soak 30 minutes, then cook with a 1:1.1 water-to-rice ratio."
+    },
+    {
+      "zh": "米醋、糖、盐小火加热溶化，制成寿司醋，趁热拌入米饭，用切拌手法扇凉至体温。",
+      "en": "Warm vinegar, sugar and salt into sushi-zu; fold into hot rice with a cutting motion while fanning to body temperature."
+    },
+    {
+      "zh": "三文鱼逆纹切成 5 毫米厚、一口大小的薄片。",
+      "en": "Slice salmon against the grain into 5mm bite-sized pieces."
+    },
+    {
+      "zh": "手沾醋水，取 20 克醋饭轻握成椭圆形饭团，力度以内部空气感为准。",
+      "en": "With vinegar-wet hands, shape 20g rice into an oval — gentle pressure, keeping air inside."
+    },
+    {
+      "zh": "鱼片一面抹少许山葵，盖在饭团上，用指腹轻压贴合。",
+      "en": "Dab wasabi on the fish, lay it over the rice, and press lightly with fingertips to bond."
+    },
+    {
+      "zh": "摆盘，配寿司酱油与腌姜片，鱼的一面蘸酱油食用。",
+      "en": "Plate with soy sauce and gari; dip fish-side down when eating."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "醋饭温度保持在体温左右，鱼片才不会被烫熟。",
+      "en": "Keep rice at body temperature so it doesn't cook the fish."
+    },
+    {
+      "zh": "握饭要「外紧内松」，入口即散又不易掉粒。",
+      "en": "Shape rice firm outside, airy inside — it should fall apart in the mouth, not on the plate."
+    },
+    {
+      "zh": "切鱼一刀到底，不要来回锯，断面才光滑。",
+      "en": "Slice fish in one stroke — sawing tears the flesh."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "饭团散开：米饭太干或握得太松，检查水米比并稍加力度。",
+      "en": "Rice falling apart? Too dry or shaped too loosely — check water ratio and press slightly firmer."
+    },
+    {
+      "zh": "米饭太黏太酸：寿司醋过量或米饭过湿，按比例减醋。",
+      "en": "Mushy or sour rice? Too much sushi-zu or wet rice — reduce vinegar to ratio."
+    },
+    {
+      "zh": "有腥味：鱼不新鲜，务必选用刺身级并低温保存。",
+      "en": "Fishy smell? The fish isn't fresh — always use sashimi-grade, kept cold."
+    }
+  ],
+  "culturalStory": {
+    "zh": "握寿司诞生于 19 世纪初的江户（今东京），华屋与兵卫在街头现握现卖，被称为「江户前寿司」，是当时日本人的快餐。三文鱼握寿司其实是挪威人的发明：1980 年代挪威三文鱼过剩，「日本计划」用了十余年才说服日本人接受生吃三文鱼，如今它已是在全球最受欢迎的握寿司。",
+    "en": "Nigiri sushi was born in early 19th-century Edo (Tokyo), where Hanaya Yohei sold hand-pressed sushi as street fast food — the 'Edomae' style. Salmon nigiri is actually a Norwegian invention: in the 1980s, 'Project Japan' spent a decade persuading the Japanese to eat raw salmon. Today it is the world's most popular nigiri."
+  },
+  "isPremium": true,
+  "featured": false
+}

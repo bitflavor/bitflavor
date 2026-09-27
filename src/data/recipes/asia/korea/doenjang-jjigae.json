@@ -1,0 +1,84 @@
+{
+  "slug": "doenjang-jjigae",
+  "title": { "zh": "大酱汤", "en": "Doenjang Jjigae" },
+  "country": "korea",
+  "continent": "asia",
+  "category": "soup",
+  "difficulty": "easy",
+  "time": 30,
+  "servings": 2,
+  "coverImage": "/images/recipes/doenjang-jjigae.svg",
+  "summary": {
+    "zh": "淘米水打底、大酱化开，一锅滚沸的家味，是韩国人想家的味道。",
+    "en": "Rice-wash water and fermented soybean paste bubbling together — the taste Koreans miss most when away from home."
+  },
+  "ingredients": [
+    { "zh": "韩式大酱（된장）2 大勺", "en": "2 tbsp doenjang (Korean soybean paste)" },
+    { "zh": "淘米水 500 毫升（第二遍）", "en": "500ml rice-washing water (second rinse)" },
+    { "zh": "西葫芦半根、土豆 1 个", "en": "Half a zucchini, 1 potato" },
+    { "zh": "洋葱半个", "en": "Half an onion" },
+    { "zh": "嫩豆腐半块", "en": "Half a block soft tofu" },
+    { "zh": "青阳辣椒或大葱适量", "en": "Cheongyang chili or scallion, to taste" },
+    { "zh": "蛤蜊或牛肉片少许（可选）", "en": "A few clams or beef slices (optional)" },
+    { "zh": "蒜末 1 小勺", "en": "1 tsp minced garlic" }
+  ],
+  "steps": [
+    {
+      "zh": "第二遍淘米水留用做汤底，米香醇厚是地道的底味。",
+      "en": "Save the second rice-rinsing water as the broth — its mellow starchiness is the authentic base."
+    },
+    {
+      "zh": "大酱用少许汤化开搅散，倒入锅中煮开。",
+      "en": "Dissolve the doenjang in a ladle of the broth first, then pour in and bring to a boil."
+    },
+    {
+      "zh": "土豆切薄片、洋葱切块，先下锅煮 8 分钟。",
+      "en": "Add thinly sliced potato and chunked onion; simmer 8 minutes."
+    },
+    {
+      "zh": "下西葫芦片、豆腐块和蛤蜊（如用），再煮 5 分钟。",
+      "en": "Add zucchini, tofu and clams (if using); simmer 5 more minutes."
+    },
+    {
+      "zh": "加蒜末尝味，按大酱咸度补酱或加水调整。",
+      "en": "Stir in the garlic and taste — adjust with more paste or water as needed."
+    },
+    {
+      "zh": "撒辣椒圈和葱花，连锅滚烫上桌，配米饭。",
+      "en": "Scatter chili and scallion, serve bubbling in the pot with rice."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "大酱先用汤化开再下锅，直接整块扔进去会沉底结块。",
+      "en": "Always dissolve the paste in a ladle of broth first — dropped in whole, it sinks and clumps."
+    },
+    {
+      "zh": "加半勺辣酱（고추장）一起煮，咸鲜中带一点甜辣，层次更足。",
+      "en": "A half-spoon of gochujang alongside adds a sweet-spicy layer under the savory depth."
+    },
+    {
+      "zh": "大酱汤要滚沸上桌，咕嘟咕嘟的声音是这锅汤的一部分。",
+      "en": "Serve it still boiling — the bubbling sound is part of the dish."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "发苦：大酱放太多或久煮过头，后放的豆腐也别久煮。",
+      "en": "Bitter? Too much paste or over-boiling — and don't cook the tofu forever."
+    },
+    {
+      "zh": "太淡没味：不同品牌大酱咸度差异大，边尝边补。",
+      "en": "Bland? Saltiness varies wildly by brand — taste and add paste gradually."
+    },
+    {
+      "zh": "土豆夹生：切得太厚，薄片先下锅煮足 8 分钟。",
+      "en": "Crunchy potato? Slice thinner and give it the full 8-minute head start."
+    }
+  ],
+  "culturalStory": {
+    "zh": "大酱（된장）与酱油同源，是朝鲜半岛「장」发酵文化的根基——传统人家院子里有一排酱缸，酱的味道就是家的味道。大酱汤是韩国家庭最常喝的汤，地位如同味噌汤之于日本。韩国人说，想家的时候想的不是山珍海味，而是一锅滚沸的大酱汤配白米饭。",
+    "en": "Doenjang, kin to soy sauce, is the root of Korea's jang fermentation culture — traditional homes kept rows of earthenware jars in the yard, and the taste of a family's jang was the taste of home. This stew is Korea's everyday soup, as fundamental as miso soup in Japan. Koreans say homesickness isn't for feasts — it's for a bubbling pot of doenjang jjigae and a bowl of rice."
+  },
+  "isPremium": false
+}

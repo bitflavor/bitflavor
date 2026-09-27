@@ -1,0 +1,83 @@
+{
+  "slug": "miso-soup",
+  "title": { "zh": "味噌汤", "en": "Miso Soup" },
+  "country": "japan",
+  "continent": "asia",
+  "category": "soup",
+  "difficulty": "easy",
+  "time": 15,
+  "servings": 2,
+  "coverImage": "/images/recipes/miso-soup.svg",
+  "summary": {
+    "zh": "一汁一菜的日常，出汁为骨、味噌为魂，关火后才放味噌是铁律。",
+    "en": "The everyday soul of Japanese meals — dashi for backbone, miso for soul, and never boil after the miso goes in."
+  },
+  "ingredients": [
+    { "zh": "味噌 2 大勺", "en": "2 tbsp miso paste" },
+    { "zh": "昆布 1 片（10 厘米）", "en": "1 piece kombu (10cm)" },
+    { "zh": "柴鱼片 10 克", "en": "10g katsuobushi (bonito flakes)" },
+    { "zh": "水 500 毫升", "en": "500ml water" },
+    { "zh": "嫩豆腐 1/4 块（切丁）", "en": "Quarter block silken tofu, diced" },
+    { "zh": "干裙带菜 1 小撮", "en": "A pinch of dried wakame" },
+    { "zh": "葱花适量", "en": "Chopped scallion" }
+  ],
+  "steps": [
+    {
+      "zh": "昆布用冷水浸泡 30 分钟，让鲜味慢慢析出。",
+      "en": "Soak the kombu in cold water for 30 minutes to draw out its umami."
+    },
+    {
+      "zh": "小火加热至锅边冒小泡、将沸未沸时捞出昆布。",
+      "en": "Heat gently; remove the kombu just before the water boils, when bubbles rim the pot."
+    },
+    {
+      "zh": "汤沸后撒入柴鱼片，关火焖 2 分钟，滤出清澈的出汁。",
+      "en": "Add bonito flakes to the just-boiled broth, kill the heat, steep 2 minutes, then strain — that's your dashi."
+    },
+    {
+      "zh": "出汁重新煮开，下豆腐丁和裙带菜煮 1 分钟。",
+      "en": "Bring the dashi back to a boil; simmer the tofu and wakame for 1 minute."
+    },
+    {
+      "zh": "关火。味噌放在汤勺里用热汤化开，再淋入锅中搅匀。",
+      "en": "Turn off the heat. Dissolve the miso in a ladle of hot broth, then stir it into the pot."
+    },
+    {
+      "zh": "撒葱花立即盛出，切勿再煮沸。",
+      "en": "Scatter scallion and serve at once — never reboil."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "味噌关火后再放：煮沸会杀死香气与益生菌，这是味噌汤的第一铁律。",
+      "en": "Miso goes in off the heat — boiling destroys its aroma and probiotics. First rule of miso soup."
+    },
+    {
+      "zh": "出汁是日本料理的地基，昆布柴鱼版（一番出汁）清鲜，图方便可用出汁粉。",
+      "en": "Dashi is the foundation of Japanese cooking; the kombu-bonito 'first dashi' is purest, though dashi powder works on busy nights."
+    },
+    {
+      "zh": "红白味噌各半混合，浓烈与甘甜兼得。",
+      "en": "Blend red and white miso half-and-half for both depth and sweetness."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "没香气：味噌下锅后煮开了，务必关火再放。",
+      "en": "No aroma? The miso boiled — always add it off the heat."
+    },
+    {
+      "zh": "太咸：各品牌味噌咸度差异大，先少放尝味再补。",
+      "en": "Too salty? Brands vary widely — start with less and adjust."
+    },
+    {
+      "zh": "汤浑浊：出汁没过滤或大火滚煮，清亮是出汁的尊严。",
+      "en": "Cloudy broth? You didn't strain the dashi or boiled it hard — clarity is dashi's pride."
+    }
+  ],
+  "culturalStory": {
+    "zh": "「一汁一菜」是日本饮食的原点——一碗米饭、一碗味噌汤、一碟腌菜，就是完整的一餐。味噌有上千年历史，各地风味迥异：信州红味噌浓烈，西京白味噌甘甜。对日本人来说，味噌汤的香气就是「おふくろの味」——妈妈的味道，家的味道。",
+    "en": "'Ichiju-issai' — one soup, one dish — is the origin point of Japanese eating: a bowl of rice, a bowl of miso soup, a small pickle. Miso has over a thousand years of history, with fierce regional personalities: robust red from Shinshu, sweet white from Kyoto. For Japanese people, the smell of miso soup is 'ofukuro no aji' — the taste of mother's cooking, the smell of home."
+  },
+  "isPremium": false
+}

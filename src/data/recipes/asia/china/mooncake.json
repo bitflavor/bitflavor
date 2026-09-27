@@ -1,0 +1,84 @@
+{
+  "slug": "mooncake",
+  "title": { "zh": "广式月饼", "en": "Cantonese Mooncakes" },
+  "country": "china",
+  "continent": "asia",
+  "category": "dessert",
+  "difficulty": "hard",
+  "time": 180,
+  "servings": 8,
+  "coverImage": "/images/recipes/mooncake.svg",
+  "summary": {
+    "zh": "皮薄馅足、回油油润，一枚莲蓉蛋黄月饼，是中秋最温柔的仪式感。",
+    "en": "Paper-thin skin over rich lotus paste and salted yolk — the tender ritual at the heart of Mid-Autumn Festival."
+  },
+  "ingredients": [
+    { "zh": "转化糖浆 140 克", "en": "140g golden syrup" },
+    { "zh": "枧水 4 克", "en": "4g kansui (lye water)" },
+    { "zh": "花生油 50 克", "en": "50g peanut oil" },
+    { "zh": "中筋面粉 200 克", "en": "200g all-purpose flour" },
+    { "zh": "莲蓉馅 600 克", "en": "600g lotus seed paste" },
+    { "zh": "咸蛋黄 8 个", "en": "8 salted egg yolks" },
+    { "zh": "蛋黄 1 个加 1 小勺水（刷面）", "en": "1 egg yolk with 1 tsp water (egg wash)" },
+    { "zh": "白酒少许（喷蛋黄用）", "en": "A splash of baijiu (for the yolks)" }
+  ],
+  "steps": [
+    {
+      "zh": "转化糖浆加枧水搅匀，再加花生油充分乳化，拌入面粉揉成光滑面团，盖膜醒 2 小时。",
+      "en": "Stir golden syrup with kansui, emulsify with peanut oil, knead in the flour; rest the dough 2 hours."
+    },
+    {
+      "zh": "咸蛋黄喷少许白酒，180°C 烤 8 分钟至微微冒油，放凉。",
+      "en": "Spritz the yolks with baijiu and bake at 180°C for 8 minutes until slightly oily; cool."
+    },
+    {
+      "zh": "莲蓉分成每份约 70 克，包入一颗咸蛋黄，搓圆。",
+      "en": "Portion the lotus paste at about 70g each and wrap one yolk inside; roll into balls."
+    },
+    {
+      "zh": "饼皮每份 20 克压扁，包入馅料，用虎口慢慢推拢收口（皮:馅≈2:8）。",
+      "en": "Flatten 20g dough portions, wrap the filling and push the skin up with your palm to seal — skin-to-filling ratio about 2:8."
+    },
+    {
+      "zh": "沾少许干粉，用模具压出花纹，表面喷一层水防裂。",
+      "en": "Dust lightly with flour, press in the mooncake mold, then mist the surface with water to prevent cracks."
+    },
+    {
+      "zh": "200°C 烤 5 分钟定型，取出薄薄刷一层蛋黄水，转 180°C 再烤 15 分钟。回油 1–2 天后食用最佳。",
+      "en": "Bake at 200°C for 5 minutes to set, brush a thin egg wash, then 15 more minutes at 180°C. Rest 1–2 days for the skin to soften and gloss."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "皮馅 2:8 是广式月饼的灵魂——皮薄如纸、馅足流油，别怕皮少难包。",
+      "en": "A 2:8 skin-to-filling ratio is the Cantonese signature — paper-thin skin around generous filling. Trust the thin dough."
+    },
+    {
+      "zh": "刚烤好的月饼皮是干硬的，密封回油 1–2 天，饼皮吸了馅的油才会油润柔软。",
+      "en": "Fresh-baked skins are dry — seal the mooncakes for 1–2 days of 'oil return' until the crust turns supple and glossy."
+    },
+    {
+      "zh": "蛋黄水宁少勿多，用毛尖轻扫凸起花纹即可，多了花纹就糊。",
+      "en": "Less is more with egg wash — barely touch the raised pattern or the design will blur."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "饼皮开裂：醒面不够或没喷水，入炉前表面务必喷一层水雾。",
+      "en": "Cracked skin? Under-rested dough or no water mist — always spritz before baking."
+    },
+    {
+      "zh": "花纹模糊：蛋黄水刷太厚，或定型温度不够就刷了蛋液。",
+      "en": "Blurred pattern? Too much egg wash, or you brushed before the crust had set."
+    },
+    {
+      "zh": "泄脚塌陷：炉温太低或馅料太湿，先高温定型再降温柔烤。",
+      "en": "Slumped sides? Oven too cool or filling too wet — set at high heat first, then finish gently."
+    }
+  ],
+  "culturalStory": {
+    "zh": "月饼始于唐宋的祭月供品，元末「八月十五杀鞑子」藏纸条的传说，让它与团圆和起义相连。广式月饼以莲蓉蛋黄为尊，清末广州莲香楼奠定其地位，皮薄馅足、回油油润成为标准。中秋夜分食一枚月饼，是华人世界最温柔的仪式感——人月两团圆。",
+    "en": "Mooncakes began as Tang-Song offerings to the moon, with a Yuan-era legend of rebel notes hidden inside adding a layer of myth. The Cantonese style — lotus paste with salted yolk, perfected by Guangzhou's Lianxianglou in the late Qing — set the gold standard: thin skin, rich filling, glossy after 'oil return.' Sharing one under the full moon remains the Chinese world's tenderest ritual of reunion."
+  },
+  "isPremium": true
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "margherita-pizza",
+  "title": { "zh": "玛格丽特披萨", "en": "Pizza Margherita" },
+  "country": "italy",
+  "continent": "europe",
+  "category": "main",
+  "difficulty": "medium",
+  "time": 120,
+  "servings": 2,
+  "coverImage": "/images/recipes/margherita-pizza.svg",
+  "summary": {
+    "zh": "番茄红、芝士白、罗勒绿，那不勒斯献给王后的意大利国旗。",
+    "en": "Red tomato, white mozzarella, green basil — Naples' edible Italian flag for a queen."
+  },
+  "ingredients": [
+    { "zh": "高筋面粉 300 克", "en": "300g bread flour (or 00 flour)" },
+    { "zh": "温水 200 毫升", "en": "200ml warm water" },
+    { "zh": "干酵母 3 克", "en": "3g instant yeast" },
+    { "zh": "盐 5 克、橄榄油 1 大勺", "en": "5g salt, 1 tbsp olive oil" },
+    { "zh": "圣马扎诺番茄罐头 200 克", "en": "200g San Marzano canned tomatoes" },
+    { "zh": "新鲜马苏里拉 150 克", "en": "150g fresh mozzarella" },
+    { "zh": "新鲜罗勒叶 1 把", "en": "A handful of fresh basil" }
+  ],
+  "steps": [
+    {
+      "zh": "酵母溶于温水，加面粉、盐、橄榄油揉成光滑面团，室温发酵 2 小时至两倍大（冷藏慢发酵 24 小时风味更佳）。",
+      "en": "Dissolve yeast in warm water; knead with flour, salt and oil. Rise 2 hours until doubled (24h cold ferment is even better)."
+    },
+    {
+      "zh": "番茄罐头用手捏碎，加一小撮盐，不要炒制，保持生番茄的鲜甜。",
+      "en": "Crush tomatoes by hand with a pinch of salt — no cooking, keep the fresh sweetness."
+    },
+    {
+      "zh": "面团排气分两份，用手从中间向外推开成 25 厘米圆饼，边缘留厚做成饼边。",
+      "en": "Divide dough in two; press from center outward into 25cm rounds, leaving a thick cornicione rim."
+    },
+    {
+      "zh": "烤箱连石板或烤盘一起预热到最高温（250°C 以上），至少预热 30 分钟。",
+      "en": "Preheat oven with a stone or tray at maximum heat (250°C+) for at least 30 minutes."
+    },
+    {
+      "zh": "饼底抹一层番茄酱，撒撕碎的马苏里拉，送入烤箱最上层烤 7-10 分钟至饼边焦斑隆起。",
+      "en": "Spread a thin layer of sauce, scatter torn mozzarella, bake on the top rack 7–10 minutes until the crust is leopard-spotted."
+    },
+    {
+      "zh": "出炉铺新鲜罗勒叶，淋少许橄榄油，静置 1 分钟切块。",
+      "en": "Top with fresh basil and a drizzle of olive oil; rest 1 minute before slicing."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "不要用擀面杖，用手推压才能保住面团里的气泡。",
+      "en": "Skip the rolling pin — hand-pressing preserves the air bubbles."
+    },
+    {
+      "zh": "酱料宁少勿多，正宗的玛格丽特是「看得到饼底」的。",
+      "en": "Less is more — you should see the crust through the sauce."
+    },
+    {
+      "zh": "马苏里拉提前沥干切块，避免出水泡软饼底。",
+      "en": "Drain mozzarella well so it doesn't flood the crust."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "饼底湿软：酱料太多或烤温不够，烤箱务必充分预热。",
+      "en": "Soggy base? Too much sauce or underheated oven — preheat thoroughly."
+    },
+    {
+      "zh": "饼边发白不膨：发酵不足或烤箱温度低，延长发酵时间。",
+      "en": "Pale flat crust? Under-proofed dough or cool oven — ferment longer."
+    },
+    {
+      "zh": "芝士焦了饼还没熟：位置太高，下移一层或减少芝士量。",
+      "en": "Cheese burnt before crust cooked? Move down a rack or use less cheese."
+    }
+  ],
+  "culturalStory": {
+    "zh": "1889 年，那不勒斯披萨师傅拉斐尔·埃斯波西托为到访的玛格丽特王后创制了一款以番茄、马苏里拉和罗勒为配料的披萨，红白绿三色恰似新生的意大利国旗，王后将之名赐予此饼。2017 年，那不勒斯披萨制作技艺入选联合国非物质文化遗产。真正的玛格丽特只有三味配料——大道至简，正是意大利美食的哲学。",
+    "en": "In 1889, Neapolitan pizzaiolo Raffaele Esposito created a pizza of tomato, mozzarella and basil — the red, white and green of the young Italian flag — for Queen Margherita, who lent it her name. In 2017, the art of Neapolitan pizza-making joined UNESCO's Intangible Heritage list. True Margherita carries only three toppings: simplicity itself is the philosophy of Italian cuisine."
+  },
+  "isPremium": false,
+  "featured": true
+}

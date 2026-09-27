@@ -1,0 +1,84 @@
+{
+  "slug": "pavlova",
+  "title": { "zh": "帕芙洛娃蛋糕", "en": "Pavlova" },
+  "country": "australia",
+  "continent": "oceania",
+  "category": "dessert",
+  "difficulty": "hard",
+  "time": 120,
+  "servings": 8,
+  "coverImage": "/images/recipes/pavlova.svg",
+  "summary": {
+    "zh": "外壳酥脆、内心如棉花糖的蛋白霜蛋糕，献给芭蕾舞者的云朵。",
+    "en": "Crisp shell, marshmallow heart — a cloud of meringue dedicated to a ballerina."
+  },
+  "ingredients": [
+    { "zh": "蛋白 4 个（室温）", "en": "4 egg whites, room temperature" },
+    { "zh": "细砂糖 200 克", "en": "200g superfine sugar" },
+    { "zh": "玉米淀粉 1 大勺", "en": "1 tbsp cornstarch" },
+    { "zh": "白醋 1 小勺", "en": "1 tsp white vinegar" },
+    { "zh": "香草精 1 小勺", "en": "1 tsp vanilla extract" },
+    { "zh": "淡奶油 300 毫升", "en": "300ml heavy cream" },
+    { "zh": "奇异果、草莓、百香果等时令水果", "en": "Kiwi, strawberries, passionfruit and seasonal fruit" }
+  ],
+  "steps": [
+    {
+      "zh": "烤箱预热 150°C，烤盘垫烘焙纸画一个 20 厘米圆圈。",
+      "en": "Preheat oven to 150°C; line a tray and trace a 20cm circle on parchment."
+    },
+    {
+      "zh": "蛋白中速打至软性发泡，分次加入细砂糖，高速打至硬性发泡、光亮坚挺（约 8 分钟）。",
+      "en": "Whip whites to soft peaks; add sugar gradually, beating to stiff glossy peaks (about 8 minutes)."
+    },
+    {
+      "zh": "筛入玉米淀粉，加白醋和香草精，轻拌三下至均匀——这是棉花糖内心的秘密。",
+      "en": "Fold in cornstarch, vinegar and vanilla with three gentle strokes — the secret to the marshmallow center."
+    },
+    {
+      "zh": "蛋白霜堆在圆圈内，整形为边缘略高的圆饼，抹出纹路。",
+      "en": "Mound within the circle, shaping a slightly raised rim with decorative swoops."
+    },
+    {
+      "zh": "入炉后立即降温至 120°C，烤 90 分钟，关火后让蛋糕在炉内随炉冷却至室温（勿开门）。",
+      "en": "Drop to 120°C immediately, bake 90 minutes, then cool completely in the closed oven."
+    },
+    {
+      "zh": "食用前打发淡奶油铺上，堆满水果，淋百香果汁即可。",
+      "en": "Just before serving, top with softly whipped cream, pile on fruit and drizzle passionfruit."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "碗和打蛋器必须无油无水，一丁点蛋黄都会让蛋白打发失败。",
+      "en": "Bowls and beaters must be grease-free — one speck of yolk ruins the whip."
+    },
+    {
+      "zh": "糖要分次加且完全溶化，未溶的糖会导致表面「流泪」。",
+      "en": "Add sugar gradually and dissolve fully — undissolved sugar causes weeping."
+    },
+    {
+      "zh": "炉内缓慢冷却是防裂关键，热胀冷缩太急表面会塌陷开裂。",
+      "en": "Slow in-oven cooling prevents collapse and cracks."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "表面塌陷：冷却太快或烘烤不足，务必留在炉内随炉冷却。",
+      "en": "Collapsed top? Cooled too fast or underbaked — always cool in the oven."
+    },
+    {
+      "zh": "渗糖珠：糖没打溶或湿度过大，改用更细的糖。",
+      "en": "Syrupy beads? Sugar didn't dissolve or humidity was high — use finer sugar."
+    },
+    {
+      "zh": "内部全干无棉花糖心：烤温过高或时间过长，下次降温 10°C。",
+      "en": "No marshmallow center? Too hot or too long — drop 10°C next time."
+    }
+  ],
+  "culturalStory": {
+    "zh": "1920 年代，俄罗斯芭蕾舞巨星安娜·帕芙洛娃巡演澳新两国，一位甜点师以她为灵感创制了这款轻盈如纱裙的蛋糕。澳大利亚与新西兰为它的「国籍」争论了近百年，成为两国美食史上最甜蜜的争端。如今 Pavlova 是澳洲圣诞餐桌的绝对主角——盛夏的圣诞，一大盘云朵般的蛋白霜堆满鲜果，是南半球节日最标志性的画面。",
+    "en": "In the 1920s, Russian ballerina Anna Pavlova toured Australia and New Zealand, inspiring a dessert as light as her tutu. The two nations have debated its nationality for a century — the sweetest dispute in culinary history. Today Pavlova is the undisputed star of the Australian Christmas table: a cloud of meringue piled with summer fruit, the iconic image of a Southern Hemisphere holiday."
+  },
+  "isPremium": true,
+  "featured": false
+}

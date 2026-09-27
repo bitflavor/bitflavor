@@ -1,0 +1,83 @@
+{
+  "slug": "bibimbap",
+  "title": { "zh": "石锅拌饭", "en": "Bibimbap" },
+  "country": "korea",
+  "continent": "asia",
+  "category": "main",
+  "difficulty": "medium",
+  "time": 45,
+  "servings": 2,
+  "coverImage": "/images/recipes/bibimbap.svg",
+  "summary": {
+    "zh": "五色食材对应五行，锅巴滋滋作响，一碗拌出韩食的宇宙观。",
+    "en": "Five colors for five elements over sizzling crispy rice — Korea's whole food philosophy in one stone bowl."
+  },
+  "ingredients": [
+    { "zh": "热米饭 2 碗", "en": "2 bowls hot cooked rice" },
+    { "zh": "菠菜、豆芽、胡萝卜、西葫芦各 50 克", "en": "50g each spinach, bean sprouts, carrot, zucchini" },
+    { "zh": "牛肉末 100 克", "en": "100g ground beef" },
+    { "zh": "鸡蛋 2 个", "en": "2 eggs" },
+    { "zh": "韩式辣酱（고추장）2 大勺", "en": "2 tbsp gochujang (Korean chili paste)" },
+    { "zh": "芝麻油、生抽、蒜末、白糖适量", "en": "Sesame oil, soy sauce, minced garlic, sugar" },
+    { "zh": "熟芝麻少许", "en": "Toasted sesame seeds" }
+  ],
+  "steps": [
+    {
+      "zh": "蔬菜分别处理：菠菜豆芽焯水挤干，胡萝卜西葫芦丝炒软，各用芝麻油和少许盐、蒜末调味。",
+      "en": "Prepare each vegetable separately — blanch spinach and sprouts (squeeze dry), sauté carrot and zucchini — each seasoned with sesame oil, salt, garlic."
+    },
+    {
+      "zh": "牛肉末加生抽、糖、蒜末炒熟盛出。",
+      "en": "Sauté the beef with soy sauce, sugar and garlic; set aside."
+    },
+    {
+      "zh": "石锅内壁刷一层芝麻油，铺上热米饭压平。",
+      "en": "Brush the stone bowl with sesame oil and press in the hot rice."
+    },
+    {
+      "zh": "五色食材按颜色分区码放成花瓣状，中间留空。",
+      "en": "Arrange the vegetables and beef in colored sections like petals, leaving the center free."
+    },
+    {
+      "zh": "中小火加热 5 分钟，听到锅底滋滋作响、闻到锅巴香即可。",
+      "en": "Heat over medium-low for 5 minutes until you hear the rice crackle and smell the crust forming."
+    },
+    {
+      "zh": "中间放煎蛋，加辣酱和少许芝麻油，吃前从锅底向上大力拌匀。",
+      "en": "Crown with a fried egg and gochujang, drizzle sesame oil, then mix vigorously from the bottom up."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "石锅底刷芝麻油是锅巴香脆的关键，普通碗则无锅巴但同样美味。",
+      "en": "Sesame oil on the stone bowl's base is what makes the crust crackle. A regular bowl works too — no crust, still delicious."
+    },
+    {
+      "zh": "每种菜分开调味再组合，拌开后才有层次，而不是一锅糊涂。",
+      "en": "Season each component separately before assembling — that's how every bite keeps its character."
+    },
+    {
+      "zh": "辣酱加一匙芝麻油、半匙糖和一点雪碧调稀，拌起来更顺滑。",
+      "en": "Loosen the gochujang with sesame oil, a little sugar and a splash of Sprite for a silkier mix."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "没有锅巴：火太小或时间不够，中小火耐心等到滋滋声变密。",
+      "en": "No crispy crust? Heat too low or too short — wait for dense, steady crackling."
+    },
+    {
+      "zh": "拌不开、太干：加一匙芝麻油或热水再拌。",
+      "en": "Too dry to mix? Add a spoonful of sesame oil or hot water."
+    },
+    {
+      "zh": "蔬菜出水：焯水后没有挤干，一定要把水分攥净。",
+      "en": "Watery vegetables? You didn't squeeze them dry after blanching — wring them out."
+    }
+  ],
+  "culturalStory": {
+    "zh": "拌饭发源于韩国全州，一说源自农忙时把剩菜拌在一起的智慧，一说源自除夕「隔夜饭不留年」的习俗。五色食材——红黄绿白黑——对应五行五方，一碗拌饭盛着韩食的宇宙观。石锅版（돌솥비빔밥）是 20 世纪的华丽升级，滚烫锅巴是它的勋章。",
+    "en": "Bibimbap hails from Jeonju, born either from farmers mixing leftovers during busy harvests or from the New Year's custom of finishing the old year's rice. Its five colors — red, yellow, green, white, black — map to the five elements: a whole cosmology in a bowl. The stone-pot version (dolsot bibimbap) is a 20th-century upgrade, its crackling crust a badge of honor."
+  },
+  "isPremium": true
+}

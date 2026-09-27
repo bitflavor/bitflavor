@@ -1,0 +1,85 @@
+{
+  "slug": "french-onion-soup",
+  "title": { "zh": "法式洋葱汤", "en": "French Onion Soup" },
+  "country": "france",
+  "continent": "europe",
+  "category": "soup",
+  "difficulty": "medium",
+  "time": 90,
+  "servings": 4,
+  "coverImage": "/images/recipes/french-onion-soup.svg",
+  "summary": {
+    "zh": "焦糖化洋葱的深邃甜香，盖上烤脆的法棍与拉丝芝士。",
+    "en": "Deep caramelized sweetness under a gratinéed lid of crusty baguette and molten cheese."
+  },
+  "ingredients": [
+    { "zh": "黄洋葱 1 千克", "en": "1kg yellow onions" },
+    { "zh": "黄油 50 克", "en": "50g butter" },
+    { "zh": "牛肉高汤 1.2 升", "en": "1.2L beef stock" },
+    { "zh": "干白葡萄酒 100 毫升", "en": "100ml dry white wine" },
+    { "zh": "法棍 4 厚片", "en": "4 thick baguette slices" },
+    { "zh": "格鲁耶尔芝士 150 克（擦丝）", "en": "150g Gruyère, grated" },
+    { "zh": "百里香 2 枝、香叶 1 片", "en": "2 sprigs thyme, 1 bay leaf" },
+    { "zh": "盐、黑胡椒适量", "en": "Salt and black pepper to taste" }
+  ],
+  "steps": [
+    {
+      "zh": "洋葱顺纹切细丝，黄油入锅小火融化，下洋葱丝加一小撮盐。",
+      "en": "Slice onions thinly with the grain. Melt butter over low heat, add onions with a pinch of salt."
+    },
+    {
+      "zh": "小火慢炒 40-50 分钟，每隔几分钟翻动，直到洋葱变成深琥珀色焦糖状（这是汤的灵魂，急不得）。",
+      "en": "Cook low and slow 40–50 minutes, stirring every few minutes, until deep amber and caramelized — the soul of the soup cannot be rushed."
+    },
+    {
+      "zh": "淋入白葡萄酒刮起锅底焦香物质，煮至酒精挥发。",
+      "en": "Deglaze with white wine, scraping up the fond, and cook until the alcohol evaporates."
+    },
+    {
+      "zh": "加入牛肉高汤、百里香、香叶，小火炖 20 分钟，盐与黑胡椒调味。",
+      "en": "Add stock, thyme and bay leaf; simmer 20 minutes and season."
+    },
+    {
+      "zh": "法棍片烤至金黄酥脆。",
+      "en": "Toast baguette slices until golden and crisp."
+    },
+    {
+      "zh": "汤盛入耐热碗，放法棍片，铺满芝士，入烤箱上火 220°C 烤 5 分钟至芝士冒泡焦斑。",
+      "en": "Ladle soup into ovenproof bowls, top with toast and a mound of cheese; broil at 220°C for 5 minutes until bubbling and spotted."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "焦糖化是风味核心：洋葱要炒到「怀疑人生」的深褐色。",
+      "en": "Caramelization is everything: cook onions darker than feels comfortable."
+    },
+    {
+      "zh": "中途可加一小撮糖帮助焦糖化，但盐能更快逼出水分。",
+      "en": "A pinch of sugar aids browning; salt early to draw out moisture."
+    },
+    {
+      "zh": "用格鲁耶尔才有正宗拉丝效果，可用埃门塔尔替代。",
+      "en": "Gruyère gives the authentic cheese pull; Emmental works too."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "洋葱发苦：火太大炒焦了，焦糖化要全程小火耐心。",
+      "en": "Bitter onions? The heat was too high — caramelize gently."
+    },
+    {
+      "zh": "汤味单薄：洋葱焦糖化不足或高汤太淡，下次延长炒制时间。",
+      "en": "Thin flavor? Under-caramelized onions or weak stock — cook longer next time."
+    },
+    {
+      "zh": "面包沉底泡烂：法棍没烤脆或切太薄，需烤到坚硬再入汤。",
+      "en": "Soggy sunken bread? Toast it hard and cut thick slices."
+    }
+  ],
+  "culturalStory": {
+    "zh": "洋葱汤的历史可追溯到罗马时代，曾是穷人的食物。现代版本定型于 18 世纪的巴黎，中央市场（Les Halles）的餐馆彻夜供应，成为凌晨收工的搬运工与狂欢者的「醒酒汤」。传说它因路易十五的深夜即兴烹饪而沾上了王室光环。如今，那一勺穿透芝士与法棍的浓汤，是巴黎小酒馆永恒的温暖开场。",
+    "en": "Onion soup dates to Roman times as peasant fare; its modern form was set in 18th-century Paris, where Les Halles market bistros served it all night to porters and party-goers as the classic hangover cure. Legend even credits a midnight improvisation by Louis XV. Today, that spoon breaking through cheese and crust remains the eternal warm opening of a Parisian bistro."
+  },
+  "isPremium": false,
+  "featured": false
+}

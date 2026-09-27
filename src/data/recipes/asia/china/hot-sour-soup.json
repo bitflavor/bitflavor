@@ -1,0 +1,84 @@
+{
+  "slug": "hot-sour-soup",
+  "title": { "zh": "酸辣汤", "en": "Hot and Sour Soup" },
+  "country": "china",
+  "continent": "asia",
+  "category": "soup",
+  "difficulty": "easy",
+  "time": 25,
+  "servings": 4,
+  "coverImage": "/images/recipes/hot-sour-soup.svg",
+  "summary": {
+    "zh": "不靠辣椒的酸辣，白胡椒与陈醋的家常温暖，醒酒开胃一碗搞定。",
+    "en": "No chilies needed — white pepper and aged vinegar create the classic warmth of this northern comfort soup."
+  },
+  "ingredients": [
+    { "zh": "嫩豆腐半块（切丝）", "en": "Half a block silken tofu, shredded" },
+    { "zh": "干木耳、黄花菜各 1 小把（泡发切丝）", "en": "A small handful each dried wood ear and day lily, soaked and shredded" },
+    { "zh": "鸡蛋 1 个", "en": "1 egg" },
+    { "zh": "火腿或瘦肉丝 50 克", "en": "50g shredded ham or lean pork" },
+    { "zh": "香醋 3 大勺", "en": "3 tbsp Chinkiang vinegar" },
+    { "zh": "白胡椒粉 1 小勺", "en": "1 tsp ground white pepper" },
+    { "zh": "生抽 1 大勺、水淀粉 3 大勺", "en": "1 tbsp light soy sauce, 3 tbsp cornstarch slurry" },
+    { "zh": "香油、香菜适量", "en": "Sesame oil and cilantro, to finish" }
+  ],
+  "steps": [
+    {
+      "zh": "木耳、黄花菜温水泡发后切丝，豆腐切细丝，火腿切丝。",
+      "en": "Soak the wood ear and day lily, shred everything — tofu and ham included — into fine strips."
+    },
+    {
+      "zh": "高汤或清水 1 升烧开，下木耳、黄花菜、火腿丝煮 3 分钟。",
+      "en": "Bring 1L stock to a boil; simmer the wood ear, day lily and ham for 3 minutes."
+    },
+    {
+      "zh": "下豆腐丝，加生抽和少许盐调味，再煮 2 分钟。",
+      "en": "Add the tofu with soy sauce and a pinch of salt; simmer 2 more minutes."
+    },
+    {
+      "zh": "分两次淋入水淀粉，勾成米汤状的薄芡。",
+      "en": "Thicken with the slurry in two additions, aiming for a light, rice-soup consistency."
+    },
+    {
+      "zh": "汤面微沸时细流淋入蛋液，轻推成大片蛋花。",
+      "en": "Drizzle in the beaten egg in a thin stream over gently simmering soup, nudging into wide ribbons."
+    },
+    {
+      "zh": "关火，加香醋、白胡椒粉、香油，撒香菜即可。",
+      "en": "Off the heat, stir in vinegar, white pepper and sesame oil; scatter cilantro and serve."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "醋一定要关火后放——高温会让酸味挥发，只剩涩味。",
+      "en": "Add vinegar off the heat — boiling drives off the sour aroma and leaves only harshness."
+    },
+    {
+      "zh": "酸辣汤的「辣」来自白胡椒而非辣椒，先按 1:3 的胡椒醋比例调，再按口味加。",
+      "en": "The 'hot' comes from white pepper, not chilies — start with a 1:3 pepper-to-vinegar ratio and adjust."
+    },
+    {
+      "zh": "勾芡宁稀勿稠，酸辣汤该是顺滑的羹，不是浆糊。",
+      "en": "Err on the thin side — this should be a silky soup, never wallpaper paste."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "汤不酸：醋放太早被煮挥发，关火后再加醋。",
+      "en": "Not sour? The vinegar boiled away — always add it off the heat."
+    },
+    {
+      "zh": "蛋花成坨：汤太滚或蛋液倒太快，微沸细流慢淋。",
+      "en": "Egg clumps? The soup was boiling hard or the egg poured too fast — drizzle thinly over a gentle simmer."
+    },
+    {
+      "zh": "汤太稠：芡汁太厚，加热水稀释到能顺畅流动的程度。",
+      "en": "Too thick? Loosen with hot water until it flows like a light broth."
+    }
+  ],
+  "culturalStory": {
+    "zh": "酸辣汤是北方人家的醒酒汤、开胃汤，与河南胡辣汤是近亲。它的酸辣不靠辣椒——白胡椒的辛热与陈醋的醇香才是灵魂，体现中式调味的含蓄与层次。北方宴席常以一碗酸辣汤收尾「醒胃」，酸辣下肚，酒意全消。",
+    "en": "Hot and Sour Soup is northern China's sobering-up, appetite-waking bowl, a close cousin of Henan's Hu La Tang. Its heat comes not from chilies but white pepper, its sourness from aged vinegar — a study in restrained Chinese seasoning. Banquets often close with it to 'wake the stomach' before guests head home."
+  },
+  "isPremium": false
+}

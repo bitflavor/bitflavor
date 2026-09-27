@@ -1,0 +1,85 @@
+{
+  "slug": "ceviche",
+  "title": { "zh": "秘鲁酸橘汁腌鱼", "en": "Peruvian Ceviche" },
+  "country": "peru",
+  "continent": "americas",
+  "category": "snack",
+  "difficulty": "easy",
+  "time": 30,
+  "servings": 2,
+  "coverImage": "/images/recipes/ceviche.svg",
+  "summary": {
+    "zh": "青柠汁「煮熟」的太平洋鲜味，秘鲁国菜的清爽暴击。",
+    "en": "Pacific freshness 'cooked' in lime juice — Peru's national dish in its most refreshing form."
+  },
+  "ingredients": [
+    { "zh": "新鲜海鲈鱼或鲷鱼 300 克", "en": "300g very fresh sea bass or snapper" },
+    { "zh": "青柠 8-10 个（榨汁）", "en": "8–10 limes, juiced" },
+    { "zh": "红洋葱 1/2 个（切细丝）", "en": "1/2 red onion, thinly sliced" },
+    { "zh": "秘鲁黄辣椒或小米辣 1-2 个", "en": "1–2 aji amarillo or bird's eye chilies" },
+    { "zh": "香菜 1 把", "en": "A bunch of cilantro" },
+    { "zh": "红薯 1 个（煮熟切片）", "en": "1 sweet potato, boiled and sliced" },
+    { "zh": "玉米粒 适量", "en": "Choclo (large-kerneled corn), to serve" },
+    { "zh": "盐、黑胡椒适量", "en": "Salt and black pepper to taste" }
+  ],
+  "steps": [
+    {
+      "zh": "鱼肉去皮去骨，切成 2 厘米见方的块，冷藏保持低温。",
+      "en": "Skin and cube the fish into 2cm pieces; keep well chilled."
+    },
+    {
+      "zh": "红洋葱丝泡冰水 5 分钟去辛辣，沥干。",
+      "en": "Soak onion slivers in ice water 5 minutes to tame their bite; drain."
+    },
+    {
+      "zh": "青柠现榨汁，加盐、辣椒碎、少许鱼高汤或鱼肉边角料捣出的汁，调成「老虎奶」（leche de tigre）。",
+      "en": "Freshly squeeze limes; mix with salt, chili and a little fish stock (or juice pressed from trimmings) — this is 'leche de tigre'."
+    },
+    {
+      "zh": "鱼块倒入老虎奶，拌入洋葱丝和香菜，腌制 5-10 分钟至表面变白。",
+      "en": "Pour over the fish with onion and cilantro; marinate 5–10 minutes until the surface turns opaque."
+    },
+    {
+      "zh": "立即装盘：配红薯片、玉米粒，淋上碗中的老虎奶。",
+      "en": "Plate immediately with sweet potato and corn; spoon the tiger's milk over."
+    },
+    {
+      "zh": "磨少许黑胡椒，点缀香菜叶，趁鲜食用。",
+      "en": "Finish with black pepper and cilantro leaves; eat at once."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "鱼必须绝对新鲜，这是唯一不能妥协的条件。",
+      "en": "The fish must be impeccably fresh — the one non-negotiable."
+    },
+    {
+      "zh": "腌制时间宁短勿长，秘鲁人认为超过 10 分钟就「过熟」了。",
+      "en": "Err on the short side — Peruvians consider anything over 10 minutes 'overcooked'."
+    },
+    {
+      "zh": "青柠现挤现用，提前榨汁会发苦。",
+      "en": "Squeeze limes just before using — pre-juiced lime turns bitter."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "鱼肉发柴发粉：腌太久，酸会把蛋白质过度变性。",
+      "en": "Chalky fish? Over-marinated — acid keeps 'cooking' the protein."
+    },
+    {
+      "zh": "太酸难入口：青柠太生或量太大，加一小撮糖平衡。",
+      "en": "Mouth-puckering? Balance with a pinch of sugar."
+    },
+    {
+      "zh": "有腥味：鱼不新鲜或没去净血合肉，必须选刺身级鲜鱼。",
+      "en": "Fishy taste? The fish wasn't fresh enough or the bloodline wasn't trimmed."
+    }
+  ],
+  "culturalStory": {
+    "zh": "Ceviche 的历史可追溯到两千年前秘鲁沿海的莫切文明，当时用当地发酵果汁腌鱼。青柠随西班牙人到来后，才形成今日的形态——而日本移民带来的刺身文化，又教会秘鲁人缩短腌制时间，成就了现代 Ceviche 的鲜嫩。秘鲁为它设立国庆日（6 月 28 日），2023 年其制作技艺入选联合国非遗。碗中那口酸辣的老虎奶，是太平洋、安第斯与移民文化共同的馈赠。",
+    "en": "Ceviche traces back 2,000 years to Peru's Moche civilization, who cured fish in fermented fruit juice. Limes arrived with the Spanish, and Japanese immigrants later taught Peru to shorten the cure — creating today's tender style. Peru celebrates National Ceviche Day (June 28), and in 2023 its preparation joined UNESCO's heritage list. That sip of spicy-sour tiger's milk is a gift of the Pacific, the Andes, and migration."
+  },
+  "isPremium": true,
+  "featured": false
+}

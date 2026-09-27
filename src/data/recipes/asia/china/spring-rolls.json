@@ -1,0 +1,84 @@
+{
+  "slug": "spring-rolls",
+  "title": { "zh": "春卷", "en": "Spring Rolls" },
+  "country": "china",
+  "continent": "asia",
+  "category": "snack",
+  "difficulty": "medium",
+  "time": 45,
+  "servings": 4,
+  "coverImage": "/images/recipes/spring-rolls.svg",
+  "summary": {
+    "zh": "金黄酥脆如金条，咬开是鲜香的时蔬肉丝，年夜饭桌上的好彩头。",
+    "en": "Golden, crackling 'gold bars' stuffed with savory pork and vegetables — the lucky crunch of Chinese New Year."
+  },
+  "ingredients": [
+    { "zh": "春卷皮 20 张", "en": "20 spring roll wrappers" },
+    { "zh": "猪肉丝 150 克", "en": "150g shredded pork" },
+    { "zh": "韭黄或白菜丝 200 克", "en": "200g shredded yellow chives or napa cabbage" },
+    { "zh": "鲜香菇 4 朵（切丝）", "en": "4 fresh shiitake mushrooms, shredded" },
+    { "zh": "胡萝卜半根（切丝）", "en": "Half a carrot, shredded" },
+    { "zh": "生抽 1 大勺、盐、糖少许", "en": "1 tbsp light soy sauce, salt and sugar to taste" },
+    { "zh": "水淀粉少许（封口用）", "en": "A little cornstarch slurry (for sealing)" },
+    { "zh": "炸油适量", "en": "Oil for deep-frying" }
+  ],
+  "steps": [
+    {
+      "zh": "热锅少油，先炒散肉丝，再下香菇、胡萝卜、韭黄丝，加生抽盐糖炒熟，盛出彻底放凉沥干。",
+      "en": "Stir-fry the pork, then mushrooms, carrot and chives with seasonings; spread out to cool and drain completely."
+    },
+    {
+      "zh": "春卷皮摊平呈菱形，靠近自己的一角放 2 大勺馅料。",
+      "en": "Lay a wrapper like a diamond; place 2 tbsp filling near the corner closest to you."
+    },
+    {
+      "zh": "下角上折包住馅，左右两角内折，顺势卷紧成长条。",
+      "en": "Fold the bottom corner over the filling, fold in both sides, then roll up tightly."
+    },
+    {
+      "zh": "收口处抹一点水淀粉粘牢，收口朝下放置。",
+      "en": "Seal the final corner with a dab of slurry and rest seam-side down."
+    },
+    {
+      "zh": "六成油温（约 160°C）下锅，中小火浸炸，勤翻动。",
+      "en": "Deep-fry at about 160°C over medium-low heat, turning often."
+    },
+    {
+      "zh": "炸至通体金黄捞出沥油，切段装盘，配香醋碟食用。",
+      "en": "Fry until evenly golden, drain, cut into sections and serve with a vinegar dip."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "馅料必须彻底放凉并沥干——热馅湿馅会把皮泡破，是破皮的第一大原因。",
+      "en": "The filling must be completely cool and drained — warm, wet filling is the number one cause of burst wrappers."
+    },
+    {
+      "zh": "封口用水淀粉而不是清水，粘得牢，炸时才不会散开。",
+      "en": "Seal with cornstarch slurry, not water — it actually holds through the frying."
+    },
+    {
+      "zh": "中小火慢炸让皮酥馅热；火太大容易外焦里凉。",
+      "en": "Medium-low heat lets the shell crisp while the filling heats through; high heat scorches the outside first."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "炸时散开：封口没粘牢或馅放太多，收口抹水淀粉、馅别贪多。",
+      "en": "Unrolling in the oil? The seal didn't hold or you overfilled — use slurry and less filling."
+    },
+    {
+      "zh": "皮焦馅生：火太大，降到中小火让热量渗进去。",
+      "en": "Burnt outside, cold inside? Heat too high — drop to medium-low."
+    },
+    {
+      "zh": "满口油腻：油温太低会吸油，升到六成再下锅。",
+      "en": "Greasy rolls? The oil was too cool and got absorbed — wait for 160°C."
+    }
+  ],
+  "culturalStory": {
+    "zh": "春卷源于立春「咬春」的春盘习俗——唐宋人以薄饼卷时蔬迎新，讨一个春天的彩头。传入江南后演变出油炸版本，金黄酥脆如金条，成为年夜饭桌上的吉祥物：吃下金条，新年财源滚滚。",
+    "en": "Spring rolls descend from the 'biting spring' tradition — Tang and Song families wrapped seasonal greens in thin pancakes to welcome the new season. In Jiangnan the rolls took a golden deep-fried turn, becoming 'gold bars' on the New Year's Eve table: eat one, and fortune rolls in."
+  },
+  "isPremium": false
+}

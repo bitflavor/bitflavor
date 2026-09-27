@@ -1,0 +1,85 @@
+{
+  "slug": "pad-thai",
+  "title": { "zh": "泰式炒河粉", "en": "Pad Thai" },
+  "country": "thailand",
+  "continent": "southeast-asia",
+  "category": "main",
+  "difficulty": "medium",
+  "time": 30,
+  "servings": 2,
+  "coverImage": "/images/recipes/pad-thai.svg",
+  "summary": {
+    "zh": "酸甜咸鲜的泰国国民炒粉，一口锅气的街头传奇。",
+    "en": "Sweet-sour-salty wok-fried rice noodles — Thailand's legendary street food."
+  },
+  "ingredients": [
+    { "zh": "干河粉（粿条）200 克", "en": "200g dried rice sticks" },
+    { "zh": "鲜虾 8 只或鸡胸肉 150 克", "en": "8 prawns or 150g chicken breast" },
+    { "zh": "鸡蛋 2 个", "en": "2 eggs" },
+    { "zh": "豆芽 1 把、韭菜段 1 把", "en": "A handful each of bean sprouts and chives" },
+    { "zh": "豆腐干 2 块（切丁）", "en": "2 pieces firm tofu, diced" },
+    { "zh": "罗望子酱 3 大勺", "en": "3 tbsp tamarind paste" },
+    { "zh": "鱼露 2 大勺、棕榈糖 2 大勺", "en": "2 tbsp each fish sauce and palm sugar" },
+    { "zh": "碎花生、青柠角、辣椒粉（上桌用）", "en": "Crushed peanuts, lime wedges, chili flakes to serve" }
+  ],
+  "steps": [
+    {
+      "zh": "干河粉用温水泡 30 分钟至柔软有弹性，沥干备用（不要泡烂）。",
+      "en": "Soak rice sticks in warm water 30 minutes until pliable but still firm; drain well."
+    },
+    {
+      "zh": "罗望子酱、鱼露、棕榈糖加 2 大勺水煮成 Pad Thai 酱汁。",
+      "en": "Simmer tamarind, fish sauce and palm sugar with 2 tbsp water into the Pad Thai sauce."
+    },
+    {
+      "zh": "大火热油，下虾或鸡肉炒至变色，拨到锅边。",
+      "en": "Over high heat, fry prawns or chicken until just cooked; push to the side of the wok."
+    },
+    {
+      "zh": "空出的位置打入鸡蛋炒散，与肉混合。",
+      "en": "Crack eggs into the empty space, scramble, then combine with the meat."
+    },
+    {
+      "zh": "下河粉和酱汁，大火快炒，沿锅边淋少许水帮助软化，炒至汤汁收干。",
+      "en": "Add noodles and sauce; stir-fry on high, splashing water around the wok edge until the sauce is absorbed."
+    },
+    {
+      "zh": "最后下豆芽韭菜翻炒 10 秒出锅，配花生碎、青柠角、辣椒粉上桌。",
+      "en": "Toss in sprouts and chives for 10 seconds. Serve with peanuts, lime and chili flakes."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "河粉宁可泡得偏硬，炒制时会继续吸水变软。",
+      "en": "Under-soak rather than over-soak — noodles soften further in the wok."
+    },
+    {
+      "zh": "全程大火快炒，2 分钟内完成，才有街头锅气。",
+      "en": "Keep the heat high and finish within 2 minutes for true street-style wok hei."
+    },
+    {
+      "zh": "豆芽韭菜最后放，保持脆嫩口感。",
+      "en": "Add sprouts and chives at the very end to stay crisp."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "河粉糊成一团：泡太久或炒太久，下次缩短浸泡时间并加快手速。",
+      "en": "Noodles clumped into mush? Over-soaked or over-fried — soak less, move faster."
+    },
+    {
+      "zh": "太酸或太咸：罗望子与鱼露比例失衡，用棕榈糖回调平衡。",
+      "en": "Too sour or salty? Rebalance with more palm sugar."
+    },
+    {
+      "zh": "粉太干：泡得不够或酱汁太少，沿锅边补少量热水。",
+      "en": "Too dry? Splash hot water around the wok while frying."
+    }
+  ],
+  "culturalStory": {
+    "zh": "Pad Thai 的诞生与民族主义有关：1930 年代，泰国总理銮披汶为推动国家认同与大米出口（减少国内米粉消耗的说法流传甚广），向全国推广这道用泰式调料炒制的中式粿条。它融合了中国炒粉技法与泰国酸甜调味，如今是全球知名度最高的泰国菜，也是曼谷街头永远排队的那一口锅气。",
+    "en": "Pad Thai was born of nationalism: in the 1930s, Prime Minister Plaek Phibunsongkhram promoted this Chinese-style noodle stir-fried with Thai seasonings to build national identity. Blending Chinese wok technique with Thai sweet-sour balance, it is now the world's best-known Thai dish — and the wok-fried aroma of Bangkok's streets."
+  },
+  "isPremium": false,
+  "featured": false
+}

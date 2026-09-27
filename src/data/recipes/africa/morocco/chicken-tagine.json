@@ -1,0 +1,85 @@
+{
+  "slug": "chicken-tagine",
+  "title": { "zh": "摩洛哥柠檬鸡肉塔吉锅", "en": "Chicken Tagine with Preserved Lemon" },
+  "country": "morocco",
+  "continent": "africa",
+  "category": "main",
+  "difficulty": "medium",
+  "time": 75,
+  "servings": 4,
+  "coverImage": "/images/recipes/chicken-tagine.svg",
+  "summary": {
+    "zh": "陶锅慢炖的北非风情，腌柠檬与橄榄点亮整锅浓香。",
+    "en": "Slow-stewed North African comfort, lit up by preserved lemon and olives."
+  },
+  "ingredients": [
+    { "zh": "鸡腿 4 只", "en": "4 chicken thighs" },
+    { "zh": "洋葱 1 个（切丝）", "en": "1 onion, sliced" },
+    { "zh": "腌柠檬 1 个（切角）", "en": "1 preserved lemon, quartered" },
+    { "zh": "青橄榄 100 克", "en": "100g green olives" },
+    { "zh": "蒜 4 瓣、姜 1 块", "en": "4 cloves garlic, 1 knob ginger" },
+    { "zh": "孜然、姜黄、甜椒粉各 1 小勺", "en": "1 tsp each cumin, turmeric, paprika" },
+    { "zh": "藏红花 1 小撮（可选）", "en": "A pinch of saffron (optional)" },
+    { "zh": "香菜、欧芹各 1 把", "en": "A bunch each of cilantro and parsley" }
+  ],
+  "steps": [
+    {
+      "zh": "鸡腿用蒜末、姜末、孜然、姜黄、甜椒粉、盐和橄榄油腌制 1 小时。",
+      "en": "Marinate chicken with garlic, ginger, cumin, turmeric, paprika, salt and olive oil for 1 hour."
+    },
+    {
+      "zh": "塔吉锅（或厚底铸铁锅）刷油，铺洋葱丝打底，放上腌好的鸡腿。",
+      "en": "Oil the tagine base (or a heavy Dutch oven), bed the onions, and nestle the chicken on top."
+    },
+    {
+      "zh": "倒入半碗鸡汤，撒藏红花，盖上锅盖，小火炖 40 分钟。",
+      "en": "Add half a bowl of stock and the saffron; cover and braise on low for 40 minutes."
+    },
+    {
+      "zh": "放入腌柠檬角和青橄榄，再炖 15 分钟让风味融合。",
+      "en": "Add preserved lemon and olives; braise 15 more minutes to meld."
+    },
+    {
+      "zh": "开盖中火收汁 5 分钟至汤汁浓稠挂肉。",
+      "en": "Uncover and reduce 5 minutes until the sauce clings to the meat."
+    },
+    {
+      "zh": "撒香菜欧芹碎，连锅上桌，配库斯库斯或烤饼。",
+      "en": "Shower with herbs and serve from the pot, with couscous or flatbread."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "塔吉锅的锥形盖让蒸汽循环回流，水千万别加多。",
+      "en": "The conical lid recycles steam — use far less liquid than intuition says."
+    },
+    {
+      "zh": "腌柠檬是灵魂，家庭可用盐渍柠檬密封两周自制。",
+      "en": "Preserved lemon is the soul — make your own with salt and two weeks' patience."
+    },
+    {
+      "zh": "洋葱铺底既防粘又能在慢炖中化成天然增稠剂。",
+      "en": "The onion bed prevents sticking and melts into a natural thickener."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "糊底：火太大或锅太薄，陶锅必须全程小火。",
+      "en": "Scorched bottom? Heat too high or pot too thin — clay tagines demand low heat."
+    },
+    {
+      "zh": "汤汁太多：开盖收汁，塔吉锅烹饪水分几乎不蒸发。",
+      "en": "Too watery? Reduce uncovered — almost nothing evaporates in a tagine."
+    },
+    {
+      "zh": "柠檬太咸：腌柠檬先去果肉只取皮，冲洗后再下锅。",
+      "en": "Too salty? Discard the lemon pulp, rinse the peel before adding."
+    }
+  ],
+  "culturalStory": {
+    "zh": "塔吉锅得名于那口圆锥盖的陶锅，是北非柏柏尔人数千年的智慧结晶：干旱之地水贵如油，锥形锅盖让蒸汽冷凝回流，用极少的水炖出浓郁滋味。鸡肉配腌柠檬与橄榄是最经典的组合，咸鲜酸香层层递进。在摩洛哥，塔吉锅直接连锅上桌，家人围坐以手抓饼取食——那口锅不只是炊具，更是团聚的圆心。",
+    "en": "The tagine is named for its conical clay pot — millennia of Berber ingenuity: where water is precious, the cone recycles steam, stewing deep flavor from minimal liquid. Chicken with preserved lemon and olives is the most classic pairing, layering salty, sour and fragrant notes. In Morocco it comes to the table in its pot, eaten communally with bread — the vessel is the very center of togetherness."
+  },
+  "isPremium": false,
+  "featured": false
+}

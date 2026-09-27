@@ -1,0 +1,84 @@
+{
+  "slug": "sweet-sour-pork",
+  "title": { "zh": "糖醋里脊", "en": "Sweet and Sour Pork" },
+  "country": "china",
+  "continent": "asia",
+  "category": "main",
+  "difficulty": "medium",
+  "time": 40,
+  "servings": 3,
+  "coverImage": "/images/recipes/sweet-sour-pork.svg",
+  "summary": {
+    "zh": "外壳酥脆、酸甜明亮，一盘端上桌就被抢光的国民菜。",
+    "en": "Crackling-crisp pork in a glossy sweet-sour glaze — the crowd-pleaser that vanishes first at any table."
+  },
+  "ingredients": [
+    { "zh": "猪里脊 300 克", "en": "300g pork tenderloin" },
+    { "zh": "鸡蛋 1 个", "en": "1 egg" },
+    { "zh": "淀粉、面粉各 2 大勺", "en": "2 tbsp each cornstarch and flour" },
+    { "zh": "番茄酱 3 大勺", "en": "3 tbsp tomato ketchup" },
+    { "zh": "白糖 3 大勺、白醋 2 大勺", "en": "3 tbsp sugar, 2 tbsp white vinegar" },
+    { "zh": "料酒 1 大勺、盐适量", "en": "1 tbsp cooking wine, salt to taste" },
+    { "zh": "熟白芝麻少许", "en": "Toasted white sesame seeds" },
+    { "zh": "炸油适量", "en": "Oil for deep-frying" }
+  ],
+  "steps": [
+    {
+      "zh": "里脊切成小指粗的条，加料酒和盐抓匀腌 10 分钟。",
+      "en": "Cut the tenderloin into finger-sized strips; marinate with cooking wine and salt for 10 minutes."
+    },
+    {
+      "zh": "调糊：鸡蛋打散，加淀粉、面粉和少许水，调成能挂住筷子的稠糊。",
+      "en": "Make the batter: beat the egg with cornstarch, flour and a little water until it coats a chopstick."
+    },
+    {
+      "zh": "肉条挂糊，六成油温（约 160°C）逐条下锅，初炸至定型微黄捞出。",
+      "en": "Coat the strips and deep-fry one by one at 160°C until set and pale golden; remove."
+    },
+    {
+      "zh": "油温升至八成（约 180°C），复炸 1 分钟至金黄酥脆，捞出沥油。",
+      "en": "Raise the oil to 180°C and fry again for 1 minute until deeply golden and crisp."
+    },
+    {
+      "zh": "锅留少许油，下番茄酱、白糖、白醋和 2 大勺水煮开，勾薄芡熬至浓稠起泡。",
+      "en": "In a little oil, simmer ketchup, sugar, vinegar and 2 tbsp water; thicken lightly until glossy and bubbling."
+    },
+    {
+      "zh": "倒入里脊快速翻裹 10 秒，让每条均匀挂汁，撒芝麻立即出锅。",
+      "en": "Toss in the pork for just 10 seconds to glaze every strip, shower with sesame and serve at once."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "复炸是酥脆的关键：初炸定型，复炸逼出水分，外壳才能挺住糖醋汁。",
+      "en": "Double-frying is the secret: the first pass sets the crust, the second drives out moisture so it survives the sauce."
+    },
+    {
+      "zh": "汁熬浓再下肉，翻裹不超过 10 秒——泡久了脆壳立刻回软。",
+      "en": "Thicken the sauce before the pork goes in, and toss no more than 10 seconds — a long soak kills the crunch."
+    },
+    {
+      "zh": "家庭版用番茄酱颜色红亮稳定；传统派用糖色加陈醋，酸味更醇。",
+      "en": "Ketchup gives a stable, bright-red glaze; the traditional route uses caramel and aged vinegar for a deeper sourness."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "外壳软塌：没复炸，或肉在汁里翻太久，严格控制在 10 秒内。",
+      "en": "Soggy crust? Skipped the second fry or tossed too long — keep it under 10 seconds."
+    },
+    {
+      "zh": "太酸或太甜：糖醋以 2:3 为基准，熬汁时边尝边调。",
+      "en": "Too sharp or too sweet? Start from a 2:3 vinegar-to-sugar ratio and taste as it simmers."
+    },
+    {
+      "zh": "挂糊脱落：糊太稀或油温太低，糊要能挂住筷子、逐条下锅。",
+      "en": "Batter sliding off? It was too thin or the oil too cool — the batter should cling, and strips go in one by one."
+    }
+  ],
+  "culturalStory": {
+    "zh": "糖醋味型源自中原，宋代已有「糖醋」入菜的记载。里脊做法在清代食单中渐成定式，以酥炸裹汁为正宗。19 世纪它随粤菜移民漂洋过海，演变出美式「Sweet and Sour Pork」，成为中餐西化的活化石——一盘糖醋里脊，半部中餐出海史。",
+    "en": "The sweet-sour flavor profile traces back to Song Dynasty China. The crisp-fried, glaze-coated tenderloin became canon in Qing cookbooks, then sailed overseas with Cantonese migrants in the 19th century — evolving into American 'Sweet and Sour Pork.' One plate of this dish tells half the story of Chinese food going global."
+  },
+  "isPremium": false
+}

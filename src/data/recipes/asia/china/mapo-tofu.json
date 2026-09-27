@@ -1,0 +1,85 @@
+{
+  "slug": "mapo-tofu",
+  "title": { "zh": "麻婆豆腐", "en": "Mapo Tofu" },
+  "country": "china",
+  "continent": "asia",
+  "category": "main",
+  "difficulty": "medium",
+  "time": 30,
+  "servings": 2,
+  "coverImage": "/images/recipes/mapo-tofu.svg",
+  "summary": {
+    "zh": "麻辣鲜香、烫嫩酥活的川味经典，一锅米饭杀手。",
+    "en": "A numbing-spicy Sichuan classic — silky tofu in a fiery, aromatic sauce."
+  },
+  "ingredients": [
+    { "zh": "嫩豆腐 400 克", "en": "400g silken tofu" },
+    { "zh": "牛肉末 100 克", "en": "100g ground beef" },
+    { "zh": "郫县豆瓣酱 2 大勺", "en": "2 tbsp Pixian doubanjiang (chili bean paste)" },
+    { "zh": "豆豉 1 小勺", "en": "1 tsp fermented black beans" },
+    { "zh": "花椒粉 1 小勺", "en": "1 tsp ground Sichuan peppercorn" },
+    { "zh": "蒜末、姜末各 1 小勺", "en": "1 tsp each minced garlic and ginger" },
+    { "zh": "蒜苗或葱花适量", "en": "Garlic sprouts or scallions, to taste" },
+    { "zh": "水淀粉 2 大勺", "en": "2 tbsp cornstarch slurry" }
+  ],
+  "steps": [
+    {
+      "zh": "豆腐切成 2 厘米见方的块，放入加了盐的温水中浸泡 10 分钟，去除豆腥并让豆腐不易碎。",
+      "en": "Cut tofu into 2cm cubes and soak in lightly salted warm water for 10 minutes — this removes beany flavor and firms the tofu."
+    },
+    {
+      "zh": "热锅冷油，下牛肉末中小火煸炒至酥香微焦，盛出备用。",
+      "en": "Heat oil in a wok over medium heat, fry the ground beef until crispy and slightly browned, then set aside."
+    },
+    {
+      "zh": "锅中留底油，小火炒香豆瓣酱、豆豉、姜蒜末，炒出红油。",
+      "en": "In the remaining oil over low heat, fry doubanjiang, black beans, ginger and garlic until the oil turns red and fragrant."
+    },
+    {
+      "zh": "加入一碗高汤或热水烧开，轻轻滑入豆腐块，中火煮 3 分钟，不要大力翻动。",
+      "en": "Add a bowl of stock or hot water, bring to a boil, gently slide in the tofu and simmer 3 minutes — do not stir vigorously."
+    },
+    {
+      "zh": "分两次淋入水淀粉勾芡，轻推锅铲让汤汁浓稠裹住豆腐，撒入炒好的牛肉末。",
+      "en": "Thicken with the cornstarch slurry in two additions, nudging gently so the sauce coats the tofu. Add the crispy beef back."
+    },
+    {
+      "zh": "出锅装盘，撒花椒粉和蒜苗，趁热食用，麻味最佳。",
+      "en": "Plate and shower with ground Sichuan peppercorn and garlic sprouts. Serve piping hot for maximum numbing aroma."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "豆瓣酱一定要小火炒出红油，这是汤色红亮的关键。",
+      "en": "Fry the bean paste on low heat until the oil turns red — the key to a glossy red sauce."
+    },
+    {
+      "zh": "勾芡分两次进行，第一次稀一点让豆腐入味，第二次收汁挂浆。",
+      "en": "Thicken in two passes: a lighter first pass seasons the tofu, the second gives the sauce body."
+    },
+    {
+      "zh": "花椒粉最后撒，香气不会被高温破坏。",
+      "en": "Add ground peppercorn at the very end so its aroma survives."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "豆腐碎成渣：翻炒太用力或没泡盐水，应轻推锅铲或晃动锅子。",
+      "en": "Tofu fell apart? You stirred too hard or skipped the salt-water soak — nudge gently or swirl the wok instead."
+    },
+    {
+      "zh": "汤汁太稀：勾芡不足，可补一次薄芡；太稠则加热水调整。",
+      "en": "Sauce too thin? Add more slurry. Too thick? Loosen with hot water."
+    },
+    {
+      "zh": "只有辣没有麻：花椒粉不新鲜或放得早，需最后撒新鲜现磨花椒粉。",
+      "en": "All heat, no tingle? Your peppercorn powder is stale or was cooked — always finish with freshly ground peppercorn."
+    }
+  ],
+  "culturalStory": {
+    "zh": "麻婆豆腐诞生于清朝同治年间的成都万福桥边。店主陈森富的妻子脸上微有麻点，人称「陈麻婆」，她创制的烧豆腐麻辣鲜香，深受挑夫脚夫喜爱，「麻婆豆腐」因此得名。如今它已成为川菜走向世界的名片，2018 年入选「中国菜」四川十大经典名菜。",
+    "en": "Mapo Tofu was born in Chengdu during the Qing Dynasty, at a small eatery by Wanfu Bridge. The owner's wife, nicknamed 'Ma Po' (pockmarked grandma), created this numbing-spicy braised tofu beloved by laborers. Today it is Sichuan cuisine's global ambassador and was named one of Sichuan's ten classic dishes in 2018."
+  },
+  "isPremium": false,
+  "featured": true
+}

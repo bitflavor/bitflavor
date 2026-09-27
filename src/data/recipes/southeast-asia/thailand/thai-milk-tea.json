@@ -1,0 +1,82 @@
+{
+  "slug": "thai-milk-tea",
+  "title": { "zh": "泰式奶茶", "en": "Thai Milk Tea" },
+  "country": "thailand",
+  "continent": "southeast-asia",
+  "category": "drink",
+  "difficulty": "easy",
+  "time": 15,
+  "servings": 2,
+  "coverImage": "/images/recipes/thai-milk-tea.svg",
+  "summary": {
+    "zh": "香料红茶撞上炼乳淡奶，满杯碎冰里的曼谷橙色街头。",
+    "en": "Spiced orange tea meets condensed and evaporated milk over a full cup of ice — the streets of Bangkok in a glass."
+  },
+  "ingredients": [
+    { "zh": "泰式手标红茶 2 大勺", "en": "2 tbsp Thai tea mix (e.g. ChaTraMue)" },
+    { "zh": "水 400 毫升", "en": "400ml water" },
+    { "zh": "炼乳 2 大勺", "en": "2 tbsp sweetened condensed milk" },
+    { "zh": "淡奶 2 大勺", "en": "2 tbsp evaporated milk" },
+    { "zh": "白砂糖 1 大勺", "en": "1 tbsp sugar" },
+    { "zh": "冰块大量（满杯）", "en": "Plenty of ice (fill the glass)" }
+  ],
+  "steps": [
+    {
+      "zh": "水烧开，下茶叶中火煮 3 分钟。",
+      "en": "Boil the water and simmer the tea leaves for 3 minutes."
+    },
+    {
+      "zh": "关火焖 3 分钟，让茶色与香料味充分释放。",
+      "en": "Off the heat, steep 3 more minutes for full color and spice."
+    },
+    {
+      "zh": "用布袋或细滤网过滤，两个容器间反复拉高倾倒 2–3 次「拉茶」。",
+      "en": "Strain through a cloth bag or fine sieve, then pull the tea — pour between two vessels from a height 2–3 times."
+    },
+    {
+      "zh": "趁热加入白砂糖和炼乳，搅至完全融化。",
+      "en": "While hot, stir in the sugar and condensed milk until fully dissolved."
+    },
+    {
+      "zh": "玻璃杯装满冰块，倒入奶茶至八分满。",
+      "en": "Fill a glass to the brim with ice; pour the tea to 80% full."
+    },
+    {
+      "zh": "缓缓淋入淡奶形成白色分层，喝前搅拌均匀。",
+      "en": "Float the evaporated milk on top for the signature layer; stir before drinking."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "泰式红茶自带香草与八角等香料（以及标志性的橙色），普通红茶做不出这个颜色和味道。",
+      "en": "Thai tea mix carries vanilla and star anise (plus its signature orange hue) — plain black tea won't give you either."
+    },
+    {
+      "zh": "「拉茶」让茶汤接触空气，口感更顺滑，也顺便降温。",
+      "en": "Pulling the tea aerates it for a silkier body and cools it down at the same time."
+    },
+    {
+      "zh": "冰一定要满杯——泰奶的甜度是按大量融冰设计的。",
+      "en": "Fill the glass with ice — the sweetness is calibrated for serious dilution."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "茶汤苦涩：煮太久，3 分钟足够，后段靠焖不靠煮。",
+      "en": "Bitter tea? Over-boiled — 3 minutes of simmering is enough; steeping does the rest."
+    },
+    {
+      "zh": "颜色不对：必须用泰式手标茶，普通红茶没有橙色。",
+      "en": "Wrong color? Only Thai tea mix gives the orange — regular black tea can't."
+    },
+    {
+      "zh": "甜得发腻：炼乳减半、冰加满，淡奶的奶香不能省。",
+      "en": "Cloying? Halve the condensed milk, max out the ice — but never skip the evaporated milk's creaminess."
+    }
+  ],
+  "culturalStory": {
+    "zh": "泰式奶茶（ชาเย็น，「冰茶」）诞生于泰国街头的饮料摊，手标红茶（ChaTraMue）自 1945 年就是国民品牌。浓烈的香料红茶撞上炼乳淡奶的甜润，倒入满杯碎冰——它是曼谷街头最醒目的橙色风景，也是无数游客带回家的泰国味觉记忆。",
+    "en": "Cha yen — 'cold tea' — was born at Thailand's street drink stalls, with the ChaTraMue brand a national icon since 1945. Bold spiced tea meets the sweetness of condensed and evaporated milk, poured over a mountain of ice: the brightest orange sight on Bangkok's streets, and the taste memory countless travelers carry home."
+  },
+  "isPremium": false
+}

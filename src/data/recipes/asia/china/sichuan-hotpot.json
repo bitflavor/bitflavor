@@ -1,0 +1,84 @@
+{
+  "slug": "sichuan-hotpot",
+  "title": { "zh": "四川火锅", "en": "Sichuan Hotpot" },
+  "country": "china",
+  "continent": "asia",
+  "category": "main",
+  "difficulty": "medium",
+  "time": 90,
+  "servings": 4,
+  "coverImage": "/images/recipes/sichuan-hotpot.svg",
+  "summary": {
+    "zh": "牛油红汤翻滚，毛肚七上八下，麻辣鲜香是川渝人的江湖。",
+    "en": "A bubbling cauldron of beef-tallow red broth — dip, swirl, and surrender to the numbing heat of Sichuan."
+  },
+  "ingredients": [
+    { "zh": "牛油火锅底料 200 克", "en": "200g beef-tallow hotpot base" },
+    { "zh": "牛油 100 克", "en": "100g beef tallow" },
+    { "zh": "干辣椒、花椒各 2 大勺", "en": "2 tbsp each dried chilies and Sichuan peppercorns" },
+    { "zh": "郫县豆瓣酱 2 大勺", "en": "2 tbsp Pixian doubanjiang" },
+    { "zh": "姜片、葱段、蒜粒适量", "en": "Ginger slices, scallion sections and garlic cloves" },
+    { "zh": "高汤 2 升（或清水）", "en": "2L stock (or water)" },
+    { "zh": "毛肚、鸭肠、黄喉、肥牛、午餐肉、蔬菜等涮品", "en": "Dipping ingredients: tripe, duck intestine, aorta, beef slices, luncheon meat, vegetables" },
+    { "zh": "香油、蒜泥、蚝油、葱花（油碟）", "en": "Sesame oil, minced garlic, oyster sauce, scallion (for dipping sauce)" }
+  ],
+  "steps": [
+    {
+      "zh": "锅中放牛油小火化开，下豆瓣酱、干辣椒、花椒、姜蒜，慢炒 5 分钟出红油。",
+      "en": "Melt the tallow over low heat; fry doubanjiang, chilies, peppercorns, ginger and garlic for 5 minutes until the oil turns red."
+    },
+    {
+      "zh": "加入火锅底料继续炒至融化，倒入高汤大火烧开，转小火熬 20 分钟。",
+      "en": "Add the hotpot base until melted, pour in the stock, bring to a boil and simmer 20 minutes."
+    },
+    {
+      "zh": "涮品处理：毛肚洗净切大片，鸭肠反复搓洗去黏液，蔬菜洗净装盘。",
+      "en": "Prep the dippers: slice the tripe, scrub the duck intestine clean, wash and plate the vegetables."
+    },
+    {
+      "zh": "调油碟：小碗中放蒜泥，倒香油没过，加蚝油和葱花。",
+      "en": "Make the dipping bowl: garlic covered with sesame oil, plus oyster sauce and scallion."
+    },
+    {
+      "zh": "汤底保持翻滚，先涮荤菜——毛肚夹起「七上八下」约 15 秒，脆嫩即食。",
+      "en": "Keep the broth at a rolling boil. Swish tripe 'seven up, eight down' — about 15 seconds — until just crisp."
+    },
+    {
+      "zh": "蘸香油蒜泥碟降温解辣，先荤后素，土豆藕片收尾吸汤。",
+      "en": "Dip in the garlic-oil sauce to cool and tame the heat; meats first, starchy vegetables last."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "牛油是重庆老火锅的灵魂，香气厚重挂味；清油版本更清爽，按喜好选择。",
+      "en": "Beef tallow is the soul of Chongqing hotpot — rich and clinging. Vegetable-oil bases are lighter; choose your side."
+    },
+    {
+      "zh": "毛肚、鸭肠这类脆嫩涮品讲究时间：久了橡皮，短了夹生，「七上八下」是手感口诀。",
+      "en": "Crisp dippers live and die by timing: too long turns rubbery, too short stays raw — 'seven up, eight down' is the mantra."
+    },
+    {
+      "zh": "川渝油碟只有香油蒜泥，不是麻酱——它降温、增香、护胃，别加错。",
+      "en": "The Sichuan dip is sesame oil and garlic — never sesame paste. It cools, perfumes, and protects the stomach."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "锅底发苦：底料或豆瓣酱炒糊了，全程小火慢炒出红油。",
+      "en": "Bitter broth? The base burnt — keep the heat low while frying it to a red sheen."
+    },
+    {
+      "zh": "越煮越咸：水分蒸发后及时补高汤，不要补清水稀释香气。",
+      "en": "Getting saltier as it boils? Top up with stock, not plain water, to keep the aroma."
+    },
+    {
+      "zh": "涮品老韧咬不动：涮太久了，毛肚 15 秒、鸭肠打卷即捞。",
+      "en": "Rubbery dippers? You over-swished — 15 seconds for tripe, pull duck intestine as it curls."
+    }
+  ],
+  "culturalStory": {
+    "zh": "四川火锅起源于清代重庆码头。船工纤夫以牛油熬煮麻辣汤底，涮食廉价牛下水——毛肚、鸭肠、黄喉，驱寒祛湿。九宫格相传是为拼桌食客各涮各的，或以不同火力分区控温。如今火锅是川渝的城市性格：热辣、包容、江湖气——「没有什么事是一顿火锅解决不了的」。",
+    "en": "Sichuan hotpot was born on the Qing Dynasty docks of Chongqing, where boat trackers simmered cheap offal — tripe, duck intestine, aorta — in a beef-tallow chili broth to drive out river damp. The nine-grid pot legend says it let strangers share one table, each guarding their own square. Today hotpot is Chongqing's character: fiery, welcoming, unapologetically communal."
+  },
+  "isPremium": true
+}

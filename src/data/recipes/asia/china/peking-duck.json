@@ -1,0 +1,85 @@
+{
+  "slug": "peking-duck",
+  "title": { "zh": "北京烤鸭", "en": "Peking Duck" },
+  "country": "china",
+  "continent": "asia",
+  "category": "main",
+  "difficulty": "hard",
+  "time": 180,
+  "servings": 4,
+  "coverImage": "/images/recipes/peking-duck.svg",
+  "summary": {
+    "zh": "枣红油亮、皮酥肉嫩的国宴名菜，家庭复刻版全流程详解。",
+    "en": "The banquet classic with amber, crackling skin and tender meat — a complete home-kitchen recreation."
+  },
+  "ingredients": [
+    { "zh": "填鸭 1 只（约 2.5 千克）", "en": "1 whole duck (about 2.5kg)" },
+    { "zh": "麦芽糖 3 大勺", "en": "3 tbsp maltose" },
+    { "zh": "白醋 2 大勺", "en": "2 tbsp white vinegar" },
+    { "zh": "料酒 2 大勺", "en": "2 tbsp cooking wine" },
+    { "zh": "甜面酱 100 克", "en": "100g sweet bean sauce" },
+    { "zh": "荷叶饼 20 张", "en": "20 thin Mandarin pancakes" },
+    { "zh": "葱白、黄瓜条适量", "en": "Scallion whites and cucumber strips" },
+    { "zh": "白糖少许（蘸鸭皮用）", "en": "A little sugar (for dipping the skin)" }
+  ],
+  "steps": [
+    {
+      "zh": "鸭子处理干净后，从颈部充气或用筷子撑开皮肉，使皮肉分离（家庭版可省略充气，直接烫皮）。",
+      "en": "Clean the duck and separate skin from meat by pumping air through the neck (home version: skip pumping and scald directly)."
+    },
+    {
+      "zh": "烧一锅开水，手提鸭脖，用勺子反复浇淋鸭身至鸭皮收紧发亮。",
+      "en": "Hold the duck by the neck and ladle boiling water over the body until the skin tightens and turns glossy."
+    },
+    {
+      "zh": "麦芽糖加温水、白醋、料酒调成脆皮水，均匀刷满鸭身，挂在通风处晾 6 小时以上（或用风扇吹 2 小时）至皮干爽。",
+      "en": "Mix maltose with warm water, vinegar and cooking wine into a glaze; brush all over, then air-dry 6+ hours (or fan-dry 2 hours) until the skin is dry and leathery."
+    },
+    {
+      "zh": "烤箱预热 200°C，鸭肚里塞入苹果块和葱段，烤 60-80 分钟，中途翻面并刷一次脆皮水。",
+      "en": "Preheat oven to 200°C. Stuff the cavity with apple chunks and scallions; roast 60–80 minutes, turning once and re-brushing the glaze."
+    },
+    {
+      "zh": "出炉后静置 10 分钟，先片鸭皮，再片鸭肉，皮肉相连处斜刀片下。",
+      "en": "Rest 10 minutes. Slice the skin off first, then the meat, cutting on the bias where skin meets meat."
+    },
+    {
+      "zh": "荷叶饼蒸热，抹甜面酱，放鸭皮鸭肉、葱丝黄瓜条，卷而食之。",
+      "en": "Steam the pancakes, spread with sweet bean sauce, add duck, scallion and cucumber, then roll and enjoy."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "晾皮是脆皮的关键：皮越干，烤出来越酥。",
+      "en": "Drying the skin is everything: the drier the skin, the crispier the result."
+    },
+    {
+      "zh": "脆皮水中加醋能帮助鸭皮上色并去腥。",
+      "en": "Vinegar in the glaze helps browning and removes gamey notes."
+    },
+    {
+      "zh": "片鸭时刀要锋利，鸭皮趁热片，凉了就不酥了。",
+      "en": "Use a razor-sharp knife and carve while hot — the skin softens as it cools."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "皮不脆：晾皮时间不够或烤箱温度偏低，最后可 220°C 补烤 10 分钟。",
+      "en": "Skin not crispy? Under-dried skin or low oven temperature — finish with 10 minutes at 220°C."
+    },
+    {
+      "zh": "颜色发黑：麦芽糖浓度过高或烤温太高，应调稀脆皮水并盖锡纸。",
+      "en": "Skin too dark? The glaze was too concentrated or the oven too hot — dilute the glaze and tent with foil."
+    },
+    {
+      "zh": "肉柴：烤过头了，用温度计测鸭腿根部 74°C 即可出炉。",
+      "en": "Dry meat? Overcooked — pull the duck when the thigh reads 74°C."
+    }
+  ],
+  "culturalStory": {
+    "zh": "北京烤鸭的历史可追溯到南北朝的「炙鸭」，明代成为宫廷御膳，随迁都落户北京。清同治三年（1864 年）全聚德创立，以挂炉果木烤鸭闻名；便宜坊的焖炉烤鸭则有六百余年传承。2008 年，北京烤鸭技艺入选国家级非物质文化遗产，成为「中国第一吃」和中外来宾必尝的国菜名片。",
+    "en": "Peking Duck traces back to 'roast duck' of the Southern and Northern Dynasties, becoming imperial fare in the Ming Dynasty and moving to Beijing with the capital. Quanjude (founded 1864) made the hung-oven fruitwood-roasted version famous, while Bianyifang's closed-oven technique carries 600 years of heritage. In 2008 the craft was listed as China's National Intangible Cultural Heritage — the country's most iconic dish."
+  },
+  "isPremium": true,
+  "featured": true
+}

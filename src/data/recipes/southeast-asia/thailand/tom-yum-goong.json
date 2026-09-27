@@ -1,0 +1,85 @@
+{
+  "slug": "tom-yum-goong",
+  "title": { "zh": "冬阴功汤", "en": "Tom Yum Goong" },
+  "country": "thailand",
+  "continent": "southeast-asia",
+  "category": "soup",
+  "difficulty": "easy",
+  "time": 25,
+  "servings": 3,
+  "coverImage": "/images/recipes/tom-yum-goong.svg",
+  "summary": {
+    "zh": "酸辣鲜香的泰国国汤，香茅与柠檬叶的热带交响。",
+    "en": "Thailand's national soup — a tropical symphony of lemongrass, lime and chili."
+  },
+  "ingredients": [
+    { "zh": "鲜虾 10 只", "en": "10 fresh prawns" },
+    { "zh": "香茅 2 根（拍扁切段）", "en": "2 stalks lemongrass, bruised and cut" },
+    { "zh": "柠檬叶 6 片（撕碎）", "en": "6 kaffir lime leaves, torn" },
+    { "zh": "南姜 1 块（切片）", "en": "1 piece galangal, sliced" },
+    { "zh": "泰国小米辣 5 个", "en": "5 Thai bird's eye chilies" },
+    { "zh": "草菇 100 克", "en": "100g straw mushrooms" },
+    { "zh": "冬阴功酱 2 大勺", "en": "2 tbsp tom yum paste" },
+    { "zh": "鱼露 2 大勺、青柠汁 3 大勺", "en": "2 tbsp fish sauce, 3 tbsp lime juice" }
+  ],
+  "steps": [
+    {
+      "zh": "鲜虾去头去壳留尾，虾头虾壳备用；挑去虾线。",
+      "en": "Peel and devein the prawns, keeping tails on; reserve heads and shells."
+    },
+    {
+      "zh": "锅中加 800 毫升水，放入虾头虾壳煮 5 分钟熬出虾汤，捞出虾壳。",
+      "en": "Simmer heads and shells in 800ml water for 5 minutes to make a quick prawn stock; strain."
+    },
+    {
+      "zh": "虾汤中加入香茅、柠檬叶、南姜、小米辣，煮 3 分钟出香。",
+      "en": "Add lemongrass, lime leaves, galangal and chilies; boil 3 minutes until fragrant."
+    },
+    {
+      "zh": "放入草菇和冬阴功酱煮 2 分钟，再下虾仁煮至变色卷曲。",
+      "en": "Add mushrooms and tom yum paste for 2 minutes, then the prawns until they curl and turn pink."
+    },
+    {
+      "zh": "关火，加鱼露和青柠汁调味，酸辣度按口味微调。",
+      "en": "Turn off the heat, then season with fish sauce and lime juice, adjusting sourness to taste."
+    },
+    {
+      "zh": "装碗撒香菜，喜欢浓汤版（nam khon）可加 2 大勺淡奶。",
+      "en": "Garnish with cilantro; for the creamy 'nam khon' style, stir in 2 tbsp evaporated milk."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "青柠汁必须关火后再加，久煮会发苦。",
+      "en": "Always add lime juice off the heat — boiling turns it bitter."
+    },
+    {
+      "zh": "香茅、南姜、柠檬叶是「冬阴三宝」，缺一不可。",
+      "en": "Lemongrass, galangal and lime leaves are the 'holy trinity' — no substitutions."
+    },
+    {
+      "zh": "用虾头熬汤是鲜味翻倍的秘诀。",
+      "en": "Simmering the prawn heads doubles the umami."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "汤发苦：青柠汁加太早或柠檬叶煮太久，关火后再调味。",
+      "en": "Bitter soup? Lime juice added too early or leaves boiled too long — season off the heat."
+    },
+    {
+      "zh": "只有辣没有香：香料没拍碎或煮的时间不够，香茅要拍扁再下锅。",
+      "en": "Heat without aroma? Bruise the lemongrass and give the herbs time to infuse."
+    },
+    {
+      "zh": "虾肉老：虾仁煮过头，变色卷曲立即关火。",
+      "en": "Rubbery prawns? Overcooked — remove from heat as soon as they curl."
+    }
+  ],
+  "culturalStory": {
+    "zh": "「冬阴」在泰语中意为「酸辣」，「功」是虾。冬阴功起源于泰国中部湄南河畔，河虾丰饶，渔夫以现捞鲜虾与岸边随手可得的香茅、柠檬叶煮汤，酸辣开胃以解湿热。2024 年，冬阴功被联合国教科文组织列入人类非物质文化遗产代表作名录，成为泰国饮食文化的世界名片。",
+    "en": "'Tom yum' means hot-and-sour, 'goong' means prawn. Born on the banks of the Chao Phraya River, fishermen boiled fresh river prawns with lemongrass and lime leaves growing nearby — a sour-spicy antidote to the humid climate. In 2024, Tom Yum Goong was inscribed on UNESCO's Intangible Cultural Heritage list, becoming Thailand's culinary gift to the world."
+  },
+  "isPremium": false,
+  "featured": true
+}

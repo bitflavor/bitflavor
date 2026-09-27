@@ -1,0 +1,85 @@
+{
+  "slug": "pho-bo",
+  "title": { "zh": "越南牛肉河粉", "en": "Pho Bo (Beef Pho)" },
+  "country": "vietnam",
+  "continent": "southeast-asia",
+  "category": "soup",
+  "difficulty": "medium",
+  "time": 180,
+  "servings": 4,
+  "coverImage": "/images/recipes/pho-bo.svg",
+  "summary": {
+    "zh": "清澈见底却滋味万千的越南国粉，一碗汤的时间艺术。",
+    "en": "Crystal-clear yet deeply layered — Vietnam's national noodle soup is an art of time."
+  },
+  "ingredients": [
+    { "zh": "牛骨 1.5 千克", "en": "1.5kg beef bones" },
+    { "zh": "牛腱肉 500 克", "en": "500g beef shank" },
+    { "zh": "洋葱 1 个、生姜 1 块（烤香）", "en": "1 onion and 1 knob ginger, charred" },
+    { "zh": "八角 3 颗、桂皮 1 段、丁香 3 粒、草果 1 个", "en": "3 star anise, 1 cinnamon stick, 3 cloves, 1 black cardamom" },
+    { "zh": "干河粉 400 克", "en": "400g dried rice noodles (banh pho)" },
+    { "zh": "生牛肉片 200 克", "en": "200g raw beef, thinly sliced" },
+    { "zh": "鱼露 3 大勺、冰糖适量", "en": "3 tbsp fish sauce, rock sugar to taste" },
+    { "zh": "豆芽、九层塔、青柠、小米辣（配菜）", "en": "Bean sprouts, Thai basil, lime, chilies to serve" }
+  ],
+  "steps": [
+    {
+      "zh": "牛骨焯水去血沫；洋葱和生姜用明火烤至表面焦黑出香。",
+      "en": "Blanch the bones; char the onion and ginger over an open flame until blackened and fragrant."
+    },
+    {
+      "zh": "香料干锅小火焙香，装入纱布袋。",
+      "en": "Toast the spices in a dry pan until aromatic; tie in a spice bag."
+    },
+    {
+      "zh": "牛骨、牛腱、烤姜葱、香料袋加 3 升水，小火保持微沸炖 3 小时，期间撇净浮沫。",
+      "en": "Simmer bones, shank, charred aromatics and spice bag in 3L water at the barest simmer for 3 hours, skimming constantly."
+    },
+    {
+      "zh": "1 小时后捞出牛腱切片；汤炖好后加鱼露、冰糖、盐调味，过滤得清澈汤底。",
+      "en": "Remove the shank after 1 hour and slice. Season the finished broth with fish sauce, rock sugar and salt; strain."
+    },
+    {
+      "zh": "河粉烫软捞入碗中，码上熟牛腱片和生牛肉片，撒洋葱丝葱花。",
+      "en": "Blanch noodles into bowls; top with cooked shank and raw beef slices, onion and scallion."
+    },
+    {
+      "zh": "浇入滚烫的高汤烫熟生肉片，配豆芽、九层塔、青柠上桌。",
+      "en": "Ladle boiling broth over to cook the raw beef; serve with sprouts, basil and lime."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "汤要清：全程微沸不翻滚，浮沫必须撇干净。",
+      "en": "For a clear broth: never let it roll, and skim religiously."
+    },
+    {
+      "zh": "烤姜葱是 Pho 汤底的灵魂香气，不可省略。",
+      "en": "Charring the onion and ginger is the soul of pho — never skip it."
+    },
+    {
+      "zh": "生牛肉切得越薄越好，冻半小时更好切。",
+      "en": "Slice the raw beef paper-thin — 30 minutes in the freezer makes it easy."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "汤浑浊：火太大翻滚了，应保持虾眼水般微沸。",
+      "en": "Cloudy broth? It boiled — keep it at a bare shimmer."
+    },
+    {
+      "zh": "香料味太重：香料煮太久，1 小时后可将香料袋取出。",
+      "en": "Spices overpowering? Pull the spice bag out after an hour."
+    },
+    {
+      "zh": "汤寡淡：骨头比例不够或时间不足，牛骨与水的比例至少 1:2。",
+      "en": "Bland broth? Not enough bones or time — keep a 1:2 bone-to-water ratio."
+    }
+  ],
+  "culturalStory": {
+    "zh": "Pho 诞生于 20 世纪初的越南北部，名字一说源自法语「pot-au-feu」（火上的锅），是法国殖民文化与越南饮食交融的产物。南越的 Pho 配菜丰盛、口味偏甜，北越则清汤寡配、突出本味。越战后，Pho 随越南移民漂洋过海，如今在温哥华、巴黎、悉尼的街角都能吃到这碗乡愁，成为越南美食走向世界的旗帜。",
+    "en": "Pho emerged in early 20th-century northern Vietnam — its name likely from the French 'pot-au-feu', a fusion of colonial and Vietnamese foodways. Southern pho is lavish with herbs and sweeter; northern pho is austere and pure. After the war, pho crossed oceans with Vietnamese migrants, and today it anchors street corners from Vancouver to Paris — the flag-bearer of Vietnamese cuisine."
+  },
+  "isPremium": false,
+  "featured": false
+}

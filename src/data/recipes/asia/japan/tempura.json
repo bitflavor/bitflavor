@@ -1,0 +1,84 @@
+{
+  "slug": "tempura",
+  "title": { "zh": "天妇罗", "en": "Tempura" },
+  "country": "japan",
+  "continent": "asia",
+  "category": "snack",
+  "difficulty": "medium",
+  "time": 40,
+  "servings": 2,
+  "coverImage": "/images/recipes/tempura.svg",
+  "summary": {
+    "zh": "冰水面糊、薄如蝉翼的面衣，「蒸」与「炸」在瞬间同时发生的艺术。",
+    "en": "Ice-cold batter, a veil-thin crust — the art of steaming and frying at the same instant."
+  },
+  "ingredients": [
+    { "zh": "大虾 8 只", "en": "8 large shrimp" },
+    { "zh": "茄子、红薯各半个（切片）", "en": "Half each eggplant and sweet potato, sliced" },
+    { "zh": "低筋面粉 100 克（冷藏）", "en": "100g cake flour, chilled" },
+    { "zh": "冰水 150 毫升", "en": "150ml ice water" },
+    { "zh": "鸡蛋黄 1 个", "en": "1 egg yolk" },
+    { "zh": "炸油（芝麻油混合植物油）适量", "en": "Frying oil (sesame blended with vegetable oil)" },
+    { "zh": "天つゆ蘸汁（出汁、酱油、味醂）", "en": "Tentsuyu dip (dashi, soy sauce, mirin)" },
+    { "zh": "白萝卜泥适量", "en": "Grated daikon, to serve" }
+  ],
+  "steps": [
+    {
+      "zh": "虾去壳留尾，腹部斜划 3 刀轻压断筋，防止炸时卷曲。",
+      "en": "Shell the shrimp keeping the tails; make 3 shallow cuts on the belly and press to break the curl."
+    },
+    {
+      "zh": "蔬菜切 5 毫米薄片，食材全部擦干水分。",
+      "en": "Slice vegetables 5mm thick; pat every ingredient completely dry."
+    },
+    {
+      "zh": "蛋黄加冰水打散，倒入冷藏面粉用筷子粗拌 10 下——留有干粉颗粒正好。",
+      "en": "Beat the yolk with ice water, add chilled flour and chopstick-stir roughly 10 strokes — lumps are perfect."
+    },
+    {
+      "zh": "油温升至 170–180°C：滴一滴面糊，沉底一半即浮起为合适温度。",
+      "en": "Heat oil to 170–180°C: a drop of batter should sink halfway then float right up."
+    },
+    {
+      "zh": "食材蘸薄糊下锅，先素后荤，每批炸 1–2 分钟。",
+      "en": "Dip lightly in batter and fry, vegetables first then shrimp, 1–2 minutes per batch."
+    },
+    {
+      "zh": "沥油立放，配白萝卜泥天つゆ，现炸现吃。",
+      "en": "Drain upright and serve at once with daikon-grated tentsuyu."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "面糊三要素：冰、粗、少拌——面粉起筋就前功尽弃。",
+      "en": "Batter's three rules: ice-cold, rough-mixed, barely stirred — develop gluten and it's over."
+    },
+    {
+      "zh": "油温是灵魂：低了面衣吸油厚重，高了外焦内生，用面糊滴测试最准。",
+      "en": "Oil temperature is everything: too cool and the crust gets greasy, too hot and it burns raw — trust the batter-drop test."
+    },
+    {
+      "zh": "天妇罗不蘸盐时配萝卜泥蘸汁，解腻提鲜。",
+      "en": "When not serving with salt, the daikon-laced tentsuyu cuts the oil and lifts the flavor."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "面衣厚重油腻：面糊拌过头起筋，或油温太低。",
+      "en": "Heavy, greasy crust? Over-mixed batter or oil too cool."
+    },
+    {
+      "zh": "不酥脆：面粉没冷藏、水不够冰，温差产生脆度。",
+      "en": "Not crisp? Warm flour or water — the cold-hot shock is what makes it shatter."
+    },
+    {
+      "zh": "虾卷成球：腹部没划刀断筋，炸前一定要压直。",
+      "en": "Shrimp curling into balls? You skipped the belly cuts — straighten them before frying."
+    }
+  ],
+  "culturalStory": {
+    "zh": "16 世纪葡萄牙传教士把「tempêro」油炸技法带入日本，江户时代的街头摊贩将其变成平民快餐。如今天妇罗已是「和食」技艺的巅峰——东京名店「みかわ是山居」的早乙女哲哉说：天妇罗是面衣之内「蒸」与「炸」同时发生的瞬间艺术，几秒之差，天壤之别。",
+    "en": "Portuguese missionaries brought the 'tempêro' frying technique to 16th-century Japan, where Edo-era street stalls turned it into fast food. Today tempura is a pinnacle of washoku craft — master Saotome Tetsuya of Mikawa Zezankyo calls it the instant art of 'steaming and frying at once' inside the crust, where seconds separate good from transcendent."
+  },
+  "isPremium": false
+}

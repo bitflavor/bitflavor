@@ -1,0 +1,85 @@
+{
+  "slug": "xiaolongbao",
+  "title": { "zh": "小笼包", "en": "Xiaolongbao (Soup Dumplings)" },
+  "country": "china",
+  "continent": "asia",
+  "category": "snack",
+  "difficulty": "hard",
+  "time": 90,
+  "servings": 4,
+  "coverImage": "/images/recipes/xiaolongbao.svg",
+  "summary": {
+    "zh": "皮薄如纸、汤汁丰盈的江南名点，先开窗、后喝汤。",
+    "en": "Paper-thin wrappers holding a burst of rich broth — the jewel of Jiangnan dim sum."
+  },
+  "ingredients": [
+    { "zh": "中筋面粉 300 克", "en": "300g all-purpose flour" },
+    { "zh": "温水 160 毫升", "en": "160ml warm water" },
+    { "zh": "猪肉馅 300 克（三肥七瘦）", "en": "300g ground pork (30% fat)" },
+    { "zh": "猪皮冻 200 克", "en": "200g pork skin aspic, cubed" },
+    { "zh": "姜末 1 小勺", "en": "1 tsp minced ginger" },
+    { "zh": "生抽 2 大勺", "en": "2 tbsp light soy sauce" },
+    { "zh": "香油 1 小勺", "en": "1 tsp sesame oil" },
+    { "zh": "镇江香醋、姜丝（蘸食）", "en": "Chinkiang vinegar and ginger slivers for dipping" }
+  ],
+  "steps": [
+    {
+      "zh": "面粉加温水揉成光滑面团，醒发 30 分钟。",
+      "en": "Knead flour with warm water into a smooth dough; rest 30 minutes."
+    },
+    {
+      "zh": "肉馅加姜末、生抽、香油，分次打入少量清水，搅至黏稠上劲，拌入切碎的皮冻。",
+      "en": "Season pork with ginger, soy and sesame oil; beat in splashes of water until sticky, then fold in the diced aspic."
+    },
+    {
+      "zh": "面团搓条下剂，每个 10 克，擀成中间厚边缘薄的圆皮。",
+      "en": "Roll the dough into 10g portions and flatten into rounds — thick center, thin edges."
+    },
+    {
+      "zh": "包入 15 克馅料，提褶捏出 18 个以上褶子，收口捏紧。",
+      "en": "Wrap 15g filling, pleating at least 18 folds, and pinch the top closed."
+    },
+    {
+      "zh": "蒸笼垫油纸或菜叶，水开后大火蒸 8 分钟，皮冻化为汤汁即成。",
+      "en": "Line the steamer, steam over high heat for 8 minutes — the aspic melts into soup."
+    },
+    {
+      "zh": "趁热食用：轻提、慢移、开窗（咬小口）、喝汤，佐香醋姜丝。",
+      "en": "Eat hot: lift gently, nibble a small 'window', sip the soup, then dip in vinegar with ginger."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "皮冻与肉馅比例约 1:1.5，汤汁才会丰盈不腻。",
+      "en": "Keep aspic-to-pork around 1:1.5 for broth that is plentiful but not greasy."
+    },
+    {
+      "zh": "皮要中间厚边缘薄，才能托住汤汁又不影响口感。",
+      "en": "Thick center and thin edges let the wrapper hold soup without tasting doughy."
+    },
+    {
+      "zh": "蒸制必须水开后再上笼，大火足汽，皮才透亮。",
+      "en": "Steam only over fully boiling water at high heat for translucent skins."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "漏汤：收口没捏紧或皮太薄破裂，包好后底部可再轻压整形。",
+      "en": "Soup leaking? The seal wasn't tight or the wrapper tore — pinch firmly and reshape the base."
+    },
+    {
+      "zh": "没有汤汁：皮冻比例太低或蒸太久，检查皮冻是否足量。",
+      "en": "No soup inside? Too little aspic or over-steaming — check your aspic ratio."
+    },
+    {
+      "zh": "皮硬：面团没醒透或蒸制火力不足，需延长醒面时间。",
+      "en": "Tough wrappers? Under-rested dough or weak steam — rest the dough longer."
+    }
+  ],
+  "culturalStory": {
+    "zh": "小笼包起源于清代常州府的无锡、上海一带，由大肉馒头演变而来。上海南翔镇的黄明贤在同治年间创制「南翔小笼」，以「皮薄、馅大、汁多、味鲜」闻名。1993 年台北鼎泰丰将其发扬光大，被《纽约时报》评为世界十大美食之一，成为中华面点走向世界的代表。",
+    "en": "Xiaolongbao originated in the Qing Dynasty around Wuxi and Shanghai, evolving from large meat buns. Huang Mingxian of Nanxiang created the famous 'Nanxiang xiaolong' — prized for thin skin, generous filling and rich juice. In 1993, Taipei's Din Tai Fung carried it to global fame; the New York Times named it one of the world's ten great dishes."
+  },
+  "isPremium": false,
+  "featured": false
+}

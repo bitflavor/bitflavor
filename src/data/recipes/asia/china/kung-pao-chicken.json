@@ -1,0 +1,84 @@
+{
+  "slug": "kung-pao-chicken",
+  "title": { "zh": "宫保鸡丁", "en": "Kung Pao Chicken" },
+  "country": "china",
+  "continent": "asia",
+  "category": "main",
+  "difficulty": "medium",
+  "time": 30,
+  "servings": 2,
+  "coverImage": "/images/recipes/kung-pao-chicken.svg",
+  "summary": {
+    "zh": "糊辣荔枝味的川菜名片，鸡丁滑嫩、花生酥脆，下饭一绝。",
+    "en": "Sichuan's most famous export — tender chicken, crispy peanuts, and that signature numbing-spicy, sweet-sour sauce."
+  },
+  "ingredients": [
+    { "zh": "鸡腿肉 300 克（去骨切丁）", "en": "300g boneless chicken thigh, diced" },
+    { "zh": "油炸花生米 50 克", "en": "50g fried peanuts" },
+    { "zh": "干辣椒 8–10 个（剪段去籽）", "en": "8–10 dried chilies, snipped and deseeded" },
+    { "zh": "花椒 1 小勺", "en": "1 tsp Sichuan peppercorns" },
+    { "zh": "葱白 2 段、姜蒜末各 1 小勺", "en": "2 scallion whites, 1 tsp each minced ginger and garlic" },
+    { "zh": "生抽、香醋、白糖各 1 大勺", "en": "1 tbsp each light soy sauce, Chinkiang vinegar, sugar" },
+    { "zh": "料酒 1 大勺、水淀粉 2 大勺", "en": "1 tbsp cooking wine, 2 tbsp cornstarch slurry" },
+    { "zh": "盐、食用油适量", "en": "Salt and cooking oil, as needed" }
+  ],
+  "steps": [
+    {
+      "zh": "鸡丁加料酒、少许盐和 1 大勺水淀粉抓匀，腌 15 分钟上浆。",
+      "en": "Marinate the chicken with cooking wine, a pinch of salt and 1 tbsp slurry for 15 minutes."
+    },
+    {
+      "zh": "调宫保汁：生抽、香醋、白糖各 1 大勺，加 1 大勺水淀粉和少许清水搅匀。",
+      "en": "Mix the sauce: soy sauce, vinegar and sugar with 1 tbsp slurry and a splash of water."
+    },
+    {
+      "zh": "热锅凉油，下鸡丁中火滑炒至变色断生，盛出备用。",
+      "en": "Heat oil in a wok, stir-fry the chicken over medium heat until just cooked through, then set aside."
+    },
+    {
+      "zh": "锅中留底油，小火下花椒和干辣椒段，炸至棕红色、糊辣香溢出。",
+      "en": "Over low heat, fry peppercorns and dried chilies until deep reddish-brown and fragrant."
+    },
+    {
+      "zh": "下姜蒜末和葱白爆香，倒回鸡丁大火翻炒均匀。",
+      "en": "Add ginger, garlic and scallion whites, return the chicken and toss over high heat."
+    },
+    {
+      "zh": "淋入宫保汁大火收汁至浓稠裹匀，倒入花生米翻两下立即出锅。",
+      "en": "Pour in the sauce, toss until glossy and clinging, add peanuts at the last second and serve."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "用鸡腿肉而非鸡胸肉——带一点油脂，久炒也滑嫩不柴。",
+      "en": "Use thigh, not breast — the extra fat keeps it silky even over high heat."
+    },
+    {
+      "zh": "正宗宫保是「糊辣荔枝味」：糖醋比例约 1:1，先尝到微酸甜，后透出糊辣香。",
+      "en": "Authentic Kung Pao is 'scorched-chili lychee flavor': equal parts sugar and vinegar, sweet-sour first, smoky heat behind."
+    },
+    {
+      "zh": "花生米必须最后放，翻匀即出锅，才能保持酥脆。",
+      "en": "Peanuts go in last — a few tosses only, so they stay crunchy."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "鸡肉发柴：没用淀粉上浆或滑炒太久，鸡丁变色即盛出。",
+      "en": "Dry chicken? You skipped the starch coating or overcooked it — remove as soon as it turns opaque."
+    },
+    {
+      "zh": "只有苦味没有香：花椒辣椒炸糊了，务必小火炸至棕红即下料。",
+      "en": "Bitter, not fragrant? The chilies burnt — fry low and slow until reddish-brown, never black."
+    },
+    {
+      "zh": "汤汁水汪汪：料汁没收浓，最后要大火快速收至油亮挂汁。",
+      "en": "Watery sauce? Reduce over high heat until it coats the chicken with a glossy sheen."
+    }
+  ],
+  "culturalStory": {
+    "zh": "宫保鸡丁因清朝官员丁宝桢而得名。他官至太子少保，人称「丁宫保」，任四川总督时把家传炒鸡丁带入川地，融入辣椒与花椒，演化成川菜经典。「宫保」二字正是他的官衔。这道菜 20 世纪随中餐馆漂洋过海，成为海外认知度最高的中国菜之一。",
+    "en": "Kung Pao Chicken is named after Ding Baozhen, a Qing Dynasty governor whose court title 'Gongbao' (Palace Guardian) gave the dish its name. His family recipe met Sichuan chilies and peppercorns during his posting there, creating an icon. In the 20th century it traveled the world with Chinese restaurants, becoming one of the most recognized Chinese dishes abroad."
+  },
+  "isPremium": false
+}

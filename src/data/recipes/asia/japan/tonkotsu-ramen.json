@@ -1,0 +1,85 @@
+{
+  "slug": "tonkotsu-ramen",
+  "title": { "zh": "豚骨拉面", "en": "Tonkotsu Ramen" },
+  "country": "japan",
+  "continent": "asia",
+  "category": "soup",
+  "difficulty": "medium",
+  "time": 240,
+  "servings": 2,
+  "coverImage": "/images/recipes/tonkotsu-ramen.svg",
+  "summary": {
+    "zh": "乳白浓郁的博多豚骨汤头，家庭灶台也能熬出的匠人之味。",
+    "en": "Milky, rich Hakata-style pork bone broth — artisan flavor achievable on a home stove."
+  },
+  "ingredients": [
+    { "zh": "猪筒骨 1.5 千克", "en": "1.5kg pork leg bones" },
+    { "zh": "鸡爪 300 克", "en": "300g chicken feet" },
+    { "zh": "生姜 1 块、大葱 1 根", "en": "1 knob ginger, 1 leek" },
+    { "zh": "大蒜 1 头", "en": "1 head garlic" },
+    { "zh": "日式拉面 2 份", "en": "2 portions fresh ramen noodles" },
+    { "zh": "叉烧肉 6 片", "en": "6 slices chashu pork" },
+    { "zh": "溏心蛋 2 个", "en": "2 soft-boiled marinated eggs" },
+    { "zh": "木耳丝、葱花、海苔适量", "en": "Wood ear strips, scallions, nori" }
+  ],
+  "steps": [
+    {
+      "zh": "猪骨和鸡爪冷水下锅，大火煮沸 10 分钟，捞出冲洗干净血沫。",
+      "en": "Blanch bones and chicken feet in cold water brought to a rolling boil for 10 minutes; rinse off all scum."
+    },
+    {
+      "zh": "重新加足量开水，放入姜葱蒜，保持大火翻滚熬煮 6-8 小时，水位下降就补开水。",
+      "en": "Refill with plenty of boiling water, add ginger, leek and garlic, and keep at a hard rolling boil for 6–8 hours, topping up with boiling water as needed."
+    },
+    {
+      "zh": "熬至汤色乳白、骨髓尽出，过滤取汤，加盐和少许味醂调味。",
+      "en": "When the broth turns milky white, strain and season with salt and a splash of mirin."
+    },
+    {
+      "zh": "溏心蛋：水开后下可生食鸡蛋煮 6 分半，冰水后泡入酱油味醂卤汁隔夜。",
+      "en": "For ajitama eggs: boil 6.5 minutes, chill in ice water, marinate overnight in soy-mirin brine."
+    },
+    {
+      "zh": "拉面按包装时间煮熟（偏硬口感），捞入预热过的面碗。",
+      "en": "Cook noodles slightly firm, drain, and place in a pre-warmed bowl."
+    },
+    {
+      "zh": "冲入滚烫豚骨汤，码上叉烧、溏心蛋、木耳丝、葱花和海苔即可。",
+      "en": "Ladle in the piping-hot broth, top with chashu, egg, wood ear, scallions and nori."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "全程大火翻滚是汤白的关键，小火只能熬出清汤。",
+      "en": "A hard boil emulsifies fat into the broth — gentle simmering only yields clear soup."
+    },
+    {
+      "zh": "鸡爪提供胶质，让汤头浓而不油、黏唇挂壁。",
+      "en": "Chicken feet add collagen for a lip-smacking body without greasiness."
+    },
+    {
+      "zh": "面碗提前用热水烫热，汤的温度才不会骤降。",
+      "en": "Pre-warm the bowl so the broth stays piping hot."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "汤不白：火候太小或熬煮时间不够，需持续大火并延长至 8 小时。",
+      "en": "Broth not milky? Heat too low or time too short — keep it rolling for the full 8 hours."
+    },
+    {
+      "zh": "有腥味：焯水不彻底或没冲净血沫，重新焯水清洗再熬。",
+      "en": "Porky smell? Incomplete blanching — re-blanch and rinse the bones thoroughly."
+    },
+    {
+      "zh": "太油腻：撇去表面浮油，或加一片海带同煮吸油。",
+      "en": "Too greasy? Skim the surface fat, or simmer with a piece of kombu."
+    }
+  ],
+  "culturalStory": {
+    "zh": "豚骨拉面发源于 1940 年代的福冈博多，摊主为码头工人熬制快速充饥的浓汤面。乳白色的汤头其实是意外之得：一次忘关火的彻夜熬煮，让骨髓乳化入汤，成就了博多拉面「白汤」的传奇。如今一兰、一风堂等品牌把它带向全球，豚骨拉面成为日本拉面在世界的第一名片。",
+    "en": "Tonkotsu ramen was born in 1940s Hakata, Fukuoka, feeding dock workers a quick, hearty bowl. The milky broth was a happy accident — a pot left boiling overnight emulsified the marrow into the legendary 'white soup'. Brands like Ichiran and Ippudo have since carried it worldwide, making tonkotsu the global face of Japanese ramen."
+  },
+  "isPremium": false,
+  "featured": true
+}

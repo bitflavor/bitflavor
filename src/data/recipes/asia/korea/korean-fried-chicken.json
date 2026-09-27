@@ -1,0 +1,84 @@
+{
+  "slug": "korean-fried-chicken",
+  "title": { "zh": "韩式炸鸡", "en": "Korean Fried Chicken" },
+  "country": "korea",
+  "continent": "asia",
+  "category": "snack",
+  "difficulty": "medium",
+  "time": 60,
+  "servings": 3,
+  "coverImage": "/images/recipes/korean-fried-chicken.svg",
+  "summary": {
+    "zh": "双重油炸薄如纸的脆皮，裹上甜辣酱汁，치맥（炸鸡配啤酒）的快乐。",
+    "en": "Twice-fried, paper-thin crust glazed in sweet-spicy sauce — the joy of chimaek, Korea's fried chicken and beer ritual."
+  },
+  "ingredients": [
+    { "zh": "鸡翅根、翅中 500 克", "en": "500g chicken wings/drumettes" },
+    { "zh": "牛奶 200 毫升（浸泡用）", "en": "200ml milk (for soaking)" },
+    { "zh": "面粉、淀粉各 3 大勺", "en": "3 tbsp each flour and cornstarch" },
+    { "zh": "韩式辣酱 2 大勺", "en": "2 tbsp gochujang" },
+    { "zh": "蜂蜜 2 大勺", "en": "2 tbsp honey" },
+    { "zh": "蒜末 1 大勺", "en": "1 tbsp minced garlic" },
+    { "zh": "生抽、番茄酱各 1 大勺", "en": "1 tbsp each soy sauce and ketchup" },
+    { "zh": "熟芝麻、炸油适量", "en": "Toasted sesame seeds, oil for frying" }
+  ],
+  "steps": [
+    {
+      "zh": "鸡块洗净泡入牛奶 30 分钟，去腥并让肉质更嫩。",
+      "en": "Soak the chicken in milk for 30 minutes — it deodorizes and tenderizes."
+    },
+    {
+      "zh": "捞出沥干，面粉淀粉 1:1 混合，鸡块均匀裹上薄粉。",
+      "en": "Drain and coat the pieces in a 1:1 flour-cornstarch mix, shaking off excess."
+    },
+    {
+      "zh": "160°C 油温初炸 8 分钟至熟透，捞出静置 5 分钟。",
+      "en": "First fry at 160°C for 8 minutes until cooked through; rest 5 minutes."
+    },
+    {
+      "zh": "油温升至 180°C 复炸 2 分钟，皮色金黄酥脆捞出。",
+      "en": "Second fry at 180°C for 2 minutes until deeply golden and shattering-crisp."
+    },
+    {
+      "zh": "锅中放辣酱、蜂蜜、蒜末、生抽、番茄酱和 2 大勺水，小火熬至浓稠冒泡。",
+      "en": "Simmer gochujang, honey, garlic, soy, ketchup and 2 tbsp water until thick and glossy."
+    },
+    {
+      "zh": "倒入炸鸡快速翻裹均匀，撒芝麻立即上桌。",
+      "en": "Toss the chicken in the glaze just to coat, shower with sesame and serve at once."
+    }
+  ],
+  "tips": [
+    {
+      "zh": "牛奶浸泡是韩式炸鸡嫩而不腥的秘诀，韩式炸鸡店人手一缸。",
+      "en": "The milk soak is the Korean fry-shop secret for chicken that's tender and never gamey."
+    },
+    {
+      "zh": "双重油炸（더블 프라이）让皮脆薄如纸——初炸熟、复炸脆，缺一不可。",
+      "en": "Double-frying is what makes the crust paper-thin and crackly — first to cook, second to crisp."
+    },
+    {
+      "zh": "酱汁现裹现吃，裹好放久脆皮会被酱泡软。",
+      "en": "Glaze right before serving — the crisp shell softens if it sits in the sauce."
+    }
+  ],
+  "failChecks": [
+    {
+      "zh": "皮不脆：没复炸或裹粉太厚，薄粉加双重炸是铁律。",
+      "en": "Not crispy? You skipped the second fry or coated too thick — thin dusting, double fry."
+    },
+    {
+      "zh": "裹酱后立刻回软：酱汁太稀，要熬到浓稠挂勺再下鸡。",
+      "en": "Soggy after glazing? The sauce was too thin — reduce until it coats a spoon."
+    },
+    {
+      "zh": "里面带血丝：初炸时间不够或鸡块太大，小块炸足 8 分钟。",
+      "en": "Pink near the bone? First fry was too short or pieces too large — small pieces, full 8 minutes."
+    }
+  ],
+  "culturalStory": {
+    "zh": "朝鲜战争后，美式炸鸡随驻军进入韩国；80 年代本土连锁店将其彻底改造：更薄的裹粉、双重油炸、甜辣裹酱，韩式炸鸡就此诞生。如今「치맥」（炸鸡+啤酒）是韩国国民宵夜——看球、追剧、加班后的慰藉，全韩炸鸡店数量一度超过全世界的麦当劳。",
+    "en": "After the Korean War, American fried chicken arrived with the troops; in the 1980s local chains reinvented it with thinner batter, double-frying and sweet-spicy glazes. Today 'chimaek' — chicken with maekju (beer) — is Korea's national late-night ritual, and the country once counted more fried chicken shops than McDonald's has locations worldwide."
+  },
+  "isPremium": true
+}
