@@ -1,8 +1,8 @@
 {
-  "name": "worldflavors",
+  "name": "bitflavor",
   "version": "0.1.0",
   "private": true,
-  "description": "WorldFlavors 世界美食图谱 - 全球美食文化平台",
+  "description": "BitFlavor 世界美食图谱 - 全球美食文化平台",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

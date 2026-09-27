@@ -1,4 +1,4 @@
-# WorldFlavors 世界美食图谱
+# BitFlavor 世界美食图谱
 
 > **Slogan**：从比特币买披萨开始，到用虚拟币解锁全世界的美食。
 > From buying pizza with Bitcoin to unlocking the world's flavors with crypto.
@@ -108,7 +108,7 @@ node scripts/generate-placeholders.mjs
 - **汇率为模拟数据**：菜谱价格旁的 BTC 等值使用 `src/lib/exchangeRates.ts` 中的硬编码汇率（`TODO(api)`，后期接 CoinGecko API，建议服务端缓存 60s+）。
 - **联系表单不接后端**：`TODO(backend)`，仅前端演示。
 - **图片为 SVG 占位图**：上线前替换为真实美食图片（保持路径或更新 JSON 中 `coverImage`）。
-- 站点域名为占位值 `worldflavors.example.com`（`src/lib/site.ts` 回退值）：部署时设置环境变量 `NEXT_PUBLIC_SITE_URL` 即可，无需改代码（见「部署（Vercel）」）。
+- 站点域名为占位值 `bitflavor.example.com`（`src/lib/site.ts` 回退值）：部署时设置环境变量 `NEXT_PUBLIC_SITE_URL` 即可，无需改代码（见「部署（Vercel）」）。
 
 ## 页面清单（每页均 zh/en 双语静态生成）
 

@@ -38,7 +38,7 @@ Next.js 15 App Router，全站 SSG 静态预渲染（83 页）。无服务端运
 - 展示名（大洲/国家/类别/难度）只存 messages，不进菜谱 JSON
 
 ### 收藏（`src/lib/favorites.ts`）
-- LocalStorage key `worldflavors:favorites`，旧 key `worldcuisine:favorites` 自动迁移
+- LocalStorage key `bitflavor:favorites`，旧 key `worldflavors:favorites` / `worldcuisine:favorites` 自动迁移
 - `loaded` 标记避免 SSR/CSR 水合不一致（骨架屏）
 
 ### 客户端组件陷阱

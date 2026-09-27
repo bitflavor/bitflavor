@@ -52,7 +52,7 @@
 - [ ] 推代码到 GitHub（含 git init + 首次提交）
 - [ ] 连接 Vercel
 - [ ] 配置环境变量
-- [ ] 绑定自定义域名（替换 sitemap/robots 的 `worldflavors.example.com`）
+- [ ] 绑定自定义域名（替换 sitemap/robots 的 `bitflavor.example.com`）
 - [ ] 开启 Vercel Analytics
 
 ### 第五阶段：区块链功能（长期）

@@ -89,7 +89,7 @@ export default async function RecipeDetailPage({ params }: Props) {
     name: recipe.title[loc],
     description: recipe.summary[loc],
     image: [`${SITE_URL}${recipe.coverImage}`],
-    author: { "@type": "Organization", name: "WorldFlavors" },
+    author: { "@type": "Organization", name: "BitFlavor" },
     recipeCuisine: tCountries(recipe.country),
     recipeCategory: tCategories(recipe.category),
     keywords: [recipe.title.zh, recipe.title.en].join(", "),

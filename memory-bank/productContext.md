@@ -25,7 +25,7 @@
 | F6 | 搜索与筛选 | `/search` SearchClient（双语匹配）；国家页 FilterableRecipeGrid；`/favorites` 收藏 | ✅ 完整 |
 | F7 | 区块链预留 | NftMembershipSection / ContributorPoints / ChainCertifyEntry / DaoEntry / WalletConnectButton + 终身档 NFT 徽章 | ✅ UI 预留（`TODO(web3)`） |
 
-辅助页：`/about`（品牌故事 4 段橙色卡 + 使命/愿景/路线图/团队）、`/contact`（ContactForm 演示，biz@worldflavors.example.com / @WorldFlavors）
+辅助页：`/about`（品牌故事 4 段橙色卡 + 使命/愿景/路线图/团队）、`/contact`（ContactForm 演示，biz@bitflavor.example.com / @BitFlavor）
 
 ## 品牌叙事落点
 - 首屏 Hero tagline：「从比特币买披萨开始，到用虚拟币解锁全世界的美食」→ 点击进 `/about`

@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "siteName": "WorldFlavors",
-    "defaultTitle": "WorldFlavors · Explore Global Food Culture",
-    "defaultDescription": "WorldFlavors is a global food culture platform featuring classic recipes, cooking techniques and cultural stories from Asia, Southeast Asia, Europe, the Americas, Africa and Oceania.",
-    "titleTemplate": "%s | WorldFlavors",
-    "keywords": "world food,global recipes,food culture,asian cuisine,chinese recipes,japanese recipes,korean food,thai food,european cuisine,recipe collection,cooking techniques,WorldFlavors",
-    "ogImageAlt": "WorldFlavors · Explore Global Food Culture"
+    "siteName": "BitFlavor",
+    "defaultTitle": "BitFlavor · Explore Global Food Culture",
+    "defaultDescription": "BitFlavor is a global food culture platform featuring classic recipes, cooking techniques and cultural stories from Asia, Southeast Asia, Europe, the Americas, Africa and Oceania.",
+    "titleTemplate": "%s | BitFlavor",
+    "keywords": "world food,global recipes,food culture,asian cuisine,chinese recipes,japanese recipes,korean food,thai food,european cuisine,recipe collection,cooking techniques,BitFlavor",
+    "ogImageAlt": "BitFlavor · Explore Global Food Culture"
   },
   "nav": {
     "home": "Home",
@@ -24,9 +24,9 @@
   },
   "auth": {
     "loginTitle": "Log In",
-    "loginDesc": "Log in to your WorldFlavors account to unlock member content and manage orders.",
+    "loginDesc": "Log in to your BitFlavor account to unlock member content and manage orders.",
     "signupTitle": "Sign Up",
-    "signupDesc": "Create a WorldFlavors account to save favorites and unlock premium content.",
+    "signupDesc": "Create a BitFlavor account to save favorites and unlock premium content.",
     "accountTitle": "My Account",
     "profileMetaTitle": "Profile",
     "ordersMetaTitle": "My Orders"
@@ -168,7 +168,7 @@
   },
   "membership": {
     "title": "Membership Plans",
-    "keywords": "food membership,recipe subscription,premium recipes,members-only recipes,WorldFlavors membership",
+    "keywords": "food membership,recipe subscription,premium recipes,members-only recipes,BitFlavor membership",
     "subtitle": "One subscription for the full world of food culture",
     "monthly": "Monthly",
     "yearly": "Yearly",
@@ -221,14 +221,14 @@
   },
   "about": {
     "title": "About Us",
-    "keywords": "about us,WorldFlavors,food culture platform",
+    "keywords": "about us,BitFlavor,food culture platform",
     "storyTitle": "Our Story: It Started with Two Pizzas",
     "story1": "On May 22, 2010, programmer Laszlo Hanyecz bought two pizzas for 10,000 BTC — the day later known as \"Bitcoin Pizza Day\".",
     "story2": "It was the first time in history that a virtual currency was used to buy a real-world good, giving crypto its first anchor of value.",
-    "story3": "WorldFlavors carries on this spirit: making the world's cuisines purchasable, unlockable and shareable with crypto.",
+    "story3": "BitFlavor carries on this spirit: making the world's cuisines purchasable, unlockable and shareable with crypto.",
     "story4": "We start from Asia and will expand to the whole world, turning every dish into a cultural code that connects people.",
     "missionTitle": "Our Mission",
-    "missionDesc": "WorldFlavors believes every dish is a cultural code of its people. With bilingual content, structured recipes and deep cultural stories, we help everyone recreate the flavors of the world.",
+    "missionDesc": "BitFlavor believes every dish is a cultural code of its people. With bilingual content, structured recipes and deep cultural stories, we help everyone recreate the flavors of the world.",
     "visionTitle": "Our Vision",
     "visionDesc": "Starting from Asia, expanding through Southeast Asia, Europe, the Americas and Africa — building a culinary gene bank for all humankind.",
     "roadmapTitle": "Roadmap",
@@ -240,12 +240,12 @@
   },
   "contact": {
     "title": "Contact Us",
-    "keywords": "contact us,WorldFlavors,recipe submissions,business partnerships",
+    "keywords": "contact us,BitFlavor,recipe submissions,business partnerships",
     "subtitle": "Recipe submissions, business partnerships or product feedback — we would love to hear from you.",
     "emailLabel": "Business",
-    "emailValue": "biz@worldflavors.example.com",
+    "emailValue": "biz@bitflavor.example.com",
     "contributeLabel": "Recipe Submissions",
-    "contributeValue": "contribute@worldflavors.example.com",
+    "contributeValue": "contribute@bitflavor.example.com",
     "socialLabel": "Social Media",
     "formTitle": "Leave a Message",
     "formName": "Your Name",
@@ -281,12 +281,12 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "refund": "Refund Policy",
-    "copyright": "© {year} WorldFlavors. All rights reserved."
+    "copyright": "© {year} BitFlavor. All rights reserved."
   },
   "privacy": {
     "title": "Privacy Policy",
     "lastUpdated": "Last updated: September 2026",
-    "intro": "This Privacy Policy explains how WorldFlavors collects, uses, stores and protects your personal information. By using this website, you agree to the data practices described in this policy.",
+    "intro": "This Privacy Policy explains how BitFlavor collects, uses, stores and protects your personal information. By using this website, you agree to the data practices described in this policy.",
     "s1Title": "1. Information We Collect",
     "s1Body": "We may collect the following information: access logs as you browse (IP address, browser type, timestamps); information you voluntarily provide (such as your name and email submitted via the contact form); and basic account information when registration becomes available. We collect only the minimum information necessary to provide our services.",
     "s2Title": "2. How We Use Information",
@@ -306,7 +306,7 @@
   "terms": {
     "title": "Terms of Service",
     "lastUpdated": "Last updated: September 2026",
-    "intro": "Welcome to WorldFlavors. By accessing or using this website, you acknowledge that you have read, understood and agree to be bound by these Terms of Service.",
+    "intro": "Welcome to BitFlavor. By accessing or using this website, you acknowledge that you have read, understood and agree to be bound by these Terms of Service.",
     "s1Title": "1. Acceptance of Terms",
     "s1Body": "Please read these terms carefully before using the site. If you do not agree with any part of them, please stop using the website. We reserve the right to modify these terms at any time; modifications take effect once published.",
     "s2Title": "2. Service Description",
@@ -316,7 +316,7 @@
     "s4Title": "4. Paid Content & Subscriptions",
     "s4Body": "Paid recipes and memberships are digital content goods. Please review the content preview before purchase; delivery is considered complete upon successful payment. See our Refund Policy for details.",
     "s5Title": "5. Intellectual Property",
-    "s5Body": "All text, images, logos and other content on this site are owned by WorldFlavors or the respective rights holders. No content may be copied, reproduced or used commercially without permission.",
+    "s5Body": "All text, images, logos and other content on this site are owned by BitFlavor or the respective rights holders. No content may be copied, reproduced or used commercially without permission.",
     "s6Title": "6. Disclaimer",
     "s6Body": "Recipes are provided for reference only; actual results vary with ingredients, equipment and technique. Choose ingredients according to your own health conditions and allergies. We are not liable for any outcomes from following the recipes.",
     "s7Title": "7. Changes & Contact",
@@ -326,7 +326,7 @@
   "refund": {
     "title": "Refund Policy",
     "lastUpdated": "Last updated: September 2026",
-    "intro": "This Refund Policy applies to paid recipes and membership subscriptions on WorldFlavors. Given the nature of digital content, please read this policy carefully before purchasing.",
+    "intro": "This Refund Policy applies to paid recipes and membership subscriptions on BitFlavor. Given the nature of digital content, please read this policy carefully before purchasing.",
     "s1Title": "1. Overview",
     "s1Body": "Products sold on this site are digital content (recipes and membership benefits), delivered via instant online unlock. Once delivered, digital content is generally non-refundable, except in the cases below.",
     "s2Title": "2. Single Recipe Purchases",

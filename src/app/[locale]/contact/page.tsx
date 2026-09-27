@@ -36,7 +36,7 @@ export default async function ContactPage({ params }: Props) {
   const channels = [
     { icon: "📧", label: t("emailLabel"), value: t("emailValue") },
     { icon: "📝", label: t("contributeLabel"), value: t("contributeValue") },
-    { icon: "💬", label: t("socialLabel"), value: "@WorldFlavors" },
+    { icon: "💬", label: t("socialLabel"), value: "@BitFlavor" },
   ];
 
   return (

@@ -1,7 +1,7 @@
-# Project Brief — WorldFlavors（世界美食图谱）
+# Project Brief — BitFlavor（世界美食图谱）
 
 ## 项目名称
-**WorldFlavors（世界美食图谱）**（曾用名 WorldCuisine，已全部替换）
+**BitFlavor（世界美食图谱）**（曾用名 WorldCuisine，已全部替换）
 
 ## 项目愿景
 - 收集全世界的美食，**从亚洲开始**，逐步扩展到东南亚、欧美、南美、非洲
@@ -25,7 +25,7 @@
 - **Tailwind CSS**（v4，CSS-first 配置，`brand-*` / `ink-*` 主题色）
 - **next-intl**（多语言，v3.26，文案集中 `messages/{zh,en}.json`）
 - **本地 JSON/Markdown 数据**（当前为本地 JSON：`src/data/recipes/<continent>/<country>/<slug>.json`；Markdown 为后续内容形态扩展预留）
-- **Vercel 部署**（目标平台，尚未部署；sitemap/robots 占位域名 `worldflavors.example.com` 需替换）
+- **Vercel 部署**（目标平台，尚未部署；sitemap/robots 占位域名 `bitflavor.example.com` 需替换）
 - **PayPal + 虚拟币支付（预留）**（UI 已展示 PayPal / 信用卡 / Bitcoin / Ethereum / USDT / USDC，未接真实接口）
 
 ## 目标用户

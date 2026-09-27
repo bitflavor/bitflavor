@@ -9,7 +9,7 @@
 | Tailwind CSS | v4，CSS-first 配置，`brand-*` / `ink-*` 主题色 |
 | next-intl（多语言） | v3.26，zh / en，URL 前缀路由，文案集中 `messages/{zh,en}.json` |
 | 本地 JSON/Markdown 数据 | 当前 JSON：`src/data/recipes/<continent>/<country>/<slug>.json`（16 个菜谱）；构建期 `node:fs` 读取 + 缓存；Markdown 未使用（扩展预留） |
-| Vercel 部署（目标） | 尚未部署；`sitemap.ts` / `robots.ts` 占位域名 `worldflavors.example.com` 需替换 |
+| Vercel 部署（目标） | 尚未部署；`sitemap.ts` / `robots.ts` 占位域名 `bitflavor.example.com` 需替换 |
 | PayPal + 虚拟币支付（预留） | 仅 UI：PaymentMethods 六徽章（PayPal/信用卡/BTC/ETH/USDT/USDC）；`TODO(payment)` |
 
 补充：收藏 = LocalStorage（useFavorites，无登录）；SEO = 每页本地化 metadata + OG + hreflang，sitemap/robots 静态生成。

@@ -14,7 +14,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-2 text-lg font-bold text-white">
             <span className="text-2xl" aria-hidden>🍜</span>
-            WorldFlavors
+            BitFlavor
           </div>
           <p className="mt-3 text-sm text-ink-300">{t("slogan")}</p>
         </div>

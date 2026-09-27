@@ -33,7 +33,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2 text-lg font-bold text-ink-900">
           <span className="text-2xl" aria-hidden>🍜</span>
           <span>
-            WorldFlavors
+            BitFlavor
             <span className="ml-1 hidden text-sm font-normal text-ink-400 sm:inline">
               世界美食图谱
             </span>

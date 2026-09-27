@@ -5,20 +5,23 @@
 
 import { useCallback, useEffect, useState } from "react";
 
-const STORAGE_KEY = "worldflavors:favorites";
-// 品牌更名（WorldCuisine → WorldFlavors）前的旧 key：首次读取时自动迁移，避免用户收藏丢失
-const LEGACY_STORAGE_KEY = "worldcuisine:favorites";
+const STORAGE_KEY = "bitflavor:favorites";
+// 品牌更名史 WorldCuisine → WorldFlavors → BitFlavor：旧 key 逐个自动迁移，避免用户收藏丢失
+const LEGACY_STORAGE_KEYS = ["worldflavors:favorites", "worldcuisine:favorites"];
 
 function readFavorites(): string[] {
   try {
     let raw = window.localStorage.getItem(STORAGE_KEY);
     if (!raw) {
-      const legacy = window.localStorage.getItem(LEGACY_STORAGE_KEY);
-      if (legacy) {
-        // 迁移旧数据到新 key 并清除旧 key
-        window.localStorage.setItem(STORAGE_KEY, legacy);
-        window.localStorage.removeItem(LEGACY_STORAGE_KEY);
-        raw = legacy;
+      for (const legacyKey of LEGACY_STORAGE_KEYS) {
+        const legacy = window.localStorage.getItem(legacyKey);
+        if (legacy) {
+          // 迁移旧数据到新 key 并清除旧 key
+          window.localStorage.setItem(STORAGE_KEY, legacy);
+          window.localStorage.removeItem(legacyKey);
+          raw = legacy;
+          break;
+        }
       }
     }
     if (!raw) return [];

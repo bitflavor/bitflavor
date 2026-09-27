@@ -1,11 +1,11 @@
 {
   "metadata": {
     "siteName": "世界美食图谱",
-    "defaultTitle": "世界美食图谱 WorldFlavors · 探索全球美食文化",
-    "defaultDescription": "世界美食图谱（WorldFlavors）是一个全球美食文化平台，收录亚洲、东南亚、欧洲、美洲、非洲、大洋洲的经典菜谱、制作技巧与美食文化故事。",
+    "defaultTitle": "世界美食图谱 BitFlavor · 探索全球美食文化",
+    "defaultDescription": "世界美食图谱（BitFlavor）是一个全球美食文化平台，收录亚洲、东南亚、欧洲、美洲、非洲、大洋洲的经典菜谱、制作技巧与美食文化故事。",
     "titleTemplate": "%s | 世界美食图谱",
-    "keywords": "世界美食,全球菜谱,美食文化,亚洲美食,中国菜,日本料理,韩国料理,泰国菜,欧洲美食,菜谱大全,烹饪技巧,WorldFlavors",
-    "ogImageAlt": "WorldFlavors 世界美食图谱 · 探索全球美食文化"
+    "keywords": "世界美食,全球菜谱,美食文化,亚洲美食,中国菜,日本料理,韩国料理,泰国菜,欧洲美食,菜谱大全,烹饪技巧,BitFlavor",
+    "ogImageAlt": "BitFlavor 世界美食图谱 · 探索全球美食文化"
   },
   "nav": {
     "home": "首页",
@@ -24,9 +24,9 @@
   },
   "auth": {
     "loginTitle": "登录",
-    "loginDesc": "登录 WorldFlavors 账户，解锁会员内容与订单管理。",
+    "loginDesc": "登录 BitFlavor 账户，解锁会员内容与订单管理。",
     "signupTitle": "注册",
-    "signupDesc": "创建 WorldFlavors 账户，收藏菜谱、解锁高级内容。",
+    "signupDesc": "创建 BitFlavor 账户，收藏菜谱、解锁高级内容。",
     "accountTitle": "我的账户",
     "profileMetaTitle": "个人资料",
     "ordersMetaTitle": "我的订单"
@@ -168,7 +168,7 @@
   },
   "membership": {
     "title": "会员方案",
-    "keywords": "美食会员,会员订阅,高级菜谱,会员专属菜谱,WorldFlavors 会员",
+    "keywords": "美食会员,会员订阅,高级菜谱,会员专属菜谱,BitFlavor 会员",
     "subtitle": "一次开通，畅享全球美食文化的完整内容",
     "monthly": "月度会员",
     "yearly": "年度会员",
@@ -221,7 +221,7 @@
   },
   "about": {
     "title": "关于我们",
-    "keywords": "关于我们,WorldFlavors,世界美食图谱,美食文化平台",
+    "keywords": "关于我们,BitFlavor,世界美食图谱,美食文化平台",
     "storyTitle": "品牌故事：从两个披萨开始",
     "story1": "2010 年 5 月 22 日，程序员 Laszlo Hanyecz 用 10,000 枚比特币（BTC）购买了两个披萨——这一天后来被称为「比特币披萨日」。",
     "story2": "这是人类历史上第一次用虚拟货币购买真实商品，虚拟货币从此有了价值的锚点。",
@@ -240,12 +240,12 @@
   },
   "contact": {
     "title": "联系我们",
-    "keywords": "联系我们,WorldFlavors,菜谱投稿,商务合作",
+    "keywords": "联系我们,BitFlavor,菜谱投稿,商务合作",
     "subtitle": "无论是菜谱投稿、商务合作还是产品建议，都欢迎与我们联系。",
     "emailLabel": "商务合作",
-    "emailValue": "biz@worldflavors.example.com",
+    "emailValue": "biz@bitflavor.example.com",
     "contributeLabel": "菜谱投稿",
-    "contributeValue": "contribute@worldflavors.example.com",
+    "contributeValue": "contribute@bitflavor.example.com",
     "socialLabel": "社交媒体",
     "formTitle": "给我们留言",
     "formName": "你的称呼",
@@ -281,12 +281,12 @@
     "privacy": "隐私政策",
     "terms": "服务条款",
     "refund": "退款政策",
-    "copyright": "© {year} 世界美食图谱 WorldFlavors. 保留所有权利。"
+    "copyright": "© {year} 世界美食图谱 BitFlavor. 保留所有权利。"
   },
   "privacy": {
     "title": "隐私政策",
     "lastUpdated": "最近更新：2026 年 9 月",
-    "intro": "本隐私政策说明 WorldFlavors（世界美食图谱）如何收集、使用、存储和保护您的个人信息。使用本网站即表示您同意本政策所述的数据处理方式。",
+    "intro": "本隐私政策说明 BitFlavor（世界美食图谱）如何收集、使用、存储和保护您的个人信息。使用本网站即表示您同意本政策所述的数据处理方式。",
     "s1Title": "1. 我们收集的信息",
     "s1Body": "我们可能收集以下信息：您浏览页面时的访问日志（IP 地址、浏览器类型、访问时间）；您主动提供的信息（如通过联系表单提交的姓名与邮箱）；未来注册账户时的基本信息。我们仅收集提供服务所必需的最小信息。",
     "s2Title": "2. 信息的使用",
@@ -306,7 +306,7 @@
   "terms": {
     "title": "服务条款",
     "lastUpdated": "最近更新：2026 年 9 月",
-    "intro": "欢迎使用 WorldFlavors（世界美食图谱）。访问或使用本网站即表示您已阅读、理解并同意受本服务条款约束。",
+    "intro": "欢迎使用 BitFlavor（世界美食图谱）。访问或使用本网站即表示您已阅读、理解并同意受本服务条款约束。",
     "s1Title": "1. 接受条款",
     "s1Body": "使用本网站前，请仔细阅读本条款。如您不同意本条款的任何部分，请停止使用本网站。我们保留随时修改本条款的权利，修改后的条款一经公布即生效。",
     "s2Title": "2. 服务描述",
@@ -316,7 +316,7 @@
     "s4Title": "4. 付费内容与订阅",
     "s4Body": "付费菜谱与会员订阅属于数字内容商品。购买前请确认内容预览；支付成功后即视为已交付。退款规则详见《退款政策》。",
     "s5Title": "5. 知识产权",
-    "s5Body": "本网站的文字、图片、标识等内容版权归 WorldFlavors 或相关权利人所有。未经许可，不得以任何形式复制、转载或用于商业用途。",
+    "s5Body": "本网站的文字、图片、标识等内容版权归 BitFlavor 或相关权利人所有。未经许可，不得以任何形式复制、转载或用于商业用途。",
     "s6Title": "6. 免责声明",
     "s6Body": "菜谱内容仅供参考，实际烹饪效果因食材、设备与个人操作而异。请根据个人健康状况与过敏史选择食材，因遵循菜谱产生的任何后果由用户自行承担。",
     "s7Title": "7. 条款变更与联系我们",
@@ -326,7 +326,7 @@
   "refund": {
     "title": "退款政策",
     "lastUpdated": "最近更新：2026 年 9 月",
-    "intro": "本退款政策适用于 WorldFlavors（世界美食图谱）的付费菜谱与会员订阅服务。由于数字内容的特殊性，请购买前仔细阅读本政策。",
+    "intro": "本退款政策适用于 BitFlavor（世界美食图谱）的付费菜谱与会员订阅服务。由于数字内容的特殊性，请购买前仔细阅读本政策。",
     "s1Title": "1. 概述",
     "s1Body": "本网站销售的产品为数字内容（菜谱、会员权益），交付方式为在线即时解锁。数字内容一经交付，原则上不支持无理由退款，但以下情形除外。",
     "s2Title": "2. 单份菜谱购买",
