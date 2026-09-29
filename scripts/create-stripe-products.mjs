@@ -9,7 +9,7 @@
  *   产品存在则复用；其下存在匹配的活跃 Price（同金额/同货币/同计费周期）则复用，
  *   否则仅补齐缺失部分 —— 不会产生重复产品/价格。
  *
- * 安全护栏：检测到 sk_live_ 开头密钥直接拒绝执行（本脚本只用于沙盒）。
+ * 安全护栏：检测到 sk_live_/rk_live_ 开头密钥直接拒绝执行（本脚本只用于沙盒）。
  *
  * TODO(connect)：海外创作者分成方案确定后，如需按档位配置 application_fee_percent，
  * 可在 checkout 侧实现（见 src/lib/stripe.ts 头部 TODO(connect)）。
@@ -123,8 +123,13 @@ async function main() {
     console.error("❌ .env.local 中未找到 STRIPE_SECRET_KEY");
     process.exit(1);
   }
-  if (secretKey.startsWith("sk_live_")) {
-    console.error("❌ 检测到 live 密钥（sk_live_…），本脚本仅限沙盒使用，已中止");
+  if (
+    secretKey.startsWith("sk_live_") ||
+    secretKey.startsWith("rk_live_")
+  ) {
+    console.error(
+      "❌ 检测到 live 密钥（sk_live_…/rk_live_…），本脚本仅限沙盒使用，已中止",
+    );
     process.exit(1);
   }
 
