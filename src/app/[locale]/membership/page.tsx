@@ -1,17 +1,19 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { isValidLocale, routing } from "@/i18n/routing";
+import { auth } from "@clerk/nextjs/server";
+import { isValidLocale } from "@/i18n/routing";
 import NftMembershipSection from "@/components/web3/NftMembershipSection";
+import CheckoutButton from "@/components/membership/CheckoutButton";
+import { getStripeMetadata, isMembershipActive } from "@/lib/membership";
 
 interface Props {
   params: Promise<{ locale: string }>;
 }
 
-// 静态生成：2 语言
-export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
-}
+// 注：本页读取 auth() 会员状态。Clerk v6+ 的 auth() 兼容静态渲染（构建期返回未登录态），
+// 会导致会员状态被固化进静态 HTML —— 必须显式强制动态渲染。
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
@@ -33,6 +35,13 @@ export default async function MembershipPage({ params }: Props) {
 
   const t = await getTranslations({ locale, namespace: "membership" });
   const tWeb3 = await getTranslations({ locale, namespace: "web3" });
+  const tc = await getTranslations({ locale, namespace: "checkout" });
+
+  // 当前登录用户的会员状态（webhook 已同步至 Clerk publicMetadata.stripe）
+  const { userId } = await auth();
+  const stripeMeta = userId ? await getStripeMetadata(userId) : null;
+  const membership = stripeMeta?.membership ?? null;
+  const memberActive = isMembershipActive(stripeMeta);
 
   // 三档会员配置（价格为翻译文件中的整串文案，含货币符号）
   const tiers = [
@@ -50,6 +59,24 @@ export default async function MembershipPage({ params }: Props) {
         </h1>
         <p className="mx-auto mt-3 max-w-2xl text-ink-500">{t("subtitle")}</p>
       </div>
+
+      {/* 当前会员状态（已开通时展示） */}
+      {memberActive && membership && (
+        <div className="mx-auto mt-8 max-w-2xl rounded-2xl border border-brand-200 bg-brand-50 p-5 text-center">
+          <p className="text-sm font-semibold text-brand-700">
+            {tc("currentPlan")}：{t(membership.tier)}
+          </p>
+          <p className="mt-1 text-xs text-ink-500">
+            {membership.tier === "lifetime" || !membership.currentPeriodEnd
+              ? tc("lifetimeValid")
+              : `${tc("expiresAt")}：${new Date(membership.currentPeriodEnd).toLocaleDateString(locale === "zh" ? "zh-CN" : "en-US")}`}
+            {membership.cancelAtPeriodEnd
+              ? ` · ${tc("cancelAtPeriodEndNote")}`
+              : ""}
+          </p>
+          <p className="mt-1 text-xs text-ink-400">{tc("ordersHint")}</p>
+        </div>
+      )}
 
       {/* 会员档位卡片 */}
       <div className="mt-12 grid gap-6 lg:grid-cols-3">
@@ -93,17 +120,13 @@ export default async function MembershipPage({ params }: Props) {
                 </li>
               ))}
             </ul>
-            {/* TODO(payment): 接入真实支付（Stripe / 加密货币） */}
-            <a
-              href="#nft"
-              className={`mt-8 block rounded-full py-2.5 text-center text-sm font-semibold transition ${
-                tier.featured
-                  ? "bg-brand-500 text-white hover:bg-brand-600"
-                  : "border border-brand-300 text-brand-600 hover:bg-brand-50"
-              }`}
-            >
-              {t("buyNow")}
-            </a>
+            <CheckoutButton
+              tier={tier.key}
+              locale={locale}
+              label={t("buyNow")}
+              featured={tier.featured}
+              disabled={memberActive}
+            />
           </div>
         ))}
       </div>

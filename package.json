@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "smoke:stripe": "node scripts/smoke-stripe.mjs",
+    "stripe:listen": "stripe listen --forward-to localhost:3000/api/stripe/webhook",
+    "stripe:products": "node scripts/create-stripe-products.mjs"
   },
   "dependencies": {
     "@clerk/localizations": "^4.20.0",
@@ -14,7 +17,8 @@
     "next": "^15.3.0",
     "next-intl": "^3.26.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "stripe": "^22.6.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.0",

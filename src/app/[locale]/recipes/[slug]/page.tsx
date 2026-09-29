@@ -12,18 +12,23 @@ import { isValidLocale, routing } from "@/i18n/routing";
 import { SITE_URL } from "@/lib/site";
 import RecipeCard from "@/components/recipes/RecipeCard";
 import FavoriteButton from "@/components/recipes/FavoriteButton";
-import PremiumLock from "@/components/recipes/PremiumLock";
+import PremiumContent from "@/components/recipes/PremiumContent";
 import ChainCertifyEntry from "@/components/web3/ChainCertifyEntry";
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
 }
 
-// 静态生成：2 语言 × 全部菜谱
+// 静态生成：2 语言 × 全量菜谱（含付费）—— 付费菜谱仅预渲染"登录态中性"的外壳
+// （简介/食材/会员锁占位）；付费内容经 PremiumContent 客户端组件挂载后
+// 调用 /api/recipes/[slug]/content 按需拉取（服务端鉴权），外壳零泄露。
+//
+// 为什么不按 slug 区分动静态：Next 15 不允许同一路由"部分静态部分动态"——
+// 构建期判定为静态的路由，运行时 fallback 渲染中使用 auth()/headers() 会触发
+// static-to-dynamic 错误（500，实测）。故付费内容下发收敛到 API 路由方案。
 export function generateStaticParams() {
-  const recipes = getAllRecipes();
   return routing.locales.flatMap((locale) =>
-    recipes.map((r) => ({ locale, slug: r.slug }))
+    getAllRecipes().map((r) => ({ locale, slug: r.slug }))
   );
 }
 
@@ -96,19 +101,24 @@ export default async function RecipeDetailPage({ params }: Props) {
     recipeYield: `${recipe.servings} ${locale === "zh" ? "人份" : "servings"}`,
     totalTime: `PT${recipe.time}M`,
     recipeIngredient: recipe.ingredients.map((ing) => ing[loc]),
-    recipeInstructions: recipe.steps.map((step, i) => ({
-      "@type": "HowToStep",
-      position: i + 1,
-      text: step[loc],
-    })),
+    // 免费菜谱输出做法步骤（搜索富摘要）；付费菜谱永不输出 recipeInstructions ——
+    // 内容经 API 按需下发，结构化数据同步剔除（防 view-source / 搜索快照泄露）
+    ...(!recipe.isPremium
+      ? {
+          recipeInstructions: recipe.steps.map((step, i) => ({
+            "@type": "HowToStep",
+            position: i + 1,
+            text: step[loc],
+          })),
+        }
+      : {}),
     inLanguage: locale === "zh" ? "zh-CN" : "en",
     url: `${SITE_URL}/${locale}/recipes/${recipe.slug}`,
   };
 
 
-  // 付费菜谱锁定"完整内容"区域（做法/技巧/排查/文化故事）
-  // TODO(security): 当前为演示版视觉锁定，内容仍在 HTML 中；
-  // 接入真实支付后应在服务端按会员状态截断数据。
+  // 免费菜谱的内容区（SSG 内联）；付费菜谱的内容不在此处渲染，
+  // 由下方 PremiumContent 客户端组件挂载后经 API 拉取（服务端鉴权）
   const lockedContent = (
     <>
       {/* 做法步骤 */}
@@ -284,9 +294,10 @@ export default async function RecipeDetailPage({ params }: Props) {
           </ul>
         </section>
 
-        {/* 免费菜谱展示完整内容；付费菜谱锁定 */}
+        {/* 免费菜谱：完整内容 SSG 内联；付费菜谱：PremiumContent
+            （初始锁占位，会员经 /api/recipes/[slug]/content 拉取后客户端替换渲染） */}
         {recipe.isPremium ? (
-          <PremiumLock>{lockedContent}</PremiumLock>
+          <PremiumContent slug={recipe.slug} locale={loc} />
         ) : (
           lockedContent
         )}

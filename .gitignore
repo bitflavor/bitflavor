@@ -28,3 +28,12 @@ next-env.d.ts
 # IDE
 .idea/
 .vscode/
+
+# AI 编码助手产物（本机工具配置，与项目无关）
+.agents/
+.trae/
+skills/
+skills-lock.json
+
+# 本地临时日志
+*.log

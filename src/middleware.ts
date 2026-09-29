@@ -18,10 +18,25 @@ export default clerkMiddleware(async (auth, req) => {
     // 注意：不要给 protect 传 unauthenticatedUrl —— 实测会导致 API 请求 500
     await auth.protect();
   }
+  // API 路由（需 auth() 上下文的）：仅注入 Clerk 上下文，
+  // 不做 next-intl 路由处理（避免请求被 locale 重写/重定向破坏）
+  if (req.nextUrl.pathname.startsWith("/api/")) return;
   return intlMiddleware(req);
 });
 
 export const config = {
-  // 匹配所有路径，但排除 api 路由、Next 内部资源和带扩展名的静态文件
-  matcher: ["/((?!api|_next|_vercel|.*\\..*).*)"],
+  // 页面路由：排除 api、Next 内部资源和带扩展名的静态文件。
+  // 例外补充（route handler 内调用 auth()，必须经 clerkMiddleware 注入上下文）：
+  //   /api/stripe/checkout —— 支付会话创建
+  //   /api/stripe/orders   —— 订单/会员状态查询
+  //   /api/stripe/portal   —— Customer Portal 会话
+  //   /api/recipes/:path*  —— 付费菜谱内容下发
+  //   （webhook 不调用 auth()，保持排除以减少干扰面）
+  matcher: [
+    "/((?!api|_next|_vercel|.*\\..*).*)",
+    "/api/stripe/checkout",
+    "/api/stripe/orders",
+    "/api/stripe/portal",
+    "/api/recipes/:path*",
+  ],
 };

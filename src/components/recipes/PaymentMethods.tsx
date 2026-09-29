@@ -1,9 +1,10 @@
 import { useTranslations } from "next-intl";
 
-// TODO(payment): 以下支付方式仅为 UI 展示，暂未接真实支付接口
-// 未来规划：
-// 1. PayPal / 信用卡（Stripe 等收单）
-// 2. 加密货币链上支付（Bitcoin、Ethereum、USDT、USDC），支付成功后解锁付费内容
+// 支付方式图标展示（PremiumLock 内嵌）
+// 现状：会员订阅已接 Stripe Checkout（/membership 三档），银行卡支付经 Stripe 托管收银台完成
+// TODO(payment) 预留：
+// 1. 单菜谱一次性购买（$1.99，lib/exchangeRates.SINGLE_RECIPE_PRICE_USD）
+// 2. PayPal / 加密货币链上支付（Bitcoin、Ethereum、USDT、USDC）
 export default function PaymentMethods() {
   const t = useTranslations("premium");
 

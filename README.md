@@ -44,6 +44,45 @@ node scripts/generate-placeholders.mjs
 
 > 仓库不带真实密钥；`.env.local`（已 gitignore）中的占位 key 仅保证构建通过，真机登录需替换真实 key。
 
+### 支付（Stripe，已集成）
+
+会员订阅（月付/年付）与终身买断由 [Stripe](https://stripe.com) 托管收银台（Checkout）完成：支付成功后经 webhook 回写会员状态到 Clerk `publicMetadata.stripe`（零数据库方案，幂等去重）。自动税费（Automatic Tax）与发票（Invoicing）已开启。
+
+**一次性配置（沙盒）：**
+
+1. Dashboard → Developers → API keys（Test mode）复制 `pk_test_...` / `sk_test_...` 到 `.env.local`
+2. 创建沙盒产品与价格：`npm run stripe:products`（幂等可重复执行；输出三行 Price ID 回填 `.env.local`，开发期 USD 定价 $4.99/$39.99/$99.99）
+3. 安装 [Stripe CLI](https://docs.stripe.com/stripe-cli) 并执行 `stripe login`
+4. 启动 webhook 转发：`npm run stripe:listen`（保持运行），把输出的 `whsec_...` 填入 `.env.local` 的 `STRIPE_WEBHOOK_SECRET` 并重启 dev
+   > ⚠️ **listen 必须在支付前启动**：`stripe listen` 是临时端点，不在线期间产生的 webhook 事件 Stripe **不会补投，永久丢失**（表现：支付成功但会员未开通、订单页空）。丢失后补救：Dashboard → Developers → Events 找到对应事件点 Resend（订单页另有惰性自愈兜底，可按 metadata 反查 Customer 恢复展示）
+5. （可选）订阅自助管理：Dashboard → Settings → Billing → Customer portal 激活一次（test mode 配置独立于 live），否则订单页「管理订阅」提示暂不可用
+6. （可选）自动税费：Dashboard → Tax → Registrations 添加沙盒税务注册（如 United States → California）；**未注册时税额静默为 0，属预期**
+
+**完整支付流程测试：**
+
+1. `npm run dev`，注册/登录后进入 `/{locale}/membership`
+2. 点击任一档位 → 302 跳转 Stripe 托管收银台
+3. 测试卡号 `4242 4242 4242 4242`：有效期任意未来值，CVC 任意 3 位；账单地址 ZIP 填 `94110` 可触发加州税（需完成上方第 6 步）
+4. 支付成功 → 回跳 `/{locale}/membership/success` → webhook（CLI 转发）写入会员状态（状态同步可能延迟数秒，页面有提示）
+5. 验证：`/{locale}/account/orders` 显示会员状态卡片 + 发票（PDF 可下载）；付费菜谱（如 `/zh/recipes/peking-duck`）完整内容解锁
+6. 订阅档在订单页「管理订阅」→ Customer Portal 取消/改支付方式；取消动作经 webhook 同步回会员状态
+
+**其他测试卡：** 扣款失败 `4000 0000 0000 0002`；3DS 验证 `4000 0025 0000 3155`（完整列表见 [Stripe 测试卡](https://docs.stripe.com/testing)）。回归检查：`npm run smoke:stripe`（17 项断言：页面可达、付费内容零泄露、API 门槛）。
+
+**常见问题排查：**
+
+| 现象 | 原因与处理 |
+| --- | --- |
+| webhook 返回 500 `webhook_not_configured` | `STRIPE_WEBHOOK_SECRET` 为空，见上方第 4 步 |
+| webhook 返回 400 `invalid_signature` | whsec 不匹配：`stripe listen` 每次启动生成新密钥，需同步更新 `.env.local` 并重启 dev |
+| 会员页按钮 401 | 未登录；或 Clerk 仍是占位 key 无法真实登录（替换真实 `pk_test_`/`sk_test_`，见「用户认证」） |
+| 点档位报 `price_not_configured` | Price ID 未回填，运行 `npm run stripe:products` |
+| 收银台税额为 $0 | 沙盒未做 Tax 注册（第 6 步），税费静默为 0 属预期 |
+| 「管理订阅」提示暂不可用 | 沙盒 Customer Portal 未激活（第 5 步） |
+| 支付成功但会员未开通 | 查看 `stripe listen` 窗口是否有事件转发失败；webhook 处理抛错会返回 500 由 Stripe 自动重试，恢复后自动补写 |
+
+> 上线切换 live 模式：替换 live 密钥 → 重新 `npm run stripe:products` 生成 live Price ID → Dashboard 配置正式 webhook 端点（`https://域名/api/stripe/webhook`，监听 `checkout.session.*`、`customer.subscription.*`、`invoice.payment_failed`）。
+
 ### 部署（Vercel）
 
 1. `git init` 并推送到 GitHub/GitLab 仓库
@@ -102,9 +141,9 @@ node scripts/generate-placeholders.mjs
 
 ## 重要说明与待办
 
-- **付费锁定是视觉演示**：被锁内容仍存在于 HTML 中。接入真实支付后应在服务端按会员状态截断数据（见 `recipes/[slug]/page.tsx` 中 `TODO(security)`）。
+- **付费内容保护已实现**：付费菜谱页为登录中立的 SSG 外壳（HTML/JSON-LD 均不含做法步骤），会员内容经 `GET /api/recipes/[slug]/content` 按需下发（服务端鉴权，未登录 401 / 非会员 403，`Cache-Control: private, no-store`）。
 - **Web3 均为占位**：搜索 `TODO(web3)` 查看接入点（钱包连接 wagmi/RainbowKit、NFT 会员合约、积分系统、链上确权、Snapshot/Governor DAO）。
-- **支付未接入**：会员页按钮、菜谱锁定层的支付方式图标（PayPal / 信用卡 / Bitcoin / Ethereum / USDT / USDC）均为纯 UI 展示（`TODO(payment)`，建议 Stripe + 加密货币双通道）。
+- **支付已接入 Stripe（沙盒）**：见「支付（Stripe，已集成）」章节。菜谱锁定层的加密货币支付图标（Bitcoin / Ethereum / USDT / USDC）仍为占位 UI（Web3 双通道待接入）。
 - **汇率为模拟数据**：菜谱价格旁的 BTC 等值使用 `src/lib/exchangeRates.ts` 中的硬编码汇率（`TODO(api)`，后期接 CoinGecko API，建议服务端缓存 60s+）。
 - **联系表单不接后端**：`TODO(backend)`，仅前端演示。
 - **图片为 SVG 占位图**：上线前替换为真实美食图片（保持路径或更新 JSON 中 `coverImage`）。
@@ -117,9 +156,11 @@ node scripts/generate-placeholders.mjs
 | `/` | 首页：Hero（含品牌故事条）/ 大洲导览 / 热门菜谱 / 会员预览 |
 | `/cuisines/[continent]` | 大洲页：国家卡片（菜谱数）+ 该洲全部菜谱 |
 | `/cuisines/[continent]/[country]` | 国家页：美食文化介绍 + 按类别筛选菜谱 |
-| `/recipes/[slug]` | 菜谱详情：食材 / 步骤 / 技巧 / 失败排查 / 文化故事 / 收藏 / 付费锁（含单菜价格 + BTC 汇率 + 支付方式 UI） |
+| `/recipes/[slug]` | 菜谱详情：食材 / 步骤 / 技巧 / 失败排查 / 文化故事 / 收藏 / 付费锁（SSG 外壳 + API 按需下发会员内容；含单菜价格 + BTC 汇率 + 支付方式 UI） |
 | `/search` | 搜索（菜名 / 国家 / 食材，双语匹配，客户端过滤） |
 | `/favorites` | 我的收藏（LocalStorage） |
-| `/membership` | 会员三档订阅 + 终身档 NFT 会员卡标签（占位）+ NFT 会员区（占位） |
+| `/membership` | 会员三档订阅（Stripe 托管收银台 + 自动税费）+ 终身档 NFT 会员卡标签（占位）+ NFT 会员区（占位） |
+| `/membership/success` | 支付成功回跳页（webhook 同步会员状态有数秒延迟，页内提示） |
+| `/account/orders` | 我的订单（登录保护）：会员状态卡片（Stripe 实时查询）+ 发票列表（PDF 下载）+ 「管理订阅」跳转 Customer Portal |
 | `/contributors` | 创作者计划 + 链上积分文案（占位）/ DAO（占位） |
 | `/about` `/contact` | 关于我们（含比特币披萨品牌故事）/ 联系我们 |
